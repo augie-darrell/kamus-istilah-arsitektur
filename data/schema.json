@@ -1,0 +1,525 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kamus Arsitektur dataset",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "metadata",
+    "sources",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "author",
+        "source_home",
+        "extracted_on",
+        "entry_count"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "letter",
+          "url",
+          "file"
+        ]
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "$defs": {
+    "language": {
+      "type": "object",
+      "required": [
+        "code",
+        "name",
+        "label"
+      ],
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "term",
+        "letter",
+        "source_index",
+        "source_occurrences",
+        "language_raw",
+        "languages",
+        "word_type",
+        "word_type_label",
+        "definition",
+        "translations",
+        "related_raw",
+        "related",
+        "equivalent_ids",
+        "source_url",
+        "source_text",
+        "review_flags",
+        "images"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "term": {
+          "type": "string",
+          "minLength": 1
+        },
+        "letter": {
+          "type": "string",
+          "pattern": "^[A-Z#]$"
+        },
+        "source_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_occurrences": {
+          "type": "array",
+          "minItems": 0,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "language_raw": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/language"
+          }
+        },
+        "word_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "word_type_label": {
+          "type": "string"
+        },
+        "definition": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "terms",
+              "languages"
+            ],
+            "properties": {
+              "terms": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "languages": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/language"
+                }
+              }
+            }
+          }
+        },
+        "related_raw": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "term",
+              "entry_ids",
+              "resolved"
+            ],
+            "properties": {
+              "term": {
+                "type": "string"
+              },
+              "entry_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "resolved": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "equivalent_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "type": "string"
+            },
+            {
+              "const": ""
+            }
+          ]
+        },
+        "source_text": {
+          "type": "string"
+        },
+        "review_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "alt",
+              "creator",
+              "license",
+              "source_url"
+            ],
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "alt": {
+                "type": "string"
+              },
+              "creator": {
+                "type": "string"
+              },
+              "license": {
+                "type": "string"
+              },
+              "source_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "kind": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "source_label": {
+          "type": "string"
+        },
+        "editorial_updated_by": {
+          "type": "string"
+        },
+        "editorial_updated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "source_review_flags": {"type":"array","items":{"type":"string"}},
+        "editorial_meaning": {"type":"string"},
+        "editorial_status": {"enum":["reviewed","needs_review"]},
+        "source_language_raw": {"type":"string"},
+        "editorial_tags": {
+          "type":"object",
+          "required":["themes","reason"],
+          "properties":{
+            "themes":{"type":"array","items":{"type":"string"}},
+            "reason":{"type":"string"},
+            "reviewed_on":{"type":"string","format":"date"}
+          }
+        },
+        "external_links": {
+          "properties": {
+            "image_context": {"type":"array","items":{"type":"string","minLength":1}},
+            "image_query": {
+              "type": "string"
+            },
+            "wiktionary": {
+              "items": {
+                "properties": {
+                  "url": {
+                    "format": "uri",
+                    "type": "string"
+                  },
+                  "language": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "url"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "wikipedia": {
+              "items": {
+                "properties": {
+                  "url": {
+                    "format": "uri",
+                    "type": "string"
+                  },
+                  "language": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "url"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "supplemental_meanings": {
+          "type": "object",
+          "properties": {
+            "kbbi": {
+              "type": "object",
+              "required": [
+                "term",
+                "text",
+                "source_url"
+              ],
+              "properties": {
+                "term": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "retrieved_at": {
+                  "type": "string"
+                }
+              }
+            },
+            "kbbi_iii": {
+              "type": "object",
+              "required": [
+                "term",
+                "edition",
+                "source_id",
+                "matches"
+              ],
+              "properties": {
+                "term": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "edition": {
+                  "const": "III"
+                },
+                "source_id": {
+                  "const": "kbbi-iii-offline-1.5.1"
+                },
+                "matches": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "#/$defs/kbbiIIIMatch"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "kbbiIIIMatch": {
+      "type": "object",
+      "required": [
+        "entry_id",
+        "headword",
+        "homonym_number",
+        "matched_term",
+        "match",
+        "subentry_index",
+        "text",
+        "source_span",
+        "source_records"
+      ],
+      "properties": {
+        "entry_id": {
+          "type": "string",
+          "pattern": "^kbbi3-[a-f0-9]{16}$"
+        },
+        "headword": {
+          "type": "string",
+          "minLength": 1
+        },
+        "homonym_number": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "matched_term": {
+          "type": "string",
+          "minLength": 1
+        },
+        "match": {
+          "enum": [
+            "headword",
+            "subentry"
+          ]
+        },
+        "subentry_index": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "text": {
+          "type": "string",
+          "minLength": 0
+        },
+        "source_span": {
+          "type": "object",
+          "required": [
+            "start",
+            "end"
+          ],
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "redirect_target": {
+          "type": "string",
+          "minLength": 1
+        },
+        "redirects": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/kbbiIIIMatch"
+          }
+        },
+        "derivatives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/kbbiIIIMatch"
+          }
+        },
+        "reading": {
+          "type": "object",
+          "required": [
+            "wordTypes",
+            "domains",
+            "senses",
+            "pronunciation"
+          ],
+          "properties": {
+            "wordTypes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "domains": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            },
+            "senses": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            },
+            "pronunciation": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "not": {
+              "required": [
+                "redirects"
+              ]
+            }
+          },
+          "then": {
+            "properties": {
+              "text": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

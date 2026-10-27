@@ -1,0 +1,4710 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-27",
+  "baseline": "v0.2.14",
+  "scope": "All 27 flagged entries and all 108 unresolved extraction fragments; a bounded 26-entry polysemy/tag sample. This is not a certification of every definition or automatic tag.",
+  "source_transcripts_sha256": "75d6dad9dc0b40b63eeb1dbe7dee5d0443bb88c0749639453258a59127c942f7",
+  "flag_reviews": [
+    {
+      "id": "b-6a78c88dd4",
+      "term": "Besi Pelat",
+      "source_flags": [
+        "malformed_html_in_source"
+      ],
+      "status": "acknowledged",
+      "reason": "The archived typography is malformed, but the extracted reading fields already express the intended header correctly."
+    },
+    {
+      "id": "c-b1119a3963",
+      "term": "CAD",
+      "source_flags": [
+        "malformed_header_parenthesis"
+      ],
+      "status": "acknowledged",
+      "reason": "The archived typography is malformed, but the extracted reading fields already express the intended header correctly."
+    },
+    {
+      "id": "c-75f9a7c599",
+      "term": "Composite Panel",
+      "source_flags": [
+        "unrecognized_language_label"
+      ],
+      "status": "corrected",
+      "reason": "Normalized the mistyped language label using the term and its explicitly labeled translation."
+    },
+    {
+      "id": "c-4cea9e1bf6",
+      "term": "Construction Plan",
+      "source_flags": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ],
+      "status": "corrected",
+      "reason": "Corrected a stray initial character; the stable entry ID and original source text remain intact."
+    },
+    {
+      "id": "c-6bf847c847",
+      "term": "Contract",
+      "source_flags": [
+        "language_typography_normalized"
+      ],
+      "status": "acknowledged",
+      "reason": "The archived typography is malformed, but the extracted reading fields already express the intended header correctly."
+    },
+    {
+      "id": "c-c706b21531",
+      "term": "Contrast",
+      "source_flags": [
+        "language_typography_normalized"
+      ],
+      "status": "corrected",
+      "reason": "Language parsing was already correct. Removed the terminal .) artifact from the reading field."
+    },
+    {
+      "id": "c-7723758f8a",
+      "term": "Cor",
+      "source_flags": [
+        "unrecognized_word_type_kkv"
+      ],
+      "status": "corrected",
+      "reason": "The source explicitly identifies this as kata kerja, so the standard site code kk is justified."
+    },
+    {
+      "id": "c-b2c5123c59",
+      "term": "Cul de Sac",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "d-3d55acbd27",
+      "term": "Dinding Pendukung",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "d-dcd8d877b7",
+      "term": "Dokter Jiwa",
+      "source_flags": [
+        "unrecognized_language_label"
+      ],
+      "status": "corrected",
+      "reason": "Normalized the mistyped language label using the term and its explicitly labeled translation."
+    },
+    {
+      "id": "f-c069ed2273",
+      "term": "Fenestration",
+      "source_flags": [
+        "malformed_header_parenthesis"
+      ],
+      "status": "acknowledged",
+      "reason": "The archived typography is malformed, but the extracted reading fields already express the intended header correctly."
+    },
+    {
+      "id": "f-0b16e3fb84",
+      "term": "Fluida",
+      "source_flags": [
+        "empty_definition"
+      ],
+      "status": "pending",
+      "reason": "The blog definition is empty. Keep the flag; any KBBI supplement is separately attributed and does not repair the missing source text."
+    },
+    {
+      "id": "f-49cb37ab99",
+      "term": "Frekuensi",
+      "source_flags": [
+        "empty_definition"
+      ],
+      "status": "pending",
+      "reason": "The blog definition is empty. Keep the flag; any KBBI supplement is separately attributed and does not repair the missing source text."
+    },
+    {
+      "id": "g-0f1db6a195",
+      "term": "Drawing",
+      "source_flags": [
+        "headword_outside_source_alphabet"
+      ],
+      "status": "acknowledged",
+      "reason": "This entry appears on source page G. The list already sorts it under D from the headword; keep the source-page provenance."
+    },
+    {
+      "id": "g-bd2c2265f2",
+      "term": "Entri tanpa judul",
+      "source_flags": [
+        "source_missing_headword"
+      ],
+      "status": "pending",
+      "reason": "No Indonesian headword is present in the source. Solid line is a translation, insufficient evidence to restore an exact missing title."
+    },
+    {
+      "id": "k-aa73db4f2a",
+      "term": "Kawat Beton",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "l-aa7ca48d01",
+      "term": "Lake-side",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "o-5843e30fe7",
+      "term": "Objective",
+      "source_flags": [
+        "language_typography_normalized"
+      ],
+      "status": "acknowledged",
+      "reason": "The archived typography is malformed, but the extracted reading fields already express the intended header correctly."
+    },
+    {
+      "id": "o-1caf8db0a1",
+      "term": "Opbouw",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "p-5b2c3b3889",
+      "term": "PC",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "p-22c6c6815f",
+      "term": "Pengawas Lapangan",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "p-41a3dbeebf",
+      "term": "Per-diem Allowance",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "p-9371521a3f",
+      "term": "Photoelectric Cell",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "r-c755524432",
+      "term": "RTBL",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    },
+    {
+      "id": "s-f56c5be542",
+      "term": "Sel Surya",
+      "source_flags": [
+        "unrecognized_language_label"
+      ],
+      "status": "corrected",
+      "reason": "Normalized the mistyped language label using the term and its explicitly labeled translation."
+    },
+    {
+      "id": "t-3189b4eb42",
+      "term": "raveling Form",
+      "source_flags": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ],
+      "status": "pending",
+      "reason": "A leading T is likely missing, but Traveling/Travelling spelling is not established by the source. Leave it pending."
+    },
+    {
+      "id": "z-3c0097356a",
+      "term": "Zenith",
+      "source_flags": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "status": "pending",
+      "reason": "The source omits a word-type label. Keep it unassigned rather than inventing one."
+    }
+  ],
+  "reference_reviews": [
+    {
+      "id": "a-e88ba56c61",
+      "from": "Additional Work",
+      "fragment": "Change Order",
+      "status": "normalized-reference",
+      "targets": [
+        "Change Order"
+      ],
+      "reason": "Only punctuation/diacritics differ from an existing complete headword; source context agrees.",
+      "resolved_targets": [
+        {
+          "term": "Change Order",
+          "entry_ids": [
+            "c-faea8e9897"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-248eaab81d",
+      "from": "Aerial View",
+      "fragment": "Pandangan Mata Burung",
+      "status": "missing-headword",
+      "targets": [
+        "Pandangan Mata Burung"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "a-0b28f3899c",
+      "from": "Akustik",
+      "fragment": "Acoustical",
+      "status": "missing-headword",
+      "targets": [
+        "Acoustical"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "a-b066a241fc",
+      "from": "Alinemen",
+      "fragment": "Alignment",
+      "status": "normalized-reference",
+      "targets": [
+        "Alignment, Alinement"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Alignment, Alinement",
+          "entry_ids": [
+            "a-0ced8ab6db"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-4457eadf9b",
+      "from": "Alinement",
+      "fragment": "Alignment",
+      "status": "normalized-reference",
+      "targets": [
+        "Alignment, Alinement"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Alignment, Alinement",
+          "entry_ids": [
+            "a-0ced8ab6db"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-e829e96479",
+      "from": "Amdal",
+      "fragment": "PP no. 27 Tahun 1999",
+      "status": "missing-headword",
+      "targets": [
+        "PP no. 27 Tahun 1999"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "a-1631b4b2dd",
+      "from": "Andal",
+      "fragment": "PP no. 27 Tahun 1999",
+      "status": "missing-headword",
+      "targets": [
+        "PP no. 27 Tahun 1999"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "a-1631b4b2dd",
+      "from": "Andal",
+      "fragment": "juga lih. Handal",
+      "status": "normalized-reference",
+      "targets": [
+        "Handal"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Handal",
+          "entry_ids": [
+            "h-d31c8d29ae"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-6a65507398",
+      "from": "Arsip",
+      "fragment": "istilah Arsip berasal dari Archief",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "a-322bdbb870",
+      "from": "Arsitektur",
+      "fragment": "Architectuur",
+      "status": "missing-headword",
+      "targets": [
+        "Architectuur"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "b-3e9d10f434",
+      "from": "Basin",
+      "fragment": "= River Basin",
+      "status": "missing-headword",
+      "targets": [
+        "River Basin"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "b-3e9d10f434",
+      "from": "Basin",
+      "fragment": "istilah Baskom berasal dari Waskom (Bld.)",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "b-00cc38ba1f",
+      "from": "Behavior",
+      "fragment": "EB Studies",
+      "status": "normalized-reference",
+      "targets": [
+        "EB Studies"
+      ],
+      "reason": "Only punctuation/diacritics differ from an existing complete headword; source context agrees.",
+      "resolved_targets": [
+        {
+          "term": "EB Studies",
+          "entry_ids": [
+            "e-3feb4382c7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-bebad8fe8a",
+      "from": "Benchmark",
+      "fragment": "Nol",
+      "status": "whole-reference",
+      "targets": [
+        "Titik Nol"
+      ],
+      "reason": "Retain the full missing term; Titik alone is not a benchmark.",
+      "resolved_targets": []
+    },
+    {
+      "id": "b-d607e59352",
+      "from": "Blok",
+      "fragment": "juga berarti suatu elemen untuk menahan elemen lain",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "b-7e82424875",
+      "from": "Blow-off",
+      "fragment": "Relieve Valve",
+      "status": "whole-reference",
+      "targets": [
+        "Relief Valve"
+      ],
+      "reason": "The source says Pressure Relieve Valve; the existing Relief Valve entry describes a pressure release device in piping.",
+      "resolved_targets": [
+        {
+          "term": "Relief Valve",
+          "entry_ids": [
+            "r-2562969aa3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-79a8d22342",
+      "from": "Bow",
+      "fragment": "Busur",
+      "status": "missing-headword",
+      "targets": [
+        "Busur"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-6673ed474e",
+      "from": "Campuran",
+      "fragment": "juga Mix Ratio",
+      "status": "normalized-reference",
+      "targets": [
+        "Mix Ratio"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Mix Ratio",
+          "entry_ids": [
+            "m-2c024418d0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-85996abe82",
+      "from": "Cemetery",
+      "fragment": "Gound",
+      "status": "whole-reference",
+      "targets": [
+        "Burial Ground"
+      ],
+      "reason": "Restore the full reference and correct Gound to Ground. The existing entry explicitly means pemakaman.",
+      "resolved_targets": [
+        {
+          "term": "Burial Ground",
+          "entry_ids": [
+            "b-0136e87fec"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-12702cf49d",
+      "from": "Chairperson",
+      "fragment": "istilah ini dipergunakan untuk menghindari bias gender",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-1530d7058b",
+      "from": "Conditition",
+      "fragment": "Conditions",
+      "status": "whole-reference",
+      "targets": [
+        "General Conditions",
+        "Conditions of Contract"
+      ],
+      "reason": "Keep General Conditions as a whole missing phrase; do not link its first word to General.",
+      "resolved_targets": [
+        {
+          "term": "Conditions of Contract",
+          "entry_ids": [
+            "c-6123b89b62"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c850eaf9dc",
+      "from": "Corrugated",
+      "fragment": "Seng Gelombang",
+      "status": "missing-headword",
+      "targets": [
+        "Seng Gelombang"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-19c4654fef",
+      "from": "Cost",
+      "fragment": "Low-cost",
+      "status": "missing-headword",
+      "targets": [
+        "Low-cost"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-83385061c4",
+      "from": "Crossing",
+      "fragment": "Zebra Cross",
+      "status": "missing-headword",
+      "targets": [
+        "Zebra Cross"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-b0760d39cd",
+      "from": "Crushed Stone",
+      "fragment": "Broken Stone",
+      "status": "missing-headword",
+      "targets": [
+        "Broken Stone"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-0c7dc415a8",
+      "from": "Cubic",
+      "fragment": "kubik merupakan satuan ukuran isi",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "c-0c7dc415a8",
+      "from": "Cubic",
+      "fragment": "berdimensi 3",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "d-6122b27e20",
+      "from": "Debarkation",
+      "fragment": "Embarkation",
+      "status": "normalized-reference",
+      "targets": [
+        "Embarcation"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Embarcation",
+          "entry_ids": [
+            "e-e7aec8d23f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d-8536801389",
+      "from": "DED",
+      "fragment": "at Detailded Drawing",
+      "status": "normalized-reference",
+      "targets": [
+        "Detailed Drawing"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Detailed Drawing",
+          "entry_ids": [
+            "d-8c1bfcc747"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d-1c6fd6128c",
+      "from": "Dekor",
+      "fragment": "Decor",
+      "status": "normalized-reference",
+      "targets": [
+        "Décor"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Décor",
+          "entry_ids": [
+            "d-fe02d84819"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d-2a06616fa2",
+      "from": "Development Cost",
+      "fragment": "Brownfiels",
+      "status": "normalized-reference",
+      "targets": [
+        "Brownfield"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Brownfield",
+          "entry_ids": [
+            "b-dfe76a0fa2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d-2a06616fa2",
+      "from": "Development Cost",
+      "fragment": "Bouwklaar",
+      "status": "missing-headword",
+      "targets": [
+        "Bouwklaar"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "d-d23bb1c094",
+      "from": "Distrik Peningkatan Bisnis",
+      "fragment": "BDD",
+      "status": "normalized-reference",
+      "targets": [
+        "BID"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "BID",
+          "entry_ids": [
+            "b-9a1aec9fc6",
+            "b-1321d202d2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d-ae5385ba1e",
+      "from": "Divider",
+      "fragment": "Partition",
+      "status": "missing-headword",
+      "targets": [
+        "Partition"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "d-e660f5da00",
+      "from": "Duplex",
+      "fragment": "Simplex",
+      "status": "missing-headword",
+      "targets": [
+        "Simplex"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "e-b7af27f803",
+      "from": "Early Finish",
+      "fragment": "Late Finish",
+      "status": "missing-headword",
+      "targets": [
+        "Late Finish"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "e-db3472b1db",
+      "from": "Engineering, Procurement and Construction",
+      "fragment": "and Build",
+      "status": "whole-reference",
+      "targets": [
+        "Design & Build"
+      ],
+      "reason": "The existing Design & Build entry describes the same combined design/construction contract.",
+      "resolved_targets": [
+        {
+          "term": "Design & Build",
+          "entry_ids": [
+            "d-6755f9fcc9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e-129ce2c2ad",
+      "from": "Entrée",
+      "fragment": "Entance",
+      "status": "normalized-reference",
+      "targets": [
+        "Entrance"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Entrance",
+          "entry_ids": [
+            "e-1b403488db"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e-23e2421b7b",
+      "from": "EPA",
+      "fragment": "Agency",
+      "status": "whole-reference",
+      "targets": [
+        "United States Environmental Protection Agency"
+      ],
+      "reason": "Resolve the full agency name, avoiding a partial link to Environmental Protection.",
+      "resolved_targets": [
+        {
+          "term": "United States Environmental Protection Agency",
+          "entry_ids": [
+            "u-840a298910"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-a8ee2fab5e",
+      "from": "Fan Shaped",
+      "fragment": "Radial",
+      "status": "missing-headword",
+      "targets": [
+        "Radial"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "f-00efa98ff9",
+      "from": "Foot",
+      "fragment": "Badan",
+      "status": "missing-headword",
+      "targets": [
+        "Badan"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "f-00efa98ff9",
+      "from": "Foot",
+      "fragment": "Kepala",
+      "status": "missing-headword",
+      "targets": [
+        "Kepala"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "g-eef3055d9c",
+      "from": "Ganti Rugi",
+      "fragment": "Damage",
+      "status": "normalized-reference",
+      "targets": [
+        "Damages"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Damages",
+          "entry_ids": [
+            "d-5e8a327795"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-a10dcb87e2",
+      "from": "Gasfornuis",
+      "fragment": "Range (Ing.)",
+      "status": "whole-reference",
+      "targets": [
+        "Gas Range"
+      ],
+      "reason": "Restore the full Gas Range phrase, matching the existing hyphenated headword; Gas alone is not the cooking appliance.",
+      "resolved_targets": [
+        {
+          "term": "Gas Range",
+          "entry_ids": [
+            "g-a5dea8febf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-5e6b301786",
+      "from": "General Conditions of Contract",
+      "fragment": "41",
+      "status": "whole-reference",
+      "targets": [
+        "FIDIC",
+        "AV ’41"
+      ],
+      "reason": "Restore AV 41 as the existing AV ’41 headword, rather than linking AV and leaving 41.",
+      "resolved_targets": [
+        {
+          "term": "FIDIC",
+          "entry_ids": [
+            "f-6494e1857e"
+          ]
+        },
+        {
+          "term": "AV ’41",
+          "entry_ids": [
+            "a-3c233db816"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-91a97f5637",
+      "from": "Grease Trap",
+      "fragment": "juga Sand Trap",
+      "status": "normalized-reference",
+      "targets": [
+        "Sand Trap"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Sand Trap",
+          "entry_ids": [
+            "s-cda07ee7c2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-5b67b19984",
+      "from": "Grey-water",
+      "fragment": "Black-water",
+      "status": "normalized-reference",
+      "targets": [
+        "Black-water"
+      ],
+      "reason": "Only punctuation/diacritics differ from an existing complete headword; source context agrees.",
+      "resolved_targets": [
+        {
+          "term": "Black-water",
+          "entry_ids": [
+            "b-7f8031017b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h-fc3917091b",
+      "from": "Handicapped",
+      "fragment": "Diffable",
+      "status": "missing-headword",
+      "targets": [
+        "Diffable"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "h-398ca3f8eb",
+      "from": "Headroom",
+      "fragment": "juga Crawl Space",
+      "status": "normalized-reference",
+      "targets": [
+        "Crawl Space"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Crawl Space",
+          "entry_ids": [
+            "c-da2861e58e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h-d5489cb0c6",
+      "from": "High",
+      "fragment": "juga Height",
+      "status": "normalized-reference",
+      "targets": [
+        "Height"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Height",
+          "entry_ids": [
+            "h-344541309b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h-98326dd943",
+      "from": "Hire",
+      "fragment": "juga Plant-hire",
+      "status": "normalized-reference",
+      "targets": [
+        "Plant-hire"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Plant-hire",
+          "entry_ids": [
+            "p-6a32ef3e73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h-fb4a17330c",
+      "from": "Hour",
+      "fragment": "Peak-hour",
+      "status": "normalized-reference",
+      "targets": [
+        "Peak Hour"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Peak Hour",
+          "entry_ids": [
+            "p-e894765ea2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h-9914b9179c",
+      "from": "HWL",
+      "fragment": "LWL",
+      "status": "missing-headword",
+      "targets": [
+        "LWL"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "i-419dc38f8e",
+      "from": "In-situ",
+      "fragment": "Cast in-situ",
+      "status": "normalized-reference",
+      "targets": [
+        "Cast in Situ"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Cast in Situ",
+          "entry_ids": [
+            "c-30aa3abda3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i-8c846760a4",
+      "from": "Inexpensive",
+      "fragment": "Low-cost",
+      "status": "missing-headword",
+      "targets": [
+        "Low-cost"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "i-2f34d4ac30",
+      "from": "Inkonvensional",
+      "fragment": "Inconventional",
+      "status": "normalized-reference",
+      "targets": [
+        "Inconvensional"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Inconvensional",
+          "entry_ids": [
+            "i-e9ce9cbe16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i-6c5be4f68f",
+      "from": "Insinyur",
+      "fragment": "istilah Insinyur berasal dari Ingenieus",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "j-f6cf26d88c",
+      "from": "Jacking",
+      "fragment": "Underpinning",
+      "status": "missing-headword",
+      "targets": [
+        "Underpinning"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "k-7f641fadc3",
+      "from": "Karcis",
+      "fragment": "Kartje",
+      "status": "normalized-reference",
+      "targets": [
+        "Kaartje"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Kaartje",
+          "entry_ids": [
+            "k-223aef970f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k-d35ce5b588",
+      "from": "Keluarga Batih",
+      "fragment": "Keluarga Besar lih. Extended Family",
+      "status": "whole-reference",
+      "targets": [
+        "Extended Family"
+      ],
+      "reason": "Remove a repeated sentence fragment after the already resolved Extended Family reference.",
+      "resolved_targets": [
+        {
+          "term": "Extended Family",
+          "entry_ids": [
+            "e-a5bb09824e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k-f330989322",
+      "from": "Keramik",
+      "fragment": "Ceramics",
+      "status": "normalized-reference",
+      "targets": [
+        "Ceramic"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Ceramic",
+          "entry_ids": [
+            "c-871c536b2f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k-c8907620f4",
+      "from": "Kitchenware",
+      "fragment": "Utensils",
+      "status": "whole-reference",
+      "targets": [
+        "Kitchen Utensils",
+        "Kitchen Appliances"
+      ],
+      "reason": "Preserve both full missing phrases rather than resolving Kitchen or generic shortened words.",
+      "resolved_targets": []
+    },
+    {
+      "id": "k-c8907620f4",
+      "from": "Kitchenware",
+      "fragment": "Appliances",
+      "status": "whole-reference",
+      "targets": [
+        "Kitchen Utensils",
+        "Kitchen Appliances"
+      ],
+      "reason": "Preserve both full missing phrases rather than resolving Kitchen or generic shortened words.",
+      "resolved_targets": []
+    },
+    {
+      "id": "k-5bfff64a1e",
+      "from": "Klaar",
+      "fragment": "Bouwklaar",
+      "status": "missing-headword",
+      "targets": [
+        "Bouwklaar"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "l-5472ae872e",
+      "from": "Lamella Roof",
+      "fragment": "yang dikembangkan oleh Pier Luigi Nervi",
+      "status": "not-a-term-reference",
+      "targets": [],
+      "reason": "The phrase refers to a structure developed by a named person, not the dictionary headword Struktur. Keep it in source prose, not navigation.",
+      "resolved_targets": []
+    },
+    {
+      "id": "l-f61c39df21",
+      "from": "Laminated Wood",
+      "fragment": "Multiplex",
+      "status": "missing-headword",
+      "targets": [
+        "Multiplex"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "l-a7a01619e1",
+      "from": "Losmen",
+      "fragment": "istilah Losmen berasal dari Logement",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "m-53133b6400",
+      "from": "Maintenance",
+      "fragment": "O&M",
+      "status": "normalized-reference",
+      "targets": [
+        "O&M"
+      ],
+      "reason": "Only punctuation/diacritics differ from an existing complete headword; source context agrees.",
+      "resolved_targets": [
+        {
+          "term": "O&M",
+          "entry_ids": [
+            "o-00a7c950bf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-206fc187a2",
+      "from": "Motif",
+      "fragment": "istilah Motif berasal dari Motief",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "n-da55c14f2f",
+      "from": "Nett",
+      "fragment": "singkatan dari Netto",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "n-5200c1a5cc",
+      "from": "Nurse",
+      "fragment": "Sister",
+      "status": "missing-headword",
+      "targets": [
+        "Sister"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "n-eb6067e71a",
+      "from": "Nut",
+      "fragment": "juga berarti jenis kacang-kacangan",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "o-506a5db5f6",
+      "from": "Ocher",
+      "fragment": "Yellow Ocher",
+      "status": "missing-headword",
+      "targets": [
+        "Yellow Ocher"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "o-b770d6d80a",
+      "from": "Ordonansi",
+      "fragment": "istilah Ordonansi berasal dari Ordonnantie",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "o-1e596a836d",
+      "from": "Orientasi",
+      "fragment": "Tengaran",
+      "status": "missing-headword",
+      "targets": [
+        "Tengaran"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-eb6df3577c",
+      "from": "Panil",
+      "fragment": "istilah Panil berasal dari Paneel",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-cff83471e3",
+      "from": "Pavilyun",
+      "fragment": "istilah Pavilyun berasal dari Paviljoen",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-04fdbf3277",
+      "from": "Penunjukan Langsung",
+      "fragment": "Peraturan Pemerintah tentang Pengadaan Barang",
+      "status": "whole-reference",
+      "targets": [
+        "Peraturan Pemerintah tentang Pengadaan Barang dan Jasa"
+      ],
+      "reason": "This names a regulation, not a dictionary term. Preserve the full reference without a guessed current legal link.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-b26db994ce",
+      "from": "Persil",
+      "fragment": "istilah Persil berasal dari Perceel",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-da722dd9c7",
+      "from": "Plastis",
+      "fragment": "istilah Plastis berasal dari Plactisch",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-61b841edb4",
+      "from": "Pool",
+      "fragment": "juga berarti salah satu jenis permainan Bola Sodok",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-c957322180",
+      "from": "Porselein",
+      "fragment": "Poecelain",
+      "status": "normalized-reference",
+      "targets": [
+        "Porcelain"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Porcelain",
+          "entry_ids": [
+            "p-ef61fe1bf1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p-470335230c",
+      "from": "Post-tensioning",
+      "fragment": "lih. Pasca Modern",
+      "status": "quarantined",
+      "targets": [],
+      "reason": "Post-modern style is unrelated to the post-tensioning process. Preserve the source wording but exclude this misplaced cross-reference from navigation.",
+      "resolved_targets": []
+    },
+    {
+      "id": "p-99148fcc42",
+      "from": "Pre-tensioned",
+      "fragment": "Pra-tegang",
+      "status": "normalized-reference",
+      "targets": [
+        "Prategang"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Prategang",
+          "entry_ids": [
+            "p-66f3f13fb3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q-acc34a8499",
+      "from": "Quad",
+      "fragment": "singkatan dari Quadrangle",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "r-b06dff97f7",
+      "from": "Raw Water",
+      "fragment": "untuk diolah",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "r-a72711fe28",
+      "from": "Referensi",
+      "fragment": "secara khusus berarti: keterangan yang menjelaskan kemampuan atau pengalaman seseorang",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "r-ce87497a30",
+      "from": "Reparasi",
+      "fragment": "istilah Reparasi berasal dari Reparatie",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "r-4bbd7fb4ef",
+      "from": "Revitalization",
+      "fragment": "‘vita’ = hidup",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "r-c755524432",
+      "from": "RTBL",
+      "fragment": "Tata Bangunan",
+      "status": "whole-reference",
+      "targets": [
+        "Rencana Tata Bangunan dan Lingkungan"
+      ],
+      "reason": "Retain the full missing phrase; the similar Rencana Tata Kota dan Lingkungan title has different wording and is not silently substituted.",
+      "resolved_targets": []
+    },
+    {
+      "id": "s-9a2549d837",
+      "from": "Sambungan Coakan",
+      "fragment": "Rabbet Join",
+      "status": "normalized-reference",
+      "targets": [
+        "Rabbet Joint"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Rabbet Joint",
+          "entry_ids": [
+            "r-211f89d620"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-a5f6a006c6",
+      "from": "Sambungan Sponing",
+      "fragment": "Rabbet Join",
+      "status": "normalized-reference",
+      "targets": [
+        "Rabbet Joint"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Rabbet Joint",
+          "entry_ids": [
+            "r-211f89d620"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-c2c1ff62af",
+      "from": "Sanitary-ware",
+      "fragment": "Sanitary-fixture",
+      "status": "normalized-reference",
+      "targets": [
+        "Sanitary-fixtures"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Sanitary-fixtures",
+          "entry_ids": [
+            "s-1eec6ca79f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-16b3a2b56b",
+      "from": "Saniter",
+      "fragment": "Sanitary-fixture",
+      "status": "normalized-reference",
+      "targets": [
+        "Sanitary-fixtures"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Sanitary-fixtures",
+          "entry_ids": [
+            "s-1eec6ca79f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-0ffe696f87",
+      "from": "Simetris",
+      "fragment": "istilah Simetris berasal dari Symmetrisch",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "s-688154104d",
+      "from": "Skematik",
+      "fragment": "Schematic",
+      "status": "missing-headword",
+      "targets": [
+        "Schematic"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "s-a268686cd2",
+      "from": "Soldir",
+      "fragment": "istilah Soldir berasal dari Soldeer",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "s-4c69de47f9",
+      "from": "Sondir",
+      "fragment": "istilah Sondir berasal dari Sondeer",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "s-d779ce6cbc",
+      "from": "Specifications",
+      "fragment": "Technical Specifications",
+      "status": "normalized-reference",
+      "targets": [
+        "Technical Specification"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Technical Specification",
+          "entry_ids": [
+            "t-30f6e15cb3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-96baf1a597",
+      "from": "Spesifikasi",
+      "fragment": "Specification",
+      "status": "normalized-reference",
+      "targets": [
+        "Specifications"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Specifications",
+          "entry_ids": [
+            "s-d779ce6cbc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-2df1ee5c8d",
+      "from": "Staff",
+      "fragment": "juga berarti batang kecil",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "s-b7c37311d1",
+      "from": "Strip",
+      "fragment": "at Streep",
+      "status": "normalized-reference",
+      "targets": [
+        "Streep"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Streep",
+          "entry_ids": [
+            "s-e29e57e853"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-7f9bdb3d1b",
+      "from": "Sumur Gali",
+      "fragment": "– sumur yang dibuat dengan cara digali secara peralatan manual",
+      "status": "prose-fragment",
+      "targets": [],
+      "reason": "This is explanatory prose or etymology that the extractor captured after lih.; retain source text, remove the false navigation fragment.",
+      "resolved_targets": []
+    },
+    {
+      "id": "t-d7f7ab0534",
+      "from": "Tektonik",
+      "fragment": "Tectonics",
+      "status": "normalized-reference",
+      "targets": [
+        "Techtonics"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Techtonics",
+          "entry_ids": [
+            "t-27a6975a8c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-2095441263",
+      "from": "Traditional",
+      "fragment": "Tradisional",
+      "status": "missing-headword",
+      "targets": [
+        "Tradisional"
+      ],
+      "reason": "No exact headword with the intended meaning is available. No fuzzy link or new definition is invented.",
+      "resolved_targets": []
+    },
+    {
+      "id": "u-840a298910",
+      "from": "United States Environmental Protection Agency",
+      "fragment": "Agency",
+      "status": "not-a-term-reference",
+      "targets": [],
+      "reason": "The source reference names this same agency; remove the partial/self-reference from navigation.",
+      "resolved_targets": []
+    },
+    {
+      "id": "u-c6853c9d6d",
+      "from": "USEPA",
+      "fragment": "Agency",
+      "status": "whole-reference",
+      "targets": [
+        "United States Environmental Protection Agency"
+      ],
+      "reason": "Resolve the complete agency name, already given in this entry.",
+      "resolved_targets": [
+        {
+          "term": "United States Environmental Protection Agency",
+          "entry_ids": [
+            "u-840a298910"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-8c3b5097f3",
+      "from": "Working Days",
+      "fragment": "Calendar Days",
+      "status": "normalized-reference",
+      "targets": [
+        "Calendar Day"
+      ],
+      "reason": "Reviewed spelling, punctuation, plural form, or introductory label against the existing target and source context.",
+      "resolved_targets": [
+        {
+          "term": "Calendar Day",
+          "entry_ids": [
+            "c-3ae7b6e283"
+          ]
+        }
+      ]
+    }
+  ],
+  "tag_reviews": [
+    {
+      "id": "a-5d66c9e730",
+      "term": "Aandeel",
+      "definition": "Saham, Bagian (Ind.), Share (Ing.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "a-05d0556f8c",
+      "term": "Aannemer",
+      "definition": "Pemborong, Kontraktor (Ind.), Contractor (Ing.) – orang atau perusahaan yang diserahi tugas untuk melaksanakan pekerjaan konstruksi.",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "a-06d568ea5d",
+      "term": "Accessories",
+      "definition": "Perlengkapan, Tambahan, Hiasan (Ind.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "a-4bcb7d7f8e",
+      "term": "Acuan",
+      "definition": "Reference (Ing.), Rujukan (Ind.), Formwork (Ing.) = cetakan untuk cor beton.",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "a-218e3dacb1",
+      "term": "Air",
+      "definition": "Water (Bld., Ing.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "a-d91bacb141",
+      "term": "Air",
+      "definition": "Udara (Ind.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "a-1836e6344f",
+      "term": "Arc",
+      "definition": "Busur, Api Alat Las (Ind.), Arch (Ing.)",
+      "status": "corrected",
+      "reason": "Arc includes a welding arc; do not classify it as building fire safety."
+    },
+    {
+      "id": "a-a12bc904f2",
+      "term": "Arch",
+      "definition": "Busur, Lengkung (Ind.), Plengkung (Jw.) – konstruksi berbentuk lengkung.",
+      "status": "corrected",
+      "reason": "The definition explicitly describes curved construction."
+    },
+    {
+      "id": "b-911f0b1eb0",
+      "term": "Bank",
+      "definition": "Bank (Ind.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "b-d4ef9dc764",
+      "term": "Bank",
+      "definition": "Tepian (Ind.) – mis. Riverbank = Tepian Kali.",
+      "status": "corrected",
+      "reason": "Tepian / Riverbank is a waterside location, not banking."
+    },
+    {
+      "id": "b-9ee18306d5",
+      "term": "Beban",
+      "definition": "Load (Ing.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "b-2b44f31177",
+      "term": "Begel",
+      "definition": "Sengkang (Ind.), Stirrup (Ing.), Beugel (Bld.) – besi beton dibentuk sesuai profil beton (balok atau kolom) untuk memegang tulangan beton; juga berarti pelat dengan baut untuk mengikat sambungan batang kuda-kuda.",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "c-e594a6c5c1",
+      "term": "Capital",
+      "definition": "Ibukota, Huruf Besar, Modal (Ind.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "g-884e9f6f44",
+      "term": "Gallon",
+      "definition": "Galon (Ind.) – 1 gallon = 3.78 liter.",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "g-bd2c2265f2",
+      "term": "Entri tanpa judul",
+      "definition": "Solid line (Ing.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "j-49849a0181",
+      "term": "Jail",
+      "definition": "Penjara (Ind.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "k-c3d170e312",
+      "term": "Kasir",
+      "definition": "Juru Bayar (Ind.), Teller (Ing.), Kassier (Bld.) – istilah Kasir berasal dari Kassier.",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "l-5331bd4d11",
+      "term": "Lamp",
+      "definition": "Lampu, Lentera (Ind.), Lightbulb (Ing.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "l-457843db46",
+      "term": "Light",
+      "definition": "Ringan (Ind.), Licht (Bld.)",
+      "status": "corrected",
+      "reason": "Ringan denotes low weight, not illumination."
+    },
+    {
+      "id": "l-0cc2a080b0",
+      "term": "Light",
+      "definition": "Sinar, Cahaya (Ind.), Licht (Bld.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "l-2b675ef5f6",
+      "term": "Light",
+      "definition": "Lampu, Cahaya (Ind.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "n-eb6067e71a",
+      "term": "Nut",
+      "definition": "lih. Moer, juga berarti jenis kacang-kacangan.",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "p-d20e43936e",
+      "term": "Penjara",
+      "definition": "Lembaga Pemasyarakatan (Ind.), Prison, Jail (Ing.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "s-9f259dc860",
+      "term": "Saham",
+      "definition": "Share (Ing.), Aandeel (Bld.)",
+      "status": "retained",
+      "reason": "Reviewed against the source sense. Retain the existing broad grouping; ambiguous or unnamed material remains a candidate for future curation."
+    },
+    {
+      "id": "s-f3f1ede640",
+      "term": "Seal",
+      "definition": "Materai, Segel (Ind.), Zegel (Bld.)",
+      "status": "corrected",
+      "reason": "Materai/Segel concerns authentication of documents, not a sealing gasket."
+    },
+    {
+      "id": "s-bf594d01fb",
+      "term": "Spring",
+      "definition": "Pegas, Per, Musim Semi, Mata Air (Ind.)",
+      "status": "corrected",
+      "reason": "The source lists a mechanical spring, a season, and a water spring; keep all three broad contexts."
+    }
+  ],
+  "patches": [
+    {
+      "id": "b-6a78c88dd4",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "malformed_html_in_source"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "b-6a78c88dd4",
+      "field": "review_flags",
+      "before": [
+        "malformed_html_in_source"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-b1119a3963",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "malformed_header_parenthesis"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "c-b1119a3963",
+      "field": "review_flags",
+      "before": [
+        "malformed_header_parenthesis"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-75f9a7c599",
+      "field": "languages",
+      "before": [
+        {
+          "code": "und",
+          "name": "Ingd",
+          "label": "Ingd"
+        }
+      ],
+      "after": [
+        {
+          "code": "en",
+          "name": "Inggris",
+          "label": "Ing."
+        }
+      ],
+      "reason": "Correct an unambiguous malformed language label; retain language_raw and source_text."
+    },
+    {
+      "id": "c-75f9a7c599",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "unrecognized_language_label"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "c-75f9a7c599",
+      "field": "review_flags",
+      "before": [
+        "unrecognized_language_label"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-4cea9e1bf6",
+      "field": "term",
+      "before": "vConstruction Plan",
+      "after": "Construction Plan",
+      "reason": "Remove the stray leading v; the entry is between Construction Loan and Consultant on page C and translates Rencana Konstruksi."
+    },
+    {
+      "id": "c-4cea9e1bf6",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "c-4cea9e1bf6",
+      "field": "review_flags",
+      "before": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-6bf847c847",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "language_typography_normalized"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "c-6bf847c847",
+      "field": "review_flags",
+      "before": [
+        "language_typography_normalized"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-c706b21531",
+      "field": "definition",
+      "before": "Kontras, Berlawanan (Ind.), Contrast (Bld.) .)",
+      "after": "Kontras, Berlawanan (Ind.), Contrast (Bld.)",
+      "reason": "Remove a dangling closing-parenthesis artifact from the display definition."
+    },
+    {
+      "id": "c-c706b21531",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "language_typography_normalized"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "c-c706b21531",
+      "field": "review_flags",
+      "before": [
+        "language_typography_normalized"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-7723758f8a",
+      "field": "word_type",
+      "before": "kkv",
+      "after": "kk",
+      "reason": "The source explicitly says kata kerja; normalize its unrecognized kkv code."
+    },
+    {
+      "id": "c-7723758f8a",
+      "field": "word_type_label",
+      "before": "kkv",
+      "after": "Kata kerja",
+      "reason": "Use the same word-type label as the rest of the site."
+    },
+    {
+      "id": "c-7723758f8a",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "unrecognized_word_type_kkv"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "c-7723758f8a",
+      "field": "review_flags",
+      "before": [
+        "unrecognized_word_type_kkv"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "c-b2c5123c59",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "d-3d55acbd27",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "d-dcd8d877b7",
+      "field": "languages",
+      "before": [
+        {
+          "code": "und",
+          "name": "Innd",
+          "label": "Innd"
+        }
+      ],
+      "after": [
+        {
+          "code": "id",
+          "name": "Indonesia",
+          "label": "Ind."
+        }
+      ],
+      "reason": "Correct an unambiguous malformed language label; retain language_raw and source_text."
+    },
+    {
+      "id": "d-dcd8d877b7",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "unrecognized_language_label"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "d-dcd8d877b7",
+      "field": "review_flags",
+      "before": [
+        "unrecognized_language_label"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "f-c069ed2273",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "malformed_header_parenthesis"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "f-c069ed2273",
+      "field": "review_flags",
+      "before": [
+        "malformed_header_parenthesis"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "f-0b16e3fb84",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "empty_definition"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "f-49cb37ab99",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "empty_definition"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "g-0f1db6a195",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "headword_outside_source_alphabet"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "g-0f1db6a195",
+      "field": "review_flags",
+      "before": [
+        "headword_outside_source_alphabet"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "g-bd2c2265f2",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "source_missing_headword"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "k-aa73db4f2a",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "l-aa7ca48d01",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "o-5843e30fe7",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "language_typography_normalized"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "o-5843e30fe7",
+      "field": "review_flags",
+      "before": [
+        "language_typography_normalized"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "o-1caf8db0a1",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "p-5b2c3b3889",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "p-22c6c6815f",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "p-41a3dbeebf",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "p-9371521a3f",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "r-c755524432",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "s-f56c5be542",
+      "field": "languages",
+      "before": [
+        {
+          "code": "und",
+          "name": "In",
+          "label": "In"
+        }
+      ],
+      "after": [
+        {
+          "code": "id",
+          "name": "Indonesia",
+          "label": "Ind."
+        }
+      ],
+      "reason": "Correct an unambiguous malformed language label; retain language_raw and source_text."
+    },
+    {
+      "id": "s-f56c5be542",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "unrecognized_language_label"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "s-f56c5be542",
+      "field": "review_flags",
+      "before": [
+        "unrecognized_language_label"
+      ],
+      "after": [],
+      "reason": "Review completed; original flags remain in source_review_flags and this ledger."
+    },
+    {
+      "id": "t-3189b4eb42",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "z-3c0097356a",
+      "field": "source_review_flags",
+      "before": null,
+      "after": [
+        "missing_or_unrecognized_word_type"
+      ],
+      "reason": "Preserve the original extraction flags for the audit trail."
+    },
+    {
+      "id": "a-e88ba56c61",
+      "field": "related",
+      "before": [
+        {
+          "term": "Change Order",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Change Order",
+          "entry_ids": [
+            "c-faea8e9897"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "a-b066a241fc",
+      "field": "related",
+      "before": [
+        {
+          "term": "Alignment",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Alignment, Alinement",
+          "entry_ids": [
+            "a-0ced8ab6db"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "a-4457eadf9b",
+      "field": "related",
+      "before": [
+        {
+          "term": "Alignment",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Alignment, Alinement",
+          "entry_ids": [
+            "a-0ced8ab6db"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "a-1631b4b2dd",
+      "field": "related",
+      "before": [
+        {
+          "term": "PP no. 27 Tahun 1999",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "juga lih. Handal",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "PP no. 27 Tahun 1999",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Handal",
+          "entry_ids": [
+            "h-d31c8d29ae"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "a-6a65507398",
+      "field": "related",
+      "before": [
+        {
+          "term": "Archief",
+          "entry_ids": [
+            "a-437a8bc6a0"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Arsip berasal dari Archief",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Archief",
+          "entry_ids": [
+            "a-437a8bc6a0"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "b-3e9d10f434",
+      "field": "related",
+      "before": [
+        {
+          "term": "DAS",
+          "entry_ids": [
+            "d-9894f34338"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "= River Basin",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "istilah Baskom berasal dari Waskom (Bld.)",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "DAS",
+          "entry_ids": [
+            "d-9894f34338"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "River Basin",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "b-00cc38ba1f",
+      "field": "related",
+      "before": [
+        {
+          "term": "EB Studies",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "EB Studies",
+          "entry_ids": [
+            "e-3feb4382c7"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "b-bebad8fe8a",
+      "field": "related",
+      "before": [
+        {
+          "term": "Titik",
+          "entry_ids": [
+            "t-2424cc1e84"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Nol",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Titik Nol",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "b-d607e59352",
+      "field": "related",
+      "before": [
+        {
+          "term": "Block",
+          "entry_ids": [
+            "b-9186142fcd"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "juga berarti suatu elemen untuk menahan elemen lain",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Block",
+          "entry_ids": [
+            "b-9186142fcd"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "b-7e82424875",
+      "field": "related",
+      "before": [
+        {
+          "term": "Pressure",
+          "entry_ids": [
+            "p-947aba6536"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Relieve Valve",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Relief Valve",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "c-6673ed474e",
+      "field": "related",
+      "before": [
+        {
+          "term": "juga Mix Ratio",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Mix Ratio",
+          "entry_ids": [
+            "m-2c024418d0"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "c-85996abe82",
+      "field": "related",
+      "before": [
+        {
+          "term": "Burial",
+          "entry_ids": [
+            "b-1b6d79c341"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Gound",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Burial Ground",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "c-12702cf49d",
+      "field": "related",
+      "before": [
+        {
+          "term": "Chairman",
+          "entry_ids": [
+            "c-4059d80ee7"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah ini dipergunakan untuk menghindari bias gender",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Chairman",
+          "entry_ids": [
+            "c-4059d80ee7"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "c-1530d7058b",
+      "field": "related",
+      "before": [
+        {
+          "term": "General",
+          "entry_ids": [
+            "g-21631f4517"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Conditions",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Conditions of Contract",
+          "entry_ids": [
+            "c-6123b89b62"
+          ],
+          "resolved": true
+        }
+      ],
+      "after": [
+        {
+          "term": "General Conditions",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Conditions of Contract",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "c-0c7dc415a8",
+      "field": "related",
+      "before": [
+        {
+          "term": "Cum",
+          "entry_ids": [
+            "c-87bbbd76b5",
+            "c-67ab64cffd"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "kubik merupakan satuan ukuran isi",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "berdimensi 3",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Cum",
+          "entry_ids": [
+            "c-87bbbd76b5",
+            "c-67ab64cffd"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "d-6122b27e20",
+      "field": "related",
+      "before": [
+        {
+          "term": "Embarkation",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Embarcation",
+          "entry_ids": [
+            "e-e7aec8d23f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "d-8536801389",
+      "field": "related",
+      "before": [
+        {
+          "term": "at Detailded Drawing",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Detailed Drawing",
+          "entry_ids": [
+            "d-8c1bfcc747"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "d-1c6fd6128c",
+      "field": "related",
+      "before": [
+        {
+          "term": "Decor",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Décor",
+          "entry_ids": [
+            "d-fe02d84819"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "d-2a06616fa2",
+      "field": "related",
+      "before": [
+        {
+          "term": "Greenfield",
+          "entry_ids": [
+            "g-b7fbb6ba8e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Brownfiels",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Bouwklaar",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Greenfield",
+          "entry_ids": [
+            "g-b7fbb6ba8e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Brownfield",
+          "entry_ids": [
+            "b-dfe76a0fa2"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Bouwklaar",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "d-d23bb1c094",
+      "field": "related",
+      "before": [
+        {
+          "term": "BDD",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "BID",
+          "entry_ids": [
+            "b-9a1aec9fc6",
+            "b-1321d202d2"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "e-db3472b1db",
+      "field": "related",
+      "before": [
+        {
+          "term": "Design",
+          "entry_ids": [
+            "d-b76d3d68fe"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "and Build",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Design & Build",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "e-129ce2c2ad",
+      "field": "related",
+      "before": [
+        {
+          "term": "Entance",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Entrance",
+          "entry_ids": [
+            "e-1b403488db"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "e-23e2421b7b",
+      "field": "related",
+      "before": [
+        {
+          "term": "Environmental Protection",
+          "entry_ids": [
+            "e-1cc51a36a9"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Agency",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "United States Environmental Protection Agency",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "g-eef3055d9c",
+      "field": "related",
+      "before": [
+        {
+          "term": "Damage",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Damages",
+          "entry_ids": [
+            "d-5e8a327795"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "g-a10dcb87e2",
+      "field": "related",
+      "before": [
+        {
+          "term": "Gas",
+          "entry_ids": [
+            "g-1b103f1def"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Range (Ing.)",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Gas Range",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "g-5e6b301786",
+      "field": "related",
+      "before": [
+        {
+          "term": "FIDIC",
+          "entry_ids": [
+            "f-6494e1857e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "AV",
+          "entry_ids": [
+            "a-0ab95c212e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "41",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "FIDIC",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "AV ’41",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "g-91a97f5637",
+      "field": "related",
+      "before": [
+        {
+          "term": "juga Sand Trap",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Sand Trap",
+          "entry_ids": [
+            "s-cda07ee7c2"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "g-5b67b19984",
+      "field": "related",
+      "before": [
+        {
+          "term": "Black-water",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Black-water",
+          "entry_ids": [
+            "b-7f8031017b"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "h-398ca3f8eb",
+      "field": "related",
+      "before": [
+        {
+          "term": "juga Crawl Space",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Crawl Space",
+          "entry_ids": [
+            "c-da2861e58e"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "h-d5489cb0c6",
+      "field": "related",
+      "before": [
+        {
+          "term": "juga Height",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Height",
+          "entry_ids": [
+            "h-344541309b"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "h-98326dd943",
+      "field": "related",
+      "before": [
+        {
+          "term": "juga Plant-hire",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Rental",
+          "entry_ids": [
+            "r-c7afbcbcf5"
+          ],
+          "resolved": true
+        }
+      ],
+      "after": [
+        {
+          "term": "Plant-hire",
+          "entry_ids": [
+            "p-6a32ef3e73"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Rental",
+          "entry_ids": [
+            "r-c7afbcbcf5"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "h-fb4a17330c",
+      "field": "related",
+      "before": [
+        {
+          "term": "Peak-hour",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Man-hour",
+          "entry_ids": [
+            "m-818b46696e"
+          ],
+          "resolved": true
+        }
+      ],
+      "after": [
+        {
+          "term": "Peak Hour",
+          "entry_ids": [
+            "p-e894765ea2"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Man-hour",
+          "entry_ids": [
+            "m-818b46696e"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "i-419dc38f8e",
+      "field": "related",
+      "before": [
+        {
+          "term": "Cast in-situ",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Cast in Situ",
+          "entry_ids": [
+            "c-30aa3abda3"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "i-2f34d4ac30",
+      "field": "related",
+      "before": [
+        {
+          "term": "Inconventional",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Inconvensional",
+          "entry_ids": [
+            "i-e9ce9cbe16"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "i-6c5be4f68f",
+      "field": "related",
+      "before": [
+        {
+          "term": "Engineer",
+          "entry_ids": [
+            "e-118bd2de14"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Ingenieus",
+          "entry_ids": [
+            "i-3a054fb018"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Insinyur berasal dari Ingenieus",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Engineer",
+          "entry_ids": [
+            "e-118bd2de14"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Ingenieus",
+          "entry_ids": [
+            "i-3a054fb018"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "k-7f641fadc3",
+      "field": "related",
+      "before": [
+        {
+          "term": "Kartje",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Kaartje",
+          "entry_ids": [
+            "k-223aef970f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "k-d35ce5b588",
+      "field": "related",
+      "before": [
+        {
+          "term": "Extended Family",
+          "entry_ids": [
+            "e-a5bb09824e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Keluarga Besar lih. Extended Family",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Extended Family",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "k-f330989322",
+      "field": "related",
+      "before": [
+        {
+          "term": "Ceramics",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Ceramic",
+          "entry_ids": [
+            "c-871c536b2f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "k-c8907620f4",
+      "field": "related",
+      "before": [
+        {
+          "term": "Kitchen",
+          "entry_ids": [
+            "k-0d3561163e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Utensils",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Appliances",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Kitchen Utensils",
+          "entry_ids": [],
+          "resolved": false
+        },
+        {
+          "term": "Kitchen Appliances",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "l-5472ae872e",
+      "field": "related",
+      "before": [
+        {
+          "term": "Struktur",
+          "entry_ids": [
+            "s-55fc410b5c"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "yang dikembangkan oleh Pier Luigi Nervi",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "l-a7a01619e1",
+      "field": "related",
+      "before": [
+        {
+          "term": "Logement",
+          "entry_ids": [
+            "l-14c36ee2ad"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Losmen berasal dari Logement",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Logement",
+          "entry_ids": [
+            "l-14c36ee2ad"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "m-53133b6400",
+      "field": "related",
+      "before": [
+        {
+          "term": "O&M",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "O&M",
+          "entry_ids": [
+            "o-00a7c950bf"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "m-206fc187a2",
+      "field": "related",
+      "before": [
+        {
+          "term": "Motief",
+          "entry_ids": [
+            "m-3413fe0680"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Motif berasal dari Motief",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Motief",
+          "entry_ids": [
+            "m-3413fe0680"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "n-da55c14f2f",
+      "field": "related",
+      "before": [
+        {
+          "term": "Netto",
+          "entry_ids": [
+            "n-c3b3dfba90"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "singkatan dari Netto",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Netto",
+          "entry_ids": [
+            "n-c3b3dfba90"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "n-eb6067e71a",
+      "field": "related",
+      "before": [
+        {
+          "term": "Moer",
+          "entry_ids": [
+            "m-ab6c00ba79"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "juga berarti jenis kacang-kacangan",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Moer",
+          "entry_ids": [
+            "m-ab6c00ba79"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "o-b770d6d80a",
+      "field": "related",
+      "before": [
+        {
+          "term": "Ordinance",
+          "entry_ids": [
+            "o-17ba16782f"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Ordonansi berasal dari Ordonnantie",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Ordinance",
+          "entry_ids": [
+            "o-17ba16782f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-eb6df3577c",
+      "field": "related",
+      "before": [
+        {
+          "term": "Paneel",
+          "entry_ids": [
+            "p-4b41f0322b"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Panil berasal dari Paneel",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Paneel",
+          "entry_ids": [
+            "p-4b41f0322b"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-cff83471e3",
+      "field": "related",
+      "before": [
+        {
+          "term": "Pavilion",
+          "entry_ids": [
+            "p-26af2564a2"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Pavilyun berasal dari Paviljoen",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Pavilion",
+          "entry_ids": [
+            "p-26af2564a2"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-04fdbf3277",
+      "field": "related",
+      "before": [
+        {
+          "term": "Peraturan Pemerintah tentang Pengadaan Barang",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Peraturan Pemerintah tentang Pengadaan Barang dan Jasa",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-b26db994ce",
+      "field": "related",
+      "before": [
+        {
+          "term": "Perceel",
+          "entry_ids": [
+            "p-427c7e5f7e",
+            "p-a90129ec6a"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Persil berasal dari Perceel",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Perceel",
+          "entry_ids": [
+            "p-427c7e5f7e",
+            "p-a90129ec6a"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-da722dd9c7",
+      "field": "related",
+      "before": [
+        {
+          "term": "Plastic",
+          "entry_ids": [
+            "p-2841124ebb"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Plastis berasal dari Plactisch",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Plastic",
+          "entry_ids": [
+            "p-2841124ebb"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-61b841edb4",
+      "field": "related",
+      "before": [
+        {
+          "term": "Swimming Pool",
+          "entry_ids": [
+            "s-941074394e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "juga berarti salah satu jenis permainan Bola Sodok",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Swimming Pool",
+          "entry_ids": [
+            "s-941074394e"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-c957322180",
+      "field": "related",
+      "before": [
+        {
+          "term": "Poecelain",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Porcelain",
+          "entry_ids": [
+            "p-ef61fe1bf1"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-470335230c",
+      "field": "related",
+      "before": [
+        {
+          "term": "Pre-tensioning",
+          "entry_ids": [
+            "p-2413dc4535"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "lih. Pasca Modern",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Pre-tensioning",
+          "entry_ids": [
+            "p-2413dc4535"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "p-99148fcc42",
+      "field": "related",
+      "before": [
+        {
+          "term": "Pra-tegang",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Prategang",
+          "entry_ids": [
+            "p-66f3f13fb3"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "q-acc34a8499",
+      "field": "related",
+      "before": [
+        {
+          "term": "Quadrangle",
+          "entry_ids": [
+            "q-d9004e60bd"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "singkatan dari Quadrangle",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Quadrangle",
+          "entry_ids": [
+            "q-d9004e60bd"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "r-b06dff97f7",
+      "field": "related",
+      "before": [
+        {
+          "term": "Intake",
+          "entry_ids": [
+            "i-80cb411286"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Air Baku",
+          "entry_ids": [
+            "a-c7a73cad72"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "untuk diolah",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Intake",
+          "entry_ids": [
+            "i-80cb411286"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Air Baku",
+          "entry_ids": [
+            "a-c7a73cad72"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "r-a72711fe28",
+      "field": "related",
+      "before": [
+        {
+          "term": "Reference",
+          "entry_ids": [
+            "r-70726e2f1e"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "secara khusus berarti: keterangan yang menjelaskan kemampuan atau pengalaman seseorang",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Reference",
+          "entry_ids": [
+            "r-70726e2f1e"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "r-ce87497a30",
+      "field": "related",
+      "before": [
+        {
+          "term": "Repair",
+          "entry_ids": [
+            "r-93d998aff4"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Reparasi berasal dari Reparatie",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Repair",
+          "entry_ids": [
+            "r-93d998aff4"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "r-4bbd7fb4ef",
+      "field": "related",
+      "before": [
+        {
+          "term": "Revitalisasi",
+          "entry_ids": [
+            "r-db4a54b0b4"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "‘vita’ = hidup",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Revitalisasi",
+          "entry_ids": [
+            "r-db4a54b0b4"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "r-c755524432",
+      "field": "related",
+      "before": [
+        {
+          "term": "Rencana",
+          "entry_ids": [
+            "r-63a6e2ed07"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Tata Bangunan",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Rencana Tata Bangunan dan Lingkungan",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-9a2549d837",
+      "field": "related",
+      "before": [
+        {
+          "term": "Rabbet Join",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Rabbet Joint",
+          "entry_ids": [
+            "r-211f89d620"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-a5f6a006c6",
+      "field": "related",
+      "before": [
+        {
+          "term": "Rabbet Join",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Rabbet Joint",
+          "entry_ids": [
+            "r-211f89d620"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-c2c1ff62af",
+      "field": "related",
+      "before": [
+        {
+          "term": "Sanitary-fixture",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Sanitary-fixtures",
+          "entry_ids": [
+            "s-1eec6ca79f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-16b3a2b56b",
+      "field": "related",
+      "before": [
+        {
+          "term": "Sanitary-fixture",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Sanitary-fixtures",
+          "entry_ids": [
+            "s-1eec6ca79f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-0ffe696f87",
+      "field": "related",
+      "before": [
+        {
+          "term": "Setangkup",
+          "entry_ids": [
+            "s-f292b4ebad"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Simetris berasal dari Symmetrisch",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Setangkup",
+          "entry_ids": [
+            "s-f292b4ebad"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-a268686cd2",
+      "field": "related",
+      "before": [
+        {
+          "term": "Soldeer",
+          "entry_ids": [
+            "s-2686af87dc"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Soldir berasal dari Soldeer",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Soldeer",
+          "entry_ids": [
+            "s-2686af87dc"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-4c69de47f9",
+      "field": "related",
+      "before": [
+        {
+          "term": "Sondeer",
+          "entry_ids": [
+            "s-4e3e0216f9"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "istilah Sondir berasal dari Sondeer",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Sondeer",
+          "entry_ids": [
+            "s-4e3e0216f9"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-d779ce6cbc",
+      "field": "related",
+      "before": [
+        {
+          "term": "Technical Specifications",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Technical Specification",
+          "entry_ids": [
+            "t-30f6e15cb3"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-96baf1a597",
+      "field": "related",
+      "before": [
+        {
+          "term": "Specification",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Specifications",
+          "entry_ids": [
+            "s-d779ce6cbc"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-2df1ee5c8d",
+      "field": "related",
+      "before": [
+        {
+          "term": "Staf",
+          "entry_ids": [
+            "s-2a9c4126d2"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "juga berarti batang kecil",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Staf",
+          "entry_ids": [
+            "s-2a9c4126d2"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-b7c37311d1",
+      "field": "related",
+      "before": [
+        {
+          "term": "at Streep",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Streep",
+          "entry_ids": [
+            "s-e29e57e853"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "s-7f9bdb3d1b",
+      "field": "related",
+      "before": [
+        {
+          "term": "Shallow Well",
+          "entry_ids": [
+            "s-f503f3b41f"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "– sumur yang dibuat dengan cara digali secara peralatan manual",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Shallow Well",
+          "entry_ids": [
+            "s-f503f3b41f"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "t-d7f7ab0534",
+      "field": "related",
+      "before": [
+        {
+          "term": "Tectonics",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Techtonics",
+          "entry_ids": [
+            "t-27a6975a8c"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "u-840a298910",
+      "field": "related",
+      "before": [
+        {
+          "term": "Environmental Protection",
+          "entry_ids": [
+            "e-1cc51a36a9"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Agency",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "u-c6853c9d6d",
+      "field": "related",
+      "before": [
+        {
+          "term": "Environmental Protection",
+          "entry_ids": [
+            "e-1cc51a36a9"
+          ],
+          "resolved": true
+        },
+        {
+          "term": "Agency",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "United States Environmental Protection Agency",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "w-8c3b5097f3",
+      "field": "related",
+      "before": [
+        {
+          "term": "Calendar Days",
+          "entry_ids": [],
+          "resolved": false
+        }
+      ],
+      "after": [
+        {
+          "term": "Calendar Day",
+          "entry_ids": [
+            "c-3ae7b6e283"
+          ],
+          "resolved": true
+        }
+      ],
+      "reason": "Reviewed the source reference as a complete phrase and removed parser-generated prose fragments."
+    },
+    {
+      "id": "b-d4ef9dc764",
+      "field": "editorial_tags",
+      "before": null,
+      "after": {
+        "themes": [
+          "water",
+          "environment"
+        ],
+        "reason": "Tepian / Riverbank is a waterside location, not banking.",
+        "reviewed_on": "2026-10-27"
+      },
+      "reason": "Reviewed source meaning; override automatic keyword grouping."
+    },
+    {
+      "id": "l-457843db46",
+      "field": "editorial_tags",
+      "before": null,
+      "after": {
+        "themes": [
+          "qualities"
+        ],
+        "reason": "Ringan denotes low weight, not illumination.",
+        "reviewed_on": "2026-10-27"
+      },
+      "reason": "Reviewed source meaning; override automatic keyword grouping."
+    },
+    {
+      "id": "a-a12bc904f2",
+      "field": "editorial_tags",
+      "before": null,
+      "after": {
+        "themes": [
+          "frames",
+          "geometry"
+        ],
+        "reason": "The definition explicitly describes curved construction.",
+        "reviewed_on": "2026-10-27"
+      },
+      "reason": "Reviewed source meaning; override automatic keyword grouping."
+    },
+    {
+      "id": "a-1836e6344f",
+      "field": "editorial_tags",
+      "before": null,
+      "after": {
+        "themes": [
+          "geometry",
+          "electrical"
+        ],
+        "reason": "Arc includes a welding arc; do not classify it as building fire safety.",
+        "reviewed_on": "2026-10-27"
+      },
+      "reason": "Reviewed source meaning; override automatic keyword grouping."
+    },
+    {
+      "id": "s-f3f1ede640",
+      "field": "editorial_tags",
+      "before": null,
+      "after": {
+        "themes": [
+          "law"
+        ],
+        "reason": "Materai/Segel concerns authentication of documents, not a sealing gasket.",
+        "reviewed_on": "2026-10-27"
+      },
+      "reason": "Reviewed source meaning; override automatic keyword grouping."
+    },
+    {
+      "id": "s-bf594d01fb",
+      "field": "editorial_tags",
+      "before": null,
+      "after": {
+        "themes": [
+          "hardware",
+          "water",
+          "environment"
+        ],
+        "reason": "The source lists a mechanical spring, a season, and a water spring; keep all three broad contexts.",
+        "reviewed_on": "2026-10-27"
+      },
+      "reason": "Reviewed source meaning; override automatic keyword grouping."
+    },
+    {
+      "id": "a-4bcb7d7f8e",
+      "field": "external_links",
+      "before": null,
+      "after": {
+        "image_context": [
+          "formwork",
+          "mould",
+          "mold",
+          "concrete",
+          "cetakan",
+          "beton",
+          "bekisting"
+        ]
+      },
+      "reason": "Acuan refers to reference/formwork. Reject the unrelated baseball surname and food molds in this construction context."
+    },
+    {
+      "id": "b-2b44f31177",
+      "field": "external_links",
+      "before": null,
+      "after": {
+        "image_context": [
+          "stirrup",
+          "reinforcement",
+          "reinforcing",
+          "rebar",
+          "sengkang",
+          "tulangan",
+          "beton"
+        ]
+      },
+      "reason": "Begel is reinforcing hardware. Reject portraits and place-name photographs."
+    },
+    {
+      "id": "b-9ee18306d5",
+      "field": "external_links",
+      "before": null,
+      "after": {
+        "image_context": [
+          "structural load",
+          "loading diagram",
+          "beam",
+          "structural",
+          "force",
+          "gaya",
+          "struktur",
+          "balok",
+          "pembebanan"
+        ]
+      },
+      "reason": "Beban is load in this architecture dictionary. Reject unrelated books, wages, and entertainment images."
+    }
+  ],
+  "results": {
+    "entries": 6603,
+    "reviewed_source_entries": 27,
+    "active_source_flags": 15,
+    "reviewed_fragments": 108,
+    "resolved_references": 1153,
+    "unresolved_references": 35,
+    "unresolved": [
+      {
+        "id": "a-248eaab81d",
+        "term": "Aerial View",
+        "reference": "Pandangan Mata Burung"
+      },
+      {
+        "id": "a-0b28f3899c",
+        "term": "Akustik",
+        "reference": "Acoustical"
+      },
+      {
+        "id": "a-e829e96479",
+        "term": "Amdal",
+        "reference": "PP no. 27 Tahun 1999"
+      },
+      {
+        "id": "a-1631b4b2dd",
+        "term": "Andal",
+        "reference": "PP no. 27 Tahun 1999"
+      },
+      {
+        "id": "a-322bdbb870",
+        "term": "Arsitektur",
+        "reference": "Architectuur"
+      },
+      {
+        "id": "b-3e9d10f434",
+        "term": "Basin",
+        "reference": "River Basin"
+      },
+      {
+        "id": "b-bebad8fe8a",
+        "term": "Benchmark",
+        "reference": "Titik Nol"
+      },
+      {
+        "id": "b-79a8d22342",
+        "term": "Bow",
+        "reference": "Busur"
+      },
+      {
+        "id": "c-1530d7058b",
+        "term": "Conditition",
+        "reference": "General Conditions"
+      },
+      {
+        "id": "c-c850eaf9dc",
+        "term": "Corrugated",
+        "reference": "Seng Gelombang"
+      },
+      {
+        "id": "c-19c4654fef",
+        "term": "Cost",
+        "reference": "Low-cost"
+      },
+      {
+        "id": "c-83385061c4",
+        "term": "Crossing",
+        "reference": "Zebra Cross"
+      },
+      {
+        "id": "c-b0760d39cd",
+        "term": "Crushed Stone",
+        "reference": "Broken Stone"
+      },
+      {
+        "id": "d-2a06616fa2",
+        "term": "Development Cost",
+        "reference": "Bouwklaar"
+      },
+      {
+        "id": "d-ae5385ba1e",
+        "term": "Divider",
+        "reference": "Partition"
+      },
+      {
+        "id": "d-e660f5da00",
+        "term": "Duplex",
+        "reference": "Simplex"
+      },
+      {
+        "id": "e-b7af27f803",
+        "term": "Early Finish",
+        "reference": "Late Finish"
+      },
+      {
+        "id": "f-a8ee2fab5e",
+        "term": "Fan Shaped",
+        "reference": "Radial"
+      },
+      {
+        "id": "f-00efa98ff9",
+        "term": "Foot",
+        "reference": "Badan"
+      },
+      {
+        "id": "f-00efa98ff9",
+        "term": "Foot",
+        "reference": "Kepala"
+      },
+      {
+        "id": "h-fc3917091b",
+        "term": "Handicapped",
+        "reference": "Diffable"
+      },
+      {
+        "id": "h-9914b9179c",
+        "term": "HWL",
+        "reference": "LWL"
+      },
+      {
+        "id": "i-8c846760a4",
+        "term": "Inexpensive",
+        "reference": "Low-cost"
+      },
+      {
+        "id": "j-f6cf26d88c",
+        "term": "Jacking",
+        "reference": "Underpinning"
+      },
+      {
+        "id": "k-c8907620f4",
+        "term": "Kitchenware",
+        "reference": "Kitchen Utensils"
+      },
+      {
+        "id": "k-c8907620f4",
+        "term": "Kitchenware",
+        "reference": "Kitchen Appliances"
+      },
+      {
+        "id": "k-5bfff64a1e",
+        "term": "Klaar",
+        "reference": "Bouwklaar"
+      },
+      {
+        "id": "l-f61c39df21",
+        "term": "Laminated Wood",
+        "reference": "Multiplex"
+      },
+      {
+        "id": "n-5200c1a5cc",
+        "term": "Nurse",
+        "reference": "Sister"
+      },
+      {
+        "id": "o-506a5db5f6",
+        "term": "Ocher",
+        "reference": "Yellow Ocher"
+      },
+      {
+        "id": "o-1e596a836d",
+        "term": "Orientasi",
+        "reference": "Tengaran"
+      },
+      {
+        "id": "p-04fdbf3277",
+        "term": "Penunjukan Langsung",
+        "reference": "Peraturan Pemerintah tentang Pengadaan Barang dan Jasa"
+      },
+      {
+        "id": "r-c755524432",
+        "term": "RTBL",
+        "reference": "Rencana Tata Bangunan dan Lingkungan"
+      },
+      {
+        "id": "s-688154104d",
+        "term": "Skematik",
+        "reference": "Schematic"
+      },
+      {
+        "id": "t-2095441263",
+        "term": "Traditional",
+        "reference": "Tradisional"
+      }
+    ]
+  },
+  "image_reviews": [
+    {
+      "id": "a-4bcb7d7f8e",
+      "term": "Acuan",
+      "status": "context-filtered",
+      "query": "Acuan",
+      "required_context": [
+        "formwork",
+        "mould",
+        "mold",
+        "concrete",
+        "cetakan",
+        "beton",
+        "bekisting"
+      ],
+      "reason": "Acuan refers to reference/formwork. Reject the unrelated baseball surname and food molds in this construction context.",
+      "scope": "Relevance-rule review of reported mismatches; images remain live provider results, not a manually approved gallery."
+    },
+    {
+      "id": "b-2b44f31177",
+      "term": "Begel",
+      "status": "context-filtered",
+      "query": "Begel",
+      "required_context": [
+        "stirrup",
+        "reinforcement",
+        "reinforcing",
+        "rebar",
+        "sengkang",
+        "tulangan",
+        "beton"
+      ],
+      "reason": "Begel is reinforcing hardware. Reject portraits and place-name photographs.",
+      "scope": "Relevance-rule review of reported mismatches; images remain live provider results, not a manually approved gallery."
+    },
+    {
+      "id": "b-9ee18306d5",
+      "term": "Beban",
+      "status": "context-filtered",
+      "query": "Beban",
+      "required_context": [
+        "structural load",
+        "loading diagram",
+        "beam",
+        "structural",
+        "force",
+        "gaya",
+        "struktur",
+        "balok",
+        "pembebanan"
+      ],
+      "reason": "Beban is load in this architecture dictionary. Reject unrelated books, wages, and entertainment images.",
+      "scope": "Relevance-rule review of reported mismatches; images remain live provider results, not a manually approved gallery."
+    }
+  ]
+}

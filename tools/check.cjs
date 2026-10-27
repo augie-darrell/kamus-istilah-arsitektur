@@ -1,0 +1,27 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),vm=require('node:vm');
+const root=path.resolve(__dirname,'..');
+const d=JSON.parse(fs.readFileSync(path.join(root,'data/dictionary.json'),'utf8'));
+const report=JSON.parse(fs.readFileSync(path.join(root,'data/extraction-report.json'),'utf8'));
+const {create}=require(path.join(root,'assets/js/search.js')),search=create(d.entries);
+const ids=new Set(d.entries.map(e=>e.id));
+assert.equal(ids.size,d.entries.length);assert(d.entries.length>=report.entries);assert.equal(d.metadata.entry_count,d.entries.length);
+assert(d.sources.length>=26);assert.equal(new Set(d.sources.filter(s=>/^[A-Z]$/.test(s.letter)).map(s=>s.letter)).size,26);
+assert(d.entries.reduce((sum,e)=>sum+(e.source_occurrences||[]).length,0)>=report.source_records);
+assert.equal(report.coverage.reduce((sum,c)=>sum+c.entries,0),6603);
+assert(report.coverage.every(c=>c.body_characters===c.segmented_characters));
+for(const e of d.entries){assert(e.term.trim());if(e.source_url)assert(e.source_url.startsWith('https://'));for(const id of [...e.equivalent_ids,...e.related.flatMap(r=>r.entry_ids)])assert(ids.has(id),id);}
+const queryCases=[['beton bertulang','Beton Bertulang'],['bekistng','Bekisting'],['beton bertulng','Beton Bertulang'],['BRISE SOLEIL','Brise Soleil'],['balk','Balk']];
+for(const [q,want] of queryCases)assert.equal(search.find(q)[0].entry.term,want,q);
+assert(search.find('reinforced concrete').some(r=>r.entry.term==='Beton Bertulang'&&r.match==='translation'));
+assert(search.find('menggali tanah').some(r=>r.entry.term==='Backhoe'&&r.match==='definition'));
+assert(search.find('beton',{language:'nl'}).every(r=>r.entry.languages.some(l=>l.code==='nl')));
+assert.equal(search.find('',{letter:'X'}).length,4);
+assert(search.find('BCR').filter(r=>r.match==='exact').length>=2,'Distinct BCR senses must survive');
+assert(search.find('Beam')[0].entry.related.some(r=>r.term==='Balok'&&r.resolved));
+assert.equal(search.find('zzxxyyqqnonexistent').length,0);
+const selected=new Set([d.entries[0].id]);assert.equal(search.find('',{saved:selected}).length,1);
+const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'data/dictionary.js'),'utf8'),sandbox);
+assert.equal(sandbox.window.DICTIONARY_DATA.entries.length,d.entries.length);
+for(const name of ['index.html','assets/css/styles.css','assets/js/app.js','assets/js/search.js','assets/images/favicon.svg','assets/images/brise-soleil.svg'])assert(fs.existsSync(path.join(root,name)),name);
+const t=performance.now();for(const q of ['beton','bekistng','menggali tanah','balok rangka'])search.find(q);
+console.log(JSON.stringify({passed:true,entries:d.entries.length,source_records:6612,alphabet_sections:26,checks:'coverage, identifiers, reference targets, offline bundle, search ranking, typo matching, translation/definition search, filters, multiple senses',four_searches_ms:Math.round(performance.now()-t)},null,2));

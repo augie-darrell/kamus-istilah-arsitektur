@@ -1,0 +1,30 @@
+/* PERSONALIZE THE SITE HERE. Save in VS Code, then refresh the browser. */
+:root {
+  --page-bg: #f7f7f1;
+  --sidebar-bg: #f0f2e9;
+  --surface: #fffefa;
+  --ink: #263c32;
+  --accent: #254d40;
+  --muted: #707b69;
+  --line: #dce1d4;
+  --selection: #e6ecdc;
+  --body-font: 'Segoe UI', Arial, sans-serif;
+  --heading-font: Georgia, 'Times New Roman', serif;
+  --base-size: 17px;
+  --term-size: 21px;
+  --entry-title-size: 46px;
+  --line-height: 1.85;
+  --side-column-width: clamp(360px, 25vw, 420px);
+  --sidebar-width: var(--side-column-width);
+  --alphabet-width: 38px;
+  --media-width: var(--side-column-width); /* Right graph column width. */
+  --content-padding: 40px;
+  --titlebar-height: 56px;
+  --control-radius: 4px;
+  --control-size: 34px;
+  --control-bevel: inset 0 1px 0 #ffffff22, inset 0 -1px 0 #00000015;
+  --field-border: #bac8ac;
+  --section-space: 24px;
+  --section-gap: 28px;
+  --term-row-height: 104px; /* Fixed height keeps the long list scrolling smoothly. */
+}

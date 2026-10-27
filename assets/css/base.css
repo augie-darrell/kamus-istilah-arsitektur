@@ -1,0 +1,37 @@
+/* Shared foundation for the dictionary and content editor. Colors/sizes live in theme.css. */
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; color: var(--ink); background: var(--page-bg); font: var(--base-size) var(--body-font); }
+button, input, select, textarea { font: inherit; color: inherit; }
+button, a, input, select { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; background: none; border: 0; border-radius: var(--control-radius); }
+button:disabled { opacity: .4; cursor: default; }
+a { color: inherit; text-underline-offset: 4px; }
+:is(button, a, input, select, textarea, [tabindex]):focus-visible { outline: 3px solid #ae9453; outline-offset: 3px; }
+button svg { pointer-events: none; }
+svg, img { display: block; }
+[hidden] { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+.skip { position: absolute; left: 15px; top: -80px; z-index: 100; background: var(--accent); color: var(--surface); padding: 12px; }
+.skip:focus { top: 12px; }
+.eyebrow, .mini-label { font: 500 10px/1.6 var(--body-font); letter-spacing: 1.6px; color: var(--muted); margin: 0 0 12px; }
+.check-label { font-size: 12px; display: flex; align-items: center; gap: 6px; color: var(--muted); cursor: pointer; }
+.check-label input { accent-color: var(--accent); width: 14px; height: 14px; margin: 0; }
+:is(.heading-icon, .bookmark, .graph-steps, .dialog-close, .search-submit, .titlebar-toggle) {
+  width: var(--control-size); height: var(--control-size); flex-shrink: 0;
+  display: inline-flex; align-items: center; justify-content: center; padding: 7px;
+  background: var(--accent); color: var(--surface); border: 1px solid var(--accent);
+  border-radius: var(--control-radius); box-shadow: var(--control-bevel);
+}
+:is(.heading-icon, .bookmark, .graph-steps, .search-submit):hover { background: var(--selection); color: var(--accent); }
+:is(.heading-icon.active, .heading-icon.open, .bookmark.saved, .info-button[aria-expanded=true]) { background: var(--surface); color: var(--accent); }
+:is(.heading-icon, .bookmark, .graph-steps, .titlebar-toggle) svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.4; }
+.bookmark svg, .bookmark-toggle svg { width: 14px; height: 19px; }
+.bookmark.saved svg, .bookmark-toggle.active svg { fill: currentColor; }
+.info-button svg { fill: currentColor; stroke: none; }
+.primary-button { background: var(--accent); color: var(--surface); border: 1px solid var(--accent); border-radius: var(--control-radius); box-shadow: var(--control-bevel); font-size: 14px; padding: 11px 17px; white-space: nowrap; }
+.primary-button:hover { filter: brightness(1.1); }
+.secondary-button { background: var(--surface); color: var(--accent); border: 1px solid var(--field-border); border-radius: var(--control-radius); box-shadow: var(--control-bevel); font-size: 14px; padding: 11px 17px; white-space: nowrap; }
+.secondary-button:hover { background: var(--selection); }
+.heading-icon[aria-haspopup=menu]:not(.open):hover { background: var(--accent); color: var(--surface); }
+.toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 100; background: var(--accent); color: var(--surface); padding: 13px 20px; border-radius: var(--control-radius); box-shadow: 0 6px 25px #23412630; max-width: 90vw; font-size: 14px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

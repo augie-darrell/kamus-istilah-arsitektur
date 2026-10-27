@@ -1,0 +1,6587 @@
+{
+  "source_id": "kbbi-iii-offline-1.5.1",
+  "source_sha256": "208410bb4a0b0c118be6a3a5117f4702e659d66f47c145a60fe4806186cf18bc",
+  "eligible": 923,
+  "imported": 617,
+  "headword_matches": 468,
+  "subentry_matches": 149,
+  "with_homonyms": 82,
+  "with_redirects": 22,
+  "skipped": [
+    {
+      "id": "a-c7a73cad72",
+      "term": "Air Baku",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-a42ec81dfb",
+      "term": "Aksonometri",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-0b28f3899c",
+      "term": "Akustik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-b066a241fc",
+      "term": "Alinemen",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-ee9ad5a15f",
+      "term": "Anak Laki-laki",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-389d7e6870",
+      "term": "Anak Perempuan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-74eb5b9fea",
+      "term": "Anti Karat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-4689e98289",
+      "term": "Arsitektur Bentang Alam",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-1fa65051ea",
+      "term": "Artificial",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-1c95a9e9e4",
+      "term": "Asphaltic",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "a-3c56cde3cd",
+      "term": "Atap Datar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-c7fe30a3a1",
+      "term": "Bahu Jalan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-44b5dd01c1",
+      "term": "Bak Cuci",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-11be82bb62",
+      "term": "Balok Anak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-1a94658a86",
+      "term": "Balok Cincin",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-91f319efa5",
+      "term": "Balok Induk",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-d52e243e90",
+      "term": "Balok Menerus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-1868147950",
+      "term": "Ban Berjalan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-a5334eeb72",
+      "term": "Bangsal Perawatan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-09654015b1",
+      "term": "Bangunan Industri",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-5f51f135d5",
+      "term": "Bank Tanah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-ff1a40208e",
+      "term": "Barang Kiriman",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-74f14cf34f",
+      "term": "Bata Merah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-15e129d173",
+      "term": "Batu Pecah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-a6bab0076e",
+      "term": "Batu Tepi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-86c5f4df5f",
+      "term": "Besi Kanal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-6a78c88dd4",
+      "term": "Besi Pelat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-8be44e241a",
+      "term": "Besi Profil",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-c1e888de16",
+      "term": "Besi Siku",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-333ad903d7",
+      "term": "Beton Cor Setempat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-e1adee0bb8",
+      "term": "Beton Ringan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-9a89c7eff1",
+      "term": "Beton Polos",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-ef45071517",
+      "term": "Biaya Langsung",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-fd2ea1dcb6",
+      "term": "Biaya Tak Langsung",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "b-63c8c59123",
+      "term": "Bidang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-bd56a08fb8",
+      "term": "Celcius",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-895de6f2e5",
+      "term": "Cerobong Kontrol",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-6ed92bd4d4",
+      "term": "Circle",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-20edda938a",
+      "term": "Civic Center",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-31e768b792",
+      "term": "Coakan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-9de8ebf6ac",
+      "term": "Cor Setempat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "c-467a25d3a5",
+      "term": "Cost Estimate",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-4a6de0e026",
+      "term": "Daftar Gambar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-89d4a4c062",
+      "term": "Damija",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-17495d81ae",
+      "term": "Dapur Bersih",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-2a72c79feb",
+      "term": "Dapur Kotor",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-6f846b24ee",
+      "term": "Daya-dukung",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-a7583b9803",
+      "term": "Dekonstruksi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-bc7a461f5b",
+      "term": "Dempul Kayu",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-4009a7c068",
+      "term": "Dempul Tembok",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-c2dd144a32",
+      "term": "Diagram Alir",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-68b599c683",
+      "term": "Diagram Jaringan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-33392c6d57",
+      "term": "Dinding Dorong",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-bc15c34407",
+      "term": "Dinding Pengisi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-cf7c5f764b",
+      "term": "Dinding Sorong",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-db624b00e5",
+      "term": "Diskotik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-b0b019a1e8",
+      "term": "Distrik Pusat Bisnis",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-d23bb1c094",
+      "term": "Distrik Peningkatan Bisnis",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-397f490536",
+      "term": "Dokter Ahli Bedah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "d-27f7d03366",
+      "term": "Drainasi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "e-02ebad54db",
+      "term": "Ekivalen",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "e-d02c6d7059",
+      "term": "Ekor Burung",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "e-d77725b72b",
+      "term": "Eksibisi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "f-ece9c53a27",
+      "term": "Fabrikasi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "f-2ebb941633",
+      "term": "Ferosemen",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-1fe49ae106",
+      "term": "Gali & Urug",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-bd2c2265f2",
+      "term": "Entri tanpa judul",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-36d708979e",
+      "term": "Garis Putus-putus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-12c17dbc71",
+      "term": "Garis Sempadan Bangunan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-564a2c260a",
+      "term": "Gaya Geser",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-9b92ffb36d",
+      "term": "Gaya Normal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-6da30ebc4b",
+      "term": "Gedung Cerdas",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-c0349c3376",
+      "term": "Gedung Pintar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-0dbc27f49a",
+      "term": "Genteng Silang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "g-9f46b5d868",
+      "term": "GIP",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "g-bab44be2f1",
+      "term": "GSB",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "g-9cbc19e22e",
+      "term": "GSJ",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "h-c38f8b98d0",
+      "term": "Handel",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-d31db79713",
+      "term": "Harga Kontrak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-187a51f343",
+      "term": "Hidden",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-8f4b288a67",
+      "term": "Hidran",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-4662f5239b",
+      "term": "Hirarki",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-1b45c69ac5",
+      "term": "Horison",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-e312e0451d",
+      "term": "Horisontal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "h-574048fab3",
+      "term": "Hubungan Fungsional",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-a2264bebf4",
+      "term": "IAI",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "i-5188866198",
+      "term": "Ijin Bongkar Bangunan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-13783016b4",
+      "term": "Ikatan Angin",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-8ff33d52ca",
+      "term": "Illustrasi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-4a3be6c0e2",
+      "term": "IMB",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "i-c2218c4b74",
+      "term": "Imbalan Jasa",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-18ee28fa51",
+      "term": "Infra Merah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-17c9f8af87",
+      "term": "Inkindo",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "i-5f6890567e",
+      "term": "IPB",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "i-4f3d4c541b",
+      "term": "IPPT",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "j-9e1fcb912a",
+      "term": "Jalan Kecil",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-a87dc241a5",
+      "term": "Jalan Keluar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-04025b311f",
+      "term": "Jalan Lokal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-e87208d074",
+      "term": "Jalan Masuk",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-9589214359",
+      "term": "Jalan Pedesaan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-8e8951c4f8",
+      "term": "Jalan Sementara",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-10fb2ca72d",
+      "term": "Jalusi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-a808d1fe17",
+      "term": "Jaminan Bank",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-d257d09891",
+      "term": "Jaringan Kerja",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-28bbcf19ea",
+      "term": "Jatidiri",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-dd17f0f2c6",
+      "term": "Jendela Atas",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "j-8a74092681",
+      "term": "JPS",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "j-e97114fc1a",
+      "term": "Jurai Talang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-dab0507b9b",
+      "term": "Kaca Bening",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-472236372c",
+      "term": "Kaca Baur",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-e0ddc228c8",
+      "term": "Kaca Patri",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-b2aed173d6",
+      "term": "KAK",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "k-c92919ef40",
+      "term": "Kakus Umum",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-b61e9465a4",
+      "term": "Kalkir",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-4966b0f5ed",
+      "term": "Kamar Bedah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-352e4c113f",
+      "term": "Kampung Ambon",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-7a58405324",
+      "term": "Kampung Cina",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-523bae4668",
+      "term": "Kampung Jawa",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-1d06ca8d72",
+      "term": "Kampung Melayu",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-b4426f89cf",
+      "term": "Kandang Kuda",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-233850aa94",
+      "term": "Kantor Lapangan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-fd8667a96f",
+      "term": "Kawasan Industri",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-93cbfcdc30",
+      "term": "Kawasan Permukiman",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-7a93080ee2",
+      "term": "Kawasan Perumahan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-1a392da189",
+      "term": "Kawat Baja",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-aa73db4f2a",
+      "term": "Kawat Beton",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-8ad39e9db5",
+      "term": "KDB",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "k-b616e28895",
+      "term": "Kelembaban",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-129082e5ab",
+      "term": "Kering Angin",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-9bc5f644e5",
+      "term": "Ketrampilan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-75e86e45ab",
+      "term": "Klam",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-2bce1e2d76",
+      "term": "Kolom Susun",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-4de626d269",
+      "term": "Konsolidasi Tanah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-fa508e146f",
+      "term": "Konstruktor",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-66192d9880",
+      "term": "Kontrak Cost-plus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-8a53c05cb4",
+      "term": "Kontrak Harga Borongan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-5cb8bb1138",
+      "term": "Kontrak Harga Satuan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-624823438b",
+      "term": "Kontrak Payung",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-276d216a3f",
+      "term": "Kontraktor Umum",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-ef8c10e7f2",
+      "term": "Kota Taman",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-30c60f08d6",
+      "term": "Krepyak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-5d2f09a56a",
+      "term": "Kursi Bar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-81ccde64d3",
+      "term": "Kursi Putar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-9be657a05f",
+      "term": "Kursi Roda",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "k-0eaa6b71de",
+      "term": "Kwadrat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "l-283630685a",
+      "term": "Lake Shore",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "l-1c714a2491",
+      "term": "Lingkungan Alami",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "l-0343960cdd",
+      "term": "Lingkungan Hidup",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "l-9fb1da112d",
+      "term": "Lingkungan Perumahan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "l-ad7ce1eed1",
+      "term": "Lunas Kapal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-1a4507e5fb",
+      "term": "Magnetic Circuit Breaker",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-405a2ec65f",
+      "term": "MBM",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "m-133dde16a6",
+      "term": "MBR",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "m-a4b7910d1b",
+      "term": "MBT",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "m-527deb46f6",
+      "term": "Meja Hias",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-6a1f8f7176",
+      "term": "Meja Lipat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-b3607ac24f",
+      "term": "Meja Makan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-ddc6d71f9d",
+      "term": "Meja Samping",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-e346642ea8",
+      "term": "Meja Samping Tempat-tidur",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-bb3effe0b0",
+      "term": "Metal Roof",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-7ae62f9cd1",
+      "term": "Metoda",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "m-17186aca22",
+      "term": "Musium",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "n-0efd8808ee",
+      "term": "Nat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "n-e79d206119",
+      "term": "Nilai Kontrak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "o-81cb877a7e",
+      "term": "OP",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "o-a6d0961608",
+      "term": "Operasi & Pemeliharaan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "o-84eefd4555",
+      "term": "Orangtua",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "o-acb151ec53",
+      "term": "Overflow",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "o-108dac042d",
+      "term": "Overhang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-c697c46c98",
+      "term": "Pagar Sementara",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-39687b25c1",
+      "term": "Panduan Rancan Kota",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-1a76429974",
+      "term": "Panil Komposit",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-70988ebb1d",
+      "term": "Panjang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-5bc210ab80",
+      "term": "Panjang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-665bde7985",
+      "term": "Papan Acuan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-dd074983c4",
+      "term": "Papan Bangunan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-2ff3a9fe65",
+      "term": "Papan Bubung",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-b74423757e",
+      "term": "Parit Resapan Serapan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-fbdeba95eb",
+      "term": "Pasangan Bata",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-761d02a32e",
+      "term": "Pasien Rawat Jalan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-cff83471e3",
+      "term": "Pavilyun",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-c1b027a4a0",
+      "term": "Pejalan Kaki",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-17cb49df51",
+      "term": "Pekerjaan Beton",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-b4a5f28dc3",
+      "term": "Pekerjaan Galian & Urugan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-4ed0feb1e6",
+      "term": "Pekerjaan M&E",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-0dae97a96f",
+      "term": "Pekerjaan Tambah-kurang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-feb7e6ad6b",
+      "term": "Pembangunan Berkelanjutan Berwawasan Lingkungan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-898066c220",
+      "term": "Pemintakatan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-61fbfe8396",
+      "term": "Penatusan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-bcfc239f4c",
+      "term": "Pencakar Langit",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-fb3e2e21f4",
+      "term": "Pengawas Konstruksi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-22c6c6815f",
+      "term": "Pengawas Lapangan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-ed674b85e3",
+      "term": "Pengelolaan Perumahan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-e163e969a1",
+      "term": "Pengelolaan Lingkungan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-3876a86d2b",
+      "term": "Perancangan Kota",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-811fcead2f",
+      "term": "Peraturan Bangunan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-fc53bcdabd",
+      "term": "Perintah Perubahan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-5319085e65",
+      "term": "Perioda",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-ba31e200c7",
+      "term": "Perkerasan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-c701a19be9",
+      "term": "Perpetakan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-82787108e9",
+      "term": "Persyaratan Administrasi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-82c5c5edf4",
+      "term": "Persyaratan Khusus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-f6b1265055",
+      "term": "Persyaratan Teknik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-b32fa52922",
+      "term": "Pintu Geser",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-7b3245c9e0",
+      "term": "Pintu Panil",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-bf564f83f3",
+      "term": "Pintu Panil Rangkap",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-65ec87ccee",
+      "term": "Pintu Tunggal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-b9880bf9c1",
+      "term": "Pipa Baja",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-83524c2426",
+      "term": "Pipa Besi Cor",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-83202aa8af",
+      "term": "Plambing",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-a3385fb8be",
+      "term": "Plapon",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-247c78f080",
+      "term": "Pompa Joki",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-f19713f3d6",
+      "term": "Pondasi Dangkal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-dfc01af72e",
+      "term": "Pondasi Menerus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-32eacaecad",
+      "term": "Pondasi Telapak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-6a8a17b44f",
+      "term": "Pra-rancangan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-43660674cb",
+      "term": "Pralon",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-66f3f13fb3",
+      "term": "Prategang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-c696f0aab2",
+      "term": "PRK",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "p-be6b024484",
+      "term": "Prorata",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-55c70ab75d",
+      "term": "Pusat Kebugaran",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-2c89393a2c",
+      "term": "Pusat Kota",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-15db344adf",
+      "term": "Pusat Kesehatan Masyarakat",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-1a75f4b37a",
+      "term": "Pusat Lingkungan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-329080d43d",
+      "term": "Pusat Olahraga",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-b270ea98f4",
+      "term": "Pusat Pengendalian",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-a3a94fb461",
+      "term": "Pusat Rekreasi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "p-89011ce98d",
+      "term": "Pusat Seni",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-fa380293f8",
+      "term": "RAB",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "r-063f5c1f79",
+      "term": "Rakit",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-adb5b74592",
+      "term": "Ramah Lingkungan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-f089d75520",
+      "term": "Rapat Bulanan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-c376c2ff75",
+      "term": "Rapat Lapangan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-c54099e917",
+      "term": "Rapat Penjelasan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-e8d998ce9f",
+      "term": "Rehabilitation",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-b2218aece5",
+      "term": "Rencana Atap",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-138a41b3d8",
+      "term": "Rencana Kota",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-56674d0527",
+      "term": "Rencana Pondasi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-dea7feaf71",
+      "term": "Rencana Tapak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-71f2c5a3b5",
+      "term": "Rencana Tata Kota dan Lingkungan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-14ccffa710",
+      "term": "Resapan Air",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-a1e2a4dade",
+      "term": "Roda Perabot",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-e00a6dea38",
+      "term": "Roof Ventilator",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-0f459d9610",
+      "term": "RPM",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "r-c755524432",
+      "term": "RTBL",
+      "reason": "source_abbreviation"
+    },
+    {
+      "id": "r-c6bbaf2617",
+      "term": "Rumah Gandeng",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-097024560a",
+      "term": "Rumah Koppel",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-def7264403",
+      "term": "Rumah Pondokan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "r-8bb9c11cf1",
+      "term": "Rumah Tunggal",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-9a2549d837",
+      "term": "Sambungan Coakan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-a5f6a006c6",
+      "term": "Sambungan Sponing",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-77bd9aca82",
+      "term": "Seam",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-72c3efb40d",
+      "term": "Segi Banyak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-5cce856fa8",
+      "term": "Sekur",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-b415d8b76d",
+      "term": "Semen Portland",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-8f9a2dd945",
+      "term": "Shield",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-7bfeb13dd6",
+      "term": "Sistemik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-be4971621d",
+      "term": "Skala Pejalan Kaki",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-688154104d",
+      "term": "Skematik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-b6bcb908df",
+      "term": "Soil Mechanics",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-a268686cd2",
+      "term": "Soldir",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-4c69de47f9",
+      "term": "Sondir",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-74cb6c6b49",
+      "term": "Spanyolet",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-571ce14af4",
+      "term": "Spesifikasi Teknik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-df2c0831cb",
+      "term": "Standar Nasional Indonesia",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-1dcad2aaf7",
+      "term": "Stopkran",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "s-7f9bdb3d1b",
+      "term": "Sumur Gali",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-641736b4ae",
+      "term": "Talang Tegak",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-8aad282858",
+      "term": "Tali Jemuran",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-797e9d47fc",
+      "term": "Tampak Belakang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-ef8da623bc",
+      "term": "Tampak Depan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-cc40c2d296",
+      "term": "Tampak Samping",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-926fcd2930",
+      "term": "Tanah Asli",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-1077718101",
+      "term": "Tanah Berpasir",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-c80e99c55c",
+      "term": "Tanah Humus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-8a8ff9c564",
+      "term": "Tanah Keras",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-73590eec84",
+      "term": "Tanah Urug",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-269d492298",
+      "term": "Tangga Kebakaran",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-c125c7bada",
+      "term": "Tangga Putar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-41737182a9",
+      "term": "Tangki Bawah Tanah",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-847f82d1a9",
+      "term": "Tangki Septik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-295e5da99e",
+      "term": "Termisida",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-a4d20f3ee9",
+      "term": "Terowongan Angin",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-383733a967",
+      "term": "Tertier",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-e13dbfdb8c",
+      "term": "Thermoplastic",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-cbd832cb78",
+      "term": "Titik Fokus",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-1a98f641e9",
+      "term": "Toko Bahan Makanan",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-c1e4bacc55",
+      "term": "Toko Besi",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-406aaeac8f",
+      "term": "Toko Kelontong",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-d8a951f8e4",
+      "term": "Toko Roti",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-327f04a039",
+      "term": "Trali",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-a93a44a19b",
+      "term": "Trasram",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-05eeb16d11",
+      "term": "Tukang Batu",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-cba60207ec",
+      "term": "Tukang Kayu",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-53bb88313d",
+      "term": "Tukang Kebun",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "t-7603b9d9cb",
+      "term": "Tukang Pipa",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "u-f83abbaabc",
+      "term": "Uang Muka",
+      "reason": "unverified_subentry_boundary"
+    },
+    {
+      "id": "u-375b7526eb",
+      "term": "Ubin Keramik",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "u-718002cd24",
+      "term": "Ubin Teraso",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "u-28b53b18ed",
+      "term": "Udara Segar",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "u-8a88c4675f",
+      "term": "Undangan Lelang",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "u-3e77a6d2db",
+      "term": "Urat Kayu",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "u-20d9a10157",
+      "term": "Urug",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "v-30610eadce",
+      "term": "Vernakular",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "v-ced02d4147",
+      "term": "Vinir",
+      "reason": "no_exact_match"
+    },
+    {
+      "id": "w-dbc9b953d0",
+      "term": "Waktu Sibuk",
+      "reason": "no_exact_match"
+    }
+  ],
+  "matches": [
+    {
+      "id": "a-4bcb7d7f8e",
+      "term": "Acuan",
+      "entry_ids": [
+        "kbbi3-dfd289d2e826ac9c",
+        "kbbi3-6c7492ce3e13407b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "a-ac25c8f325",
+      "term": "Adaptasi",
+      "entry_ids": [
+        "kbbi3-60e8348bba48780b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-e36252191c",
+      "term": "Adendum",
+      "entry_ids": [
+        "kbbi3-abe3bff351504703"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-c3e667ed7c",
+      "term": "Aditif",
+      "entry_ids": [
+        "kbbi3-8a71a8d115a6e968"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-b4209a9205",
+      "term": "Aglomerasi",
+      "entry_ids": [
+        "kbbi3-cf62e76e56b18b15"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-207821394a",
+      "term": "Agregat",
+      "entry_ids": [
+        "kbbi3-ee533af9719db8d5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-4a63b778ff",
+      "term": "Agunan",
+      "entry_ids": [
+        "kbbi3-6c2df74acb954147"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "a-218e3dacb1",
+      "term": "Air",
+      "entry_ids": [
+        "kbbi3-9d3581f444062eaa"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-06db7db79a",
+      "term": "Akomodasi",
+      "entry_ids": [
+        "kbbi3-12e8bfebc3338b96"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-c5836b9243",
+      "term": "Aksen",
+      "entry_ids": [
+        "kbbi3-0ef92eb482016409"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-8bf4fed672",
+      "term": "Akses",
+      "entry_ids": [
+        "kbbi3-d11414614c8926a3",
+        "kbbi3-16d8e44f4ad075b2"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-1a6ffffc5b",
+      "term": "Aksesibilitas",
+      "entry_ids": [
+        "kbbi3-191ce3de3188c8a7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-779cef4dd2",
+      "term": "Alir",
+      "entry_ids": [
+        "kbbi3-141f5a87614ec31a",
+        "kbbi3-218b9729d2dd362a",
+        "kbbi3-def371e5f07c76d4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-cf720322c1",
+      "term": "Aliran",
+      "entry_ids": [
+        "kbbi3-141f5a87614ec31a"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "a-d20aa74d30",
+      "term": "Alun-alun",
+      "entry_ids": [
+        "kbbi3-8217ca0f721d7990"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-89952ccf40",
+      "term": "Alur",
+      "entry_ids": [
+        "kbbi3-e693e8acf7d41671"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-9a378ab38c",
+      "term": "Ampelas",
+      "entry_ids": [
+        "kbbi3-d64ceacadafaf95f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-edf51efda7",
+      "term": "Anak",
+      "entry_ids": [
+        "kbbi3-90e40600a8b00b65"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-10bee78a64",
+      "term": "Anak-anak",
+      "entry_ids": [
+        "kbbi3-90e40600a8b00b65"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "a-392babd682",
+      "term": "Ancangan",
+      "entry_ids": [
+        "kbbi3-13b1c0ce1b2eb048"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "a-bf697ef2e7",
+      "term": "Andal",
+      "entry_ids": [
+        "kbbi3-337bf2d22889e828"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-1631b4b2dd",
+      "term": "Andal",
+      "entry_ids": [
+        "kbbi3-337bf2d22889e828"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-e2683c045e",
+      "term": "Angker",
+      "entry_ids": [
+        "kbbi3-7a81db31e247cd1b",
+        "kbbi3-13f4d16512b90286"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-f25f88eb69",
+      "term": "Angsuran",
+      "entry_ids": [
+        "kbbi3-3ec0123ef90b907d"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "a-36057ac85d",
+      "term": "Antik",
+      "entry_ids": [
+        "kbbi3-bf99329361c64b7b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-cb55375d56",
+      "term": "Arbitrasi",
+      "entry_ids": [
+        "kbbi3-6aab7cc92470f549"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-fb253787f0",
+      "term": "Arkade",
+      "entry_ids": [
+        "kbbi3-98e5db8c9c60c754"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-6a65507398",
+      "term": "Arsip",
+      "entry_ids": [
+        "kbbi3-691af3d15af20e92"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-94111ca78e",
+      "term": "Arsitek",
+      "entry_ids": [
+        "kbbi3-17fb74bd61e5b325"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-322bdbb870",
+      "term": "Arsitektur",
+      "entry_ids": [
+        "kbbi3-364968f345e4a54f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-6c9c2bb0ed",
+      "term": "Artesis",
+      "entry_ids": [
+        "kbbi3-ddae7948ddf3a32c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-34e1fa141b",
+      "term": "Artifisial",
+      "entry_ids": [
+        "kbbi3-72b8366453a1f9b4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-d8bb528403",
+      "term": "Asimetris",
+      "entry_ids": [
+        "kbbi3-6f12427156ce477d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-033976b4a8",
+      "term": "Asrama",
+      "entry_ids": [
+        "kbbi3-24d3e9c252dd9bbe"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-479b41b9ca",
+      "term": "Asuransi",
+      "entry_ids": [
+        "kbbi3-48b515618613d8ee"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-467c2f4fa5",
+      "term": "Atap",
+      "entry_ids": [
+        "kbbi3-6688518b86f22f71"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "a-36a9903337",
+      "term": "Ayat",
+      "entry_ids": [
+        "kbbi3-3f7d6a6c8320b284",
+        "kbbi3-dd8693703be941ed"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-49a1c8ccd3",
+      "term": "Bahan",
+      "entry_ids": [
+        "kbbi3-64f186462b5a32f9",
+        "kbbi3-29312102b006fd80"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-0cba3a3e35",
+      "term": "Bahan Bangunan",
+      "entry_ids": [
+        "kbbi3-29312102b006fd80"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-a8c7b624b2",
+      "term": "Baja",
+      "entry_ids": [
+        "kbbi3-e4b00831f798d5fd",
+        "kbbi3-687933c2d1221c04",
+        "kbbi3-954c58896ff8b0ba"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-1a5bad2fad",
+      "term": "Balkon",
+      "entry_ids": [
+        "kbbi3-2ccbb037ee130b39"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-a870f233e4",
+      "term": "Balok",
+      "entry_ids": [
+        "kbbi3-7a8fa806bcb5ca89",
+        "kbbi3-d44c05126038e3f3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-4a747db9c0",
+      "term": "Bangsal",
+      "entry_ids": [
+        "kbbi3-c7292451b4586f78"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-3c9835c172",
+      "term": "Batas",
+      "entry_ids": [
+        "kbbi3-60b33bae30475873"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-9ee18306d5",
+      "term": "Beban",
+      "entry_ids": [
+        "kbbi3-75e3da6012a0cc75",
+        "kbbi3-e39a13a35ed02262"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-1d44e5fad1",
+      "term": "Bengkel",
+      "entry_ids": [
+        "kbbi3-edbac511985a22bd"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-a618126fcd",
+      "term": "Bentang Alam",
+      "entry_ids": [
+        "kbbi3-bfdd80abe7ec4cee"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-3201c89551",
+      "term": "Bentangan",
+      "entry_ids": [
+        "kbbi3-bfdd80abe7ec4cee"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-58a1700104",
+      "term": "Bentuk",
+      "entry_ids": [
+        "kbbi3-8dbed421ef1fec61"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-5d50369ef4",
+      "term": "Beringin",
+      "entry_ids": [
+        "kbbi3-6acbaabba4ad822c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-9a9041de79",
+      "term": "Besi",
+      "entry_ids": [
+        "kbbi3-930b480c8bbba9c1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-f406be8e0f",
+      "term": "Besi Cor",
+      "entry_ids": [
+        "kbbi3-930b480c8bbba9c1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-71994d4525",
+      "term": "Beton",
+      "entry_ids": [
+        "kbbi3-64699795ba831330"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-78b47776aa",
+      "term": "Beton Bertulang",
+      "entry_ids": [
+        "kbbi3-64699795ba831330"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-be7d7c8561",
+      "term": "Biaya Umum",
+      "entry_ids": [
+        "kbbi3-839ee22cac2174c5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-6f83ca703e",
+      "term": "Bidai",
+      "entry_ids": [
+        "kbbi3-9de59453f77efdfb",
+        "kbbi3-7882787ce844689c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-de34dd6374",
+      "term": "Bidan",
+      "entry_ids": [
+        "kbbi3-cf30f42759215877"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-f624dd82da",
+      "term": "Bilah",
+      "entry_ids": [
+        "kbbi3-c068d7e116c413fb",
+        "kbbi3-119104057a81c79b",
+        "kbbi3-98227716f0f88ce8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-c0361bb1a0",
+      "term": "Bor",
+      "entry_ids": [
+        "kbbi3-434f596d3a6e248b",
+        "kbbi3-e47f12fb883a4308"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-6600d5f1bb",
+      "term": "Borang",
+      "entry_ids": [
+        "kbbi3-4f1f730e7ee73ba2",
+        "kbbi3-4ef4eb39255687d9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-7e18317da0",
+      "term": "Brankar",
+      "entry_ids": [
+        "kbbi3-22ecd7d3820a0173"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-17526019ee",
+      "term": "Brutalisme",
+      "entry_ids": [
+        "kbbi3-8babb3bc17d0992d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "b-9a2a45298e",
+      "term": "Bubungan",
+      "entry_ids": [
+        "kbbi3-ee4d660af38878a3"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "b-f243e313a4",
+      "term": "Bupati",
+      "entry_ids": [
+        "kbbi3-0611bac85a291103"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-9f6872aff0",
+      "term": "Cagar",
+      "entry_ids": [
+        "kbbi3-6cb345e3cb17b0f8",
+        "kbbi3-e80a57a93c4b6f88"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-6673ed474e",
+      "term": "Campuran",
+      "entry_ids": [
+        "kbbi3-6bf616445c98b038"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "c-f4da8e6066",
+      "term": "Candi",
+      "entry_ids": [
+        "kbbi3-6ae7b3e86bb7028b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-fe1edbee4a",
+      "term": "Cek",
+      "entry_ids": [
+        "kbbi3-4e8433d56206be3d",
+        "kbbi3-7e9b4e3937ebb103",
+        "kbbi3-17184b9f763b8d81"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-de2d3dfb8b",
+      "term": "Celsius",
+      "entry_ids": [
+        "kbbi3-de7522022a6e5c4b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-35b08a2068",
+      "term": "Cemara",
+      "entry_ids": [
+        "kbbi3-18a2cc6f0eccf57e",
+        "kbbi3-3b71626e4c4207ab"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-7abe6b2258",
+      "term": "Cermin",
+      "entry_ids": [
+        "kbbi3-cdc11fd9e67069e0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "c-0b311ed864",
+      "term": "Cetak Biru",
+      "entry_ids": [
+        "kbbi3-f4c62b2b58d68ba9"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "c-a6eeef2414",
+      "term": "Ciptaan",
+      "entry_ids": [
+        "kbbi3-072274c720dd4f11"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "c-c937d265c5",
+      "term": "Ciri",
+      "entry_ids": [
+        "kbbi3-7791825fb1a2f765",
+        "kbbi3-069b40a7a23ea1d0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-bf7af77ce1",
+      "term": "Daerah",
+      "entry_ids": [
+        "kbbi3-fd0b2c601f98674b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-c072bf52e2",
+      "term": "Daftar",
+      "entry_ids": [
+        "kbbi3-5edcfb8d9fd597d9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-fd3cbb489b",
+      "term": "Daftar Periksa",
+      "entry_ids": [
+        "kbbi3-5edcfb8d9fd597d9"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "d-6c791bf6e9",
+      "term": "Dapur",
+      "entry_ids": [
+        "kbbi3-bf8800b55a2819c5",
+        "kbbi3-a7979148bad49b96"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-85598fb556",
+      "term": "Dasawarsa",
+      "entry_ids": [
+        "kbbi3-78d4fd91d63dab6c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-6564e0ef29",
+      "term": "Debit",
+      "entry_ids": [
+        "kbbi3-b0e0ee3583becee6",
+        "kbbi3-9e5f9620781fdfa0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-60136eb3f7",
+      "term": "Definisi",
+      "entry_ids": [
+        "kbbi3-894515c66ffbf9a9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-19d82c44c0",
+      "term": "Defleksi",
+      "entry_ids": [
+        "kbbi3-5265726866baf44c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-316e105e65",
+      "term": "Degradasi",
+      "entry_ids": [
+        "kbbi3-c885e75b63bf9a31"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-29153956ab",
+      "term": "Dek",
+      "entry_ids": [
+        "kbbi3-6354e3812a32e41d",
+        "kbbi3-d2665bc0057d975c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-1c6fd6128c",
+      "term": "Dekor",
+      "entry_ids": [
+        "kbbi3-b6f9231091e3e669"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-90e2fa6917",
+      "term": "Dekoratif",
+      "entry_ids": [
+        "kbbi3-18fcd4be0983ea9c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-aed0731b26",
+      "term": "Departemen",
+      "entry_ids": [
+        "kbbi3-f03f1aee64b43ba9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-f04ee8525d",
+      "term": "Dermaga",
+      "entry_ids": [
+        "kbbi3-947c0a309daa2623"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-b81585ae30",
+      "term": "Desibel",
+      "entry_ids": [
+        "kbbi3-37ba0fc6598a9a80"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-998aa65efb",
+      "term": "Dimensi",
+      "entry_ids": [
+        "kbbi3-6859a000946ef6e8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-cd7a122700",
+      "term": "Dinamik",
+      "entry_ids": [
+        "kbbi3-785a0bdf4624bc38"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-6e3123b7ac",
+      "term": "Dinamis",
+      "entry_ids": [
+        "kbbi3-420fc25f75161906"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-7c7c8b8379",
+      "term": "Direktur",
+      "entry_ids": [
+        "kbbi3-8d7730e4e639adbd"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-700ecc4c91",
+      "term": "Direktorat Jenderal",
+      "entry_ids": [
+        "kbbi3-259d3defb59a78b1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "d-6840533f08",
+      "term": "Disiplin",
+      "entry_ids": [
+        "kbbi3-192790de01a1f057"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-16b5e77166",
+      "term": "Dokter Anak",
+      "entry_ids": [
+        "kbbi3-e1ed2dc8dddcc0a5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "d-7ecef38159",
+      "term": "Dokter Gigi",
+      "entry_ids": [
+        "kbbi3-e1ed2dc8dddcc0a5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "d-c7eeabfd70",
+      "term": "Dokter Hewan",
+      "entry_ids": [
+        "kbbi3-e1ed2dc8dddcc0a5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "d-c351192717",
+      "term": "Dokter Umum",
+      "entry_ids": [
+        "kbbi3-e1ed2dc8dddcc0a5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "d-0eeb3dbe4c",
+      "term": "Dokumen",
+      "entry_ids": [
+        "kbbi3-515ff62cc54fb176"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "d-21e15df88a",
+      "term": "Dos",
+      "entry_ids": [
+        "kbbi3-c44f723518e38843"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-4f89eda5c6",
+      "term": "Ekologi",
+      "entry_ids": [
+        "kbbi3-a0fdc088646da1db"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-5a5185a188",
+      "term": "Ekosistem",
+      "entry_ids": [
+        "kbbi3-4d87f256fcef3b73"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-8bcb7d5141",
+      "term": "Ekses",
+      "entry_ids": [
+        "kbbi3-8f9432a24f92f22d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-55f310b087",
+      "term": "Eksterior",
+      "entry_ids": [
+        "kbbi3-935ece93c7b4a0e3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-da00bd6260",
+      "term": "Ekstra",
+      "entry_ids": [
+        "kbbi3-cee55bfb3ff8300b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-96b9da65de",
+      "term": "Elastik",
+      "entry_ids": [
+        "kbbi3-134e81b372ace21c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-0c716ce6cf",
+      "term": "Elegan",
+      "entry_ids": [
+        "kbbi3-d68e93eeee300ecb"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-66e8c165a8",
+      "term": "Elemen",
+      "entry_ids": [
+        "kbbi3-19fadc39f4af3fda"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-28e933edd8",
+      "term": "Elevasi",
+      "entry_ids": [
+        "kbbi3-da653aea49d76c68"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-9d2c42be6b",
+      "term": "Embarkasi",
+      "entry_ids": [
+        "kbbi3-a5e358d44afeb2a1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-02f96b1251",
+      "term": "Energi",
+      "entry_ids": [
+        "kbbi3-b0a6dce59d0d6100"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-9d0445331f",
+      "term": "Eskalator",
+      "entry_ids": [
+        "kbbi3-f42fe63313b6d97e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-c98f30daf4",
+      "term": "Eskalasi",
+      "entry_ids": [
+        "kbbi3-be45c819a01d827c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "e-d1fa1dc1ee",
+      "term": "Etalase",
+      "entry_ids": [
+        "kbbi3-91c5e09dee180a90"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-e4728795da",
+      "term": "Faktor",
+      "entry_ids": [
+        "kbbi3-9f8815ff2bbbe217"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-600158361d",
+      "term": "Fasilitas",
+      "entry_ids": [
+        "kbbi3-fb943e6af1a6acf6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-b3d706cbc2",
+      "term": "Festival",
+      "entry_ids": [
+        "kbbi3-b5d929948b21eefd"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-0b16e3fb84",
+      "term": "Fluida",
+      "entry_ids": [
+        "kbbi3-6ca40dfc8c217e41"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-7995734d23",
+      "term": "Fokus",
+      "entry_ids": [
+        "kbbi3-1e05249d9068bd2b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-b611a59790",
+      "term": "Fondasi",
+      "entry_ids": [
+        "kbbi3-432b8c6a161c8b64"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-124d809f36",
+      "term": "Formika",
+      "entry_ids": [
+        "kbbi3-907d3aac4cd47ce1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-f70dda6b18",
+      "term": "Formulir",
+      "entry_ids": [
+        "kbbi3-5ecb2499b48b2734"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-49cb37ab99",
+      "term": "Frekuensi",
+      "entry_ids": [
+        "kbbi3-420e4d7239bc061c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "f-3ae3bccb77",
+      "term": "Fungsi",
+      "entry_ids": [
+        "kbbi3-3cfd8a14307ef251"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-eef3055d9c",
+      "term": "Ganti Rugi",
+      "entry_ids": [
+        "kbbi3-ee522b6423ef1cb1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "g-62706b1804",
+      "term": "Garansi",
+      "entry_ids": [
+        "kbbi3-048bc5965430e6ff"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-7df6799ad5",
+      "term": "Garis",
+      "entry_ids": [
+        "kbbi3-a7d22ee181dce660",
+        "kbbi3-b988cca964c2e0a0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-016bcbc760",
+      "term": "Gaya",
+      "entry_ids": [
+        "kbbi3-4e630b6b64ccfb16",
+        "kbbi3-84ab28295d24aa47"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-e46d03c10e",
+      "term": "Gaya Hidup",
+      "entry_ids": [
+        "kbbi3-84ab28295d24aa47"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "g-d79c76f4aa",
+      "term": "Gelandangan",
+      "entry_ids": [
+        "kbbi3-35fed70be621fff7"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "g-e0e0a953a7",
+      "term": "Gelanggang",
+      "entry_ids": [
+        "kbbi3-da1425f053e5ce01"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-6d784d8ff8",
+      "term": "Gelegar",
+      "entry_ids": [
+        "kbbi3-4ac767805d3bea7c",
+        "kbbi3-65f6841614606f39"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-6235469e60",
+      "term": "Gentrifikasi",
+      "entry_ids": [
+        "kbbi3-7ba422a10e236cb7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-6cf7989315",
+      "term": "Geometri",
+      "entry_ids": [
+        "kbbi3-7030d06aba26da28"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-1a2b15d2f2",
+      "term": "Gerbang",
+      "entry_ids": [
+        "kbbi3-03564a074247fb42",
+        "kbbi3-db6d3161b909c486",
+        "kbbi3-a098c6082b474d3e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-8464daa3eb",
+      "term": "Getaran",
+      "entry_ids": [
+        "kbbi3-138a2e1510e518e9"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "g-73e33ccf5c",
+      "term": "Gips",
+      "entry_ids": [
+        "kbbi3-47c081b5f90c95b5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-9386e4fed8",
+      "term": "Gorong-gorong",
+      "entry_ids": [
+        "kbbi3-58d8ec0cd4e8c6ac"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-f1ddd4ecb7",
+      "term": "Got",
+      "entry_ids": [
+        "kbbi3-9768e5545ea05088"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "g-c72ba1bc16",
+      "term": "Gudang",
+      "entry_ids": [
+        "kbbi3-4c7ac523251fb318"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-8b1bc59383",
+      "term": "Halaman",
+      "entry_ids": [
+        "kbbi3-5373698648504162",
+        "kbbi3-9ac0d22449d24b9d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-d31c8d29ae",
+      "term": "Handal",
+      "entry_ids": [
+        "kbbi3-b08eb79a432fc87e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-580c9cd1f8",
+      "term": "Hektar",
+      "entry_ids": [
+        "kbbi3-ef10901cdce991e1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-54d7747a0d",
+      "term": "Helm",
+      "entry_ids": [
+        "kbbi3-336778aaf43fe4da"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-72c2248246",
+      "term": "Homogen",
+      "entry_ids": [
+        "kbbi3-0984c574aebf5616"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-278d7ab3f0",
+      "term": "Hubungan",
+      "entry_ids": [
+        "kbbi3-f77aa44c97e22d5b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "h-e3a924bbe6",
+      "term": "Hutan",
+      "entry_ids": [
+        "kbbi3-97fbf5f0df121c8c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "h-ddcd62acc8",
+      "term": "Hutan Buatan",
+      "entry_ids": [
+        "kbbi3-97fbf5f0df121c8c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "h-34fbd75206",
+      "term": "Hutan Lindung",
+      "entry_ids": [
+        "kbbi3-97fbf5f0df121c8c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "i-e884196213",
+      "term": "Identitas",
+      "entry_ids": [
+        "kbbi3-c3478725f0f8447d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-f4dba1a6b5",
+      "term": "Iklim",
+      "entry_ids": [
+        "kbbi3-b63eae5feac924de"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-9b18bc6d15",
+      "term": "Ikon",
+      "entry_ids": [
+        "kbbi3-5854c8949ea96d9d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-f4bc64b5df",
+      "term": "Iluminasi",
+      "entry_ids": [
+        "kbbi3-2cacf7014351a9c3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-7077f3858c",
+      "term": "Impresi",
+      "entry_ids": [
+        "kbbi3-e313c4f99039698b",
+        "kbbi3-abebfa570042e683"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-a242deafc2",
+      "term": "Indeks",
+      "entry_ids": [
+        "kbbi3-75dd3923a433b33a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-5b9fede0b2",
+      "term": "Indikator",
+      "entry_ids": [
+        "kbbi3-ea481c8c4d2095ab"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-15455d9e5a",
+      "term": "Inklinasi",
+      "entry_ids": [
+        "kbbi3-eae0f10018c09b1f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-2f34d4ac30",
+      "term": "Inkonvensional",
+      "entry_ids": [
+        "kbbi3-1fcec054649cdb69"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-bdd96dd873",
+      "term": "Inovasi",
+      "entry_ids": [
+        "kbbi3-ac58aba06a3cff3c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-a66171350a",
+      "term": "Inovatif",
+      "entry_ids": [
+        "kbbi3-0c5acdc80ddb8e27"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-bdbd14165f",
+      "term": "Insentif",
+      "entry_ids": [
+        "kbbi3-f19534ed3e3097ac"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-54ab1e40e3",
+      "term": "Insinerator",
+      "entry_ids": [
+        "kbbi3-eeff55c685bd908f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-6c5be4f68f",
+      "term": "Insinyur",
+      "entry_ids": [
+        "kbbi3-a2196f7be3bb1a19"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-89b0de8844",
+      "term": "Inspeksi",
+      "entry_ids": [
+        "kbbi3-05ddb27d0c9b62a2"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-91777be20e",
+      "term": "Instalatir",
+      "entry_ids": [
+        "kbbi3-09baf645e2a0d2de"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-a6022868ba",
+      "term": "Instalatur",
+      "entry_ids": [
+        "kbbi3-c2be4a918f287dd8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-2164af2a6a",
+      "term": "Institusi",
+      "entry_ids": [
+        "kbbi3-1e3e8ed37c5721fc"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-35f374ff4d",
+      "term": "Instruksi",
+      "entry_ids": [
+        "kbbi3-315a5159c765a549"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-bee4207fa6",
+      "term": "Integrasi",
+      "entry_ids": [
+        "kbbi3-6725fd85faa86ac4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-f51a869455",
+      "term": "Intensif",
+      "entry_ids": [
+        "kbbi3-cd8bc54c75c2a7f5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-e0df9412c7",
+      "term": "Intensitas",
+      "entry_ids": [
+        "kbbi3-60a6b4cd6f914e35"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-d079167805",
+      "term": "Interkoneksi",
+      "entry_ids": [
+        "kbbi3-c0c76aebb68e7fd5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-d22feb3dce",
+      "term": "Investasi",
+      "entry_ids": [
+        "kbbi3-c0c287a927f446e7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-f40ef9e73b",
+      "term": "Irama",
+      "entry_ids": [
+        "kbbi3-0f69290ffaaf1d11"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-08e9e202df",
+      "term": "Isolasi",
+      "entry_ids": [
+        "kbbi3-00ac7bbc96dbfcfe"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "i-1cdd64c787",
+      "term": "Isolator",
+      "entry_ids": [
+        "kbbi3-b18b406f0b2a25ce"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "j-8d9669e33a",
+      "term": "Jalan",
+      "entry_ids": [
+        "kbbi3-3b7243cd48ea49ea"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "j-396722a5cf",
+      "term": "Jalan Bebas Hambatan",
+      "entry_ids": [
+        "kbbi3-3b7243cd48ea49ea"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-9fc7b16087",
+      "term": "Jalan Layang",
+      "entry_ids": [
+        "kbbi3-3b7243cd48ea49ea"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-eb855c6a14",
+      "term": "Jalan Lingkar",
+      "entry_ids": [
+        "kbbi3-3b7243cd48ea49ea"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-b077c40d93",
+      "term": "Jalan Raya",
+      "entry_ids": [
+        "kbbi3-3b7243cd48ea49ea"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-276347d57b",
+      "term": "Jalan Tol",
+      "entry_ids": [
+        "kbbi3-3b7243cd48ea49ea"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-32bc45ed43",
+      "term": "Jalur Hijau",
+      "entry_ids": [
+        "kbbi3-38bc0dd2e6c37e46"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-11dead21f3",
+      "term": "Jaminan",
+      "entry_ids": [
+        "kbbi3-6fa3c7cd057a42eb"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-c33e7061e9",
+      "term": "Jaring",
+      "entry_ids": [
+        "kbbi3-0e273f7d83b06fec"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "j-41c4bb31a1",
+      "term": "Jaringan",
+      "entry_ids": [
+        "kbbi3-0e273f7d83b06fec"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-8e975b9ccb",
+      "term": "Jemuran",
+      "entry_ids": [
+        "kbbi3-d63042d18a451981"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "j-6a82759502",
+      "term": "Jendela",
+      "entry_ids": [
+        "kbbi3-bc8514aed8d40ce8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "j-f03ef8991e",
+      "term": "Jepit",
+      "entry_ids": [
+        "kbbi3-094d32be69d18042"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "j-a8b05ff24a",
+      "term": "Jeruji",
+      "entry_ids": [
+        "kbbi3-d67033cd75aa3624"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "j-dd2602cf77",
+      "term": "Jilid",
+      "entry_ids": [
+        "kbbi3-3551520cabb7f4d8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-034d3fcaf8",
+      "term": "Kaca",
+      "entry_ids": [
+        "kbbi3-02fc44c9fdb52998",
+        "kbbi3-c954f0baaf7174fc"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-b647f88706",
+      "term": "Kaca Buram",
+      "entry_ids": [
+        "kbbi3-02fc44c9fdb52998"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-339d30b555",
+      "term": "Kakus",
+      "entry_ids": [
+        "kbbi3-bde5ef1571c726ee"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-19cfb1576d",
+      "term": "Kalender",
+      "entry_ids": [
+        "kbbi3-663fc3dfa9de6049"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-e786a4f1e9",
+      "term": "Kamar",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49",
+        "kbbi3-1312e2fe43170db4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-15c1aea1bf",
+      "term": "Kamar Kecil",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-fae68c330e",
+      "term": "Kamar Keluarga",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-8261dc3ff0",
+      "term": "Kamar Makan",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-5b02632e81",
+      "term": "Kamar Mandi",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-efe62c6f92",
+      "term": "Kamar Mati",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-e39dd512cf",
+      "term": "Kamar Tamu",
+      "entry_ids": [
+        "kbbi3-2a007172cd169e49"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-47eb5da853",
+      "term": "Kampung",
+      "entry_ids": [
+        "kbbi3-fe096e6750e4d776"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-aac1640195",
+      "term": "Kanal",
+      "entry_ids": [
+        "kbbi3-c94c82dd26ba70e8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-86121e3cde",
+      "term": "Kandang",
+      "entry_ids": [
+        "kbbi3-bfa40fc317b045b3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-b00572e5a6",
+      "term": "Kantilever",
+      "entry_ids": [
+        "kbbi3-926e14afbff257ec"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-8b2112b0e9",
+      "term": "Kantor",
+      "entry_ids": [
+        "kbbi3-dbea842bb31d2e68"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-d6ed800e92",
+      "term": "Kantor Cabang",
+      "entry_ids": [
+        "kbbi3-dbea842bb31d2e68"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-8c90bd969d",
+      "term": "Kantor Pusat",
+      "entry_ids": [
+        "kbbi3-dbea842bb31d2e68"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-7f641fadc3",
+      "term": "Karcis",
+      "entry_ids": [
+        "kbbi3-44cf80a85399b00a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-15c8bbfdc6",
+      "term": "Kasino",
+      "entry_ids": [
+        "kbbi3-3d51cca18a87d675"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-3b95a7ba4a",
+      "term": "Kaso",
+      "entry_ids": [
+        "kbbi3-a2556999d36245bc"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-dc3abe5443",
+      "term": "Kawasan Berikat",
+      "entry_ids": [
+        "kbbi3-6244b048c4482a8c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-db7c6bd648",
+      "term": "Kawat",
+      "entry_ids": [
+        "kbbi3-6b3e4621082ba4e0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-af8c929bd7",
+      "term": "Kayu",
+      "entry_ids": [
+        "kbbi3-b13900252f05e2e7",
+        "kbbi3-3a7dbf5651e9e401",
+        "kbbi3-d9fb6e2552178ccc"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-4edd77289a",
+      "term": "Keamanan",
+      "entry_ids": [
+        "kbbi3-b0d780c2977afe01"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-3d455bdc94",
+      "term": "Keandalan",
+      "entry_ids": [
+        "kbbi3-337bf2d22889e828"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-a10398b9d7",
+      "term": "Kebun",
+      "entry_ids": [
+        "kbbi3-67e92825bc5cb621"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-e5bd0b5491",
+      "term": "Kebun Binatang",
+      "entry_ids": [
+        "kbbi3-67e92825bc5cb621"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-e52f263f05",
+      "term": "Kebun Raya",
+      "entry_ids": [
+        "kbbi3-67e92825bc5cb621"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-c56550421d",
+      "term": "Kebugaran",
+      "entry_ids": [
+        "kbbi3-1426fbbf7d46aa21"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-fb65585642",
+      "term": "Kecenderungan",
+      "entry_ids": [
+        "kbbi3-dd8832b86dc2d7dd"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-7c3b7ae75c",
+      "term": "Kedap Air",
+      "entry_ids": [
+        "kbbi3-99eeefecc3441fc5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-e2ee438499",
+      "term": "Kedap Suara",
+      "entry_ids": [
+        "kbbi3-99eeefecc3441fc5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-6f94c8e656",
+      "term": "Kekakuan",
+      "entry_ids": [
+        "kbbi3-a2d6861972de6240"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-1f0222af2a",
+      "term": "Keluarga Inti",
+      "entry_ids": [
+        "kbbi3-a111d581cd8a90ae"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-c540e9a587",
+      "term": "Keluwesan",
+      "entry_ids": [
+        "kbbi3-569866ec88620909"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-c33f838034",
+      "term": "Kemitraan",
+      "entry_ids": [
+        "kbbi3-dc0c2197b3943bb9"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-b95e0e1830",
+      "term": "Kendali",
+      "entry_ids": [
+        "kbbi3-49c74b38b8b1d98a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-f330989322",
+      "term": "Keramik",
+      "entry_ids": [
+        "kbbi3-44bc54bc79d487be"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-b688c4e032",
+      "term": "Kerangka",
+      "entry_ids": [
+        "kbbi3-2ff5ded0f46b7397"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-aa2c98045e",
+      "term": "Keras",
+      "entry_ids": [
+        "kbbi3-727cef13fae05dd0",
+        "kbbi3-b4f1605a0c3b2972"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-227a147c1a",
+      "term": "Kerawang",
+      "entry_ids": [
+        "kbbi3-50cc40ba8b0a4386"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-d6ba8a627d",
+      "term": "Kereta",
+      "entry_ids": [
+        "kbbi3-71798a8bc7a9a04c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-111b2de506",
+      "term": "Kereta Api",
+      "entry_ids": [
+        "kbbi3-4a33dc7ef1e54241"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-814db57906",
+      "term": "Kering",
+      "entry_ids": [
+        "kbbi3-c57e85f2c42e85b5",
+        "kbbi3-0f5f828fc1c95a60"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-45a4dd0347",
+      "term": "Kertas",
+      "entry_ids": [
+        "kbbi3-9df0a81c711b1dc0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-1e6e125ea8",
+      "term": "Keseimbangan",
+      "entry_ids": [
+        "kbbi3-6f3988f03ff5b09e"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-21b0b50f40",
+      "term": "Keselamatan",
+      "entry_ids": [
+        "kbbi3-7c0c1776f68a310c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-cf29a29495",
+      "term": "Kesempatan",
+      "entry_ids": [
+        "kbbi3-77a10f37a9b2ec77"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-6bc19f00d0",
+      "term": "Kesenjangan",
+      "entry_ids": [
+        "kbbi3-1cfd74cf12a90283"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-01fb4c989b",
+      "term": "Keseragaman",
+      "entry_ids": [
+        "kbbi3-339e8e2599865cf5",
+        "kbbi3-878ea8ebde574d9c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-34ba3cfdc7",
+      "term": "Kesinambungan",
+      "entry_ids": [
+        "kbbi3-0087df486f95fee5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-ef791f6f20",
+      "term": "Ketel",
+      "entry_ids": [
+        "kbbi3-12ae252ca759fbac"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-1947cbc46b",
+      "term": "Kiblat",
+      "entry_ids": [
+        "kbbi3-0533f8736167a919"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-d2a8249bc5",
+      "term": "Kilo",
+      "entry_ids": [
+        "kbbi3-a502ff1945cadae9",
+        "kbbi3-c0e770649325e223"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-11b46ca595",
+      "term": "Kinerja",
+      "entry_ids": [
+        "kbbi3-a312d06888f37dfd"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-4ebc93b400",
+      "term": "Kisi-kisi",
+      "entry_ids": [
+        "kbbi3-99ec6738218e21d8"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-517db24e95",
+      "term": "Klaim",
+      "entry_ids": [
+        "kbbi3-42f3abcba117cc69"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-8f47be2c4b",
+      "term": "Klas",
+      "entry_ids": [
+        "kbbi3-697a07eac57b278a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-8269437c82",
+      "term": "Klem",
+      "entry_ids": [
+        "kbbi3-7fb6d3890aada282"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-8fb8b96d21",
+      "term": "Klep",
+      "entry_ids": [
+        "kbbi3-baf291ab192eb507"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-9e068d8cff",
+      "term": "Klinik",
+      "entry_ids": [
+        "kbbi3-ba2e599a125a137a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-d193dd95f3",
+      "term": "Kloset",
+      "entry_ids": [
+        "kbbi3-12087cae90126a75"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-1768c0e1e3",
+      "term": "Koefisien",
+      "entry_ids": [
+        "kbbi3-7bb9584857bdc36b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-eaf9c60f02",
+      "term": "Kolam",
+      "entry_ids": [
+        "kbbi3-e9cdb44a9da78e0d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-dfa6e4c763",
+      "term": "Kolam Renang",
+      "entry_ids": [
+        "kbbi3-e9cdb44a9da78e0d"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "k-f17a8f5c42",
+      "term": "Kolektor",
+      "entry_ids": [
+        "kbbi3-95ae0dc9e0739461"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-d6b647a86c",
+      "term": "Komisi",
+      "entry_ids": [
+        "kbbi3-04837576b9b96af8",
+        "kbbi3-ebf09df202edede5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-2caec95685",
+      "term": "Kompak",
+      "entry_ids": [
+        "kbbi3-db7f1f30d5efaf7a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-4d76ee617c",
+      "term": "Kompetisi",
+      "entry_ids": [
+        "kbbi3-f90381e31eecc7a1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-9480ed8240",
+      "term": "Kompetitif",
+      "entry_ids": [
+        "kbbi3-742a0a8d1a88d96c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-563b52b3ef",
+      "term": "Konektor",
+      "entry_ids": [
+        "kbbi3-f04dd48a981b93aa"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-b00a0d1b35",
+      "term": "Konservasi",
+      "entry_ids": [
+        "kbbi3-a504ae5aedaf7fb5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-e8b0fd09e9",
+      "term": "Konsolidasi",
+      "entry_ids": [
+        "kbbi3-11875fb4fa3e201d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-deaef5634d",
+      "term": "Konstruksi",
+      "entry_ids": [
+        "kbbi3-034c8d5eaf1dd9c8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-215e04dc01",
+      "term": "Konsultan",
+      "entry_ids": [
+        "kbbi3-df284ce7052e8583"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-bb221fac15",
+      "term": "Kontemporer",
+      "entry_ids": [
+        "kbbi3-d302eb3ce70bfb29"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-c5695bee8a",
+      "term": "Kontrak",
+      "entry_ids": [
+        "kbbi3-3a4ff3fe5133f782"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-019358b810",
+      "term": "Kontraktor",
+      "entry_ids": [
+        "kbbi3-67dd59cea64c6edf"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-5736f6a56c",
+      "term": "Koordinasi",
+      "entry_ids": [
+        "kbbi3-4dc2de06745058ad"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-cc8bbcf0b2",
+      "term": "Koral",
+      "entry_ids": [
+        "kbbi3-911a12bd42a7ff5d",
+        "kbbi3-a8b0c15350d197ce"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-b0a011ed81",
+      "term": "Koridor",
+      "entry_ids": [
+        "kbbi3-1cc71c09a12469b6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-74d6061231",
+      "term": "Kota",
+      "entry_ids": [
+        "kbbi3-e5bec45c6080d972",
+        "kbbi3-7841f3d0f36c2506"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-b5651c140c",
+      "term": "Kran",
+      "entry_ids": [
+        "kbbi3-322c7bdc5a01c0b3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-177153b03a",
+      "term": "Kreasi",
+      "entry_ids": [
+        "kbbi3-97bf1df0a5709a1b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-016f3741bf",
+      "term": "Kreatif",
+      "entry_ids": [
+        "kbbi3-f1a511e7ee698929"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-f04599a586",
+      "term": "Kualitas",
+      "entry_ids": [
+        "kbbi3-03671ac3d94e2b61"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-2d6c164801",
+      "term": "Kubah",
+      "entry_ids": [
+        "kbbi3-7464aa9c53daa969"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-5bef3aa8b0",
+      "term": "Kuil",
+      "entry_ids": [
+        "kbbi3-d84db21bc3d0a8ac"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-6f5a80f3d9",
+      "term": "Kumuh",
+      "entry_ids": [
+        "kbbi3-e64c2bebe37f9472"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-7e482e8137",
+      "term": "Kunci",
+      "entry_ids": [
+        "kbbi3-3c3df62ba211e0cb"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-c409151be9",
+      "term": "Kursi",
+      "entry_ids": [
+        "kbbi3-8fe6f50f4c2639af"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "k-3d443962d4",
+      "term": "Kursi Goyang",
+      "entry_ids": [
+        "kbbi3-8fe6f50f4c2639af"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "l-faed88d5d3",
+      "term": "Laboratorium",
+      "entry_ids": [
+        "kbbi3-124324beb526620c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-10bcf1e46a",
+      "term": "Laci",
+      "entry_ids": [
+        "kbbi3-8153821c39ff8d4a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-0a49844f59",
+      "term": "Lahan",
+      "entry_ids": [
+        "kbbi3-b5fa99109c855f0a",
+        "kbbi3-d50453d5a9e2eefe"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-46344d37ff",
+      "term": "Landasan",
+      "entry_ids": [
+        "kbbi3-a352883c0c4854e2"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "l-0e8c0bbdf5",
+      "term": "Langit-langit",
+      "entry_ids": [
+        "kbbi3-7a6bec3bfc2a1dfa"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-e8d95b39f9",
+      "term": "Langkan",
+      "entry_ids": [
+        "kbbi3-b61e42bbe53cf80e",
+        "kbbi3-9a2b4bd45b0ec858"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-aa7e8541f6",
+      "term": "Lantai",
+      "entry_ids": [
+        "kbbi3-88f8110335b31db7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-ac0122d569",
+      "term": "Lantai Dasar",
+      "entry_ids": [
+        "kbbi3-88f8110335b31db7"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "l-ddec5463f7",
+      "term": "Lapangan",
+      "entry_ids": [
+        "kbbi3-6d03876680053533"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "l-5ac9746c48",
+      "term": "Las",
+      "entry_ids": [
+        "kbbi3-17c1e27a84367e16"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-8568839b04",
+      "term": "Layak",
+      "entry_ids": [
+        "kbbi3-b2a8ab8ae105c936",
+        "kbbi3-3c83f9b65b11e7e4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-4668b447f4",
+      "term": "Lembab",
+      "entry_ids": [
+        "kbbi3-566dd6acb2a60e2d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-3ee9da7447",
+      "term": "Lembaga",
+      "entry_ids": [
+        "kbbi3-f1456f8f2118eaaf"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-a62610ef91",
+      "term": "Lembaga Pemasyarakatan",
+      "entry_ids": [
+        "kbbi3-f1456f8f2118eaaf"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "l-5bc812d2f3",
+      "term": "Lempung",
+      "entry_ids": [
+        "kbbi3-3bcbf15bd7a639dc",
+        "kbbi3-22b9dd38febb677f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-c11bbe395e",
+      "term": "Leveransir",
+      "entry_ids": [
+        "kbbi3-d4647fbec1860ff1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-4576e3ae36",
+      "term": "Limbah",
+      "entry_ids": [
+        "kbbi3-b31950ec489700a5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-ec0133dafc",
+      "term": "Lindungan",
+      "entry_ids": [
+        "kbbi3-58388f64f86240c7"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "l-f5f6f044b2",
+      "term": "Lis",
+      "entry_ids": [
+        "kbbi3-7cf9b1141f216991"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-078ae442c5",
+      "term": "Lisensi",
+      "entry_ids": [
+        "kbbi3-0faf2173720366d8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-fbeb2e00da",
+      "term": "Lisplang",
+      "entry_ids": [
+        "kbbi3-91248a28b584ec65"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-111d6ea8d1",
+      "term": "Lonceng",
+      "entry_ids": [
+        "kbbi3-f7b8daffb5223047"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-6b602f54bc",
+      "term": "Los",
+      "entry_ids": [
+        "kbbi3-fec7deec5f41fd03",
+        "kbbi3-19e01c9e7cdc53d4",
+        "kbbi3-028842b90823a7b0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-a7a01619e1",
+      "term": "Losmen",
+      "entry_ids": [
+        "kbbi3-f560b1226b76d0da"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-31d7f12b7e",
+      "term": "Lot",
+      "entry_ids": [
+        "kbbi3-01d7cb223ff764d8",
+        "kbbi3-9a90ff63cb7a9bcc"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-2547d865e7",
+      "term": "Lurah",
+      "entry_ids": [
+        "kbbi3-2b3550493beb5cd7",
+        "kbbi3-a79302eb085b7c9c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "l-51dabff0c8",
+      "term": "Lurus",
+      "entry_ids": [
+        "kbbi3-711e7b025ef0cf53"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-77611c0a08",
+      "term": "Mahoni",
+      "entry_ids": [
+        "kbbi3-a870054bbbe2d57d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-6940678c58",
+      "term": "Maket",
+      "entry_ids": [
+        "kbbi3-0eb009dfc869dfe7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-36ef363adc",
+      "term": "Maksimum",
+      "entry_ids": [
+        "kbbi3-765113de942e35d6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-77d68e7853",
+      "term": "Manajemen",
+      "entry_ids": [
+        "kbbi3-f99925f7561638fd"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-bcfcfca971",
+      "term": "Manusia",
+      "entry_ids": [
+        "kbbi3-1c5bf229e3e8b8f6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-4b8a2d66d4",
+      "term": "Manusiawi",
+      "entry_ids": [
+        "kbbi3-cdbfc14ad359e3a2"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-13361cbb0a",
+      "term": "Masinis",
+      "entry_ids": [
+        "kbbi3-1e4ef4e303c4abf9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-dda3fe05e9",
+      "term": "Masjid",
+      "entry_ids": [
+        "kbbi3-4867113e8713de46"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-8144d8cdba",
+      "term": "Masyarakat",
+      "entry_ids": [
+        "kbbi3-a553c9a056f7d582"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-f5b0103257",
+      "term": "Mata",
+      "entry_ids": [
+        "kbbi3-4cda7806df4dbc4e",
+        "kbbi3-a5595b23087ad2ee"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-cd376df901",
+      "term": "Mata Air",
+      "entry_ids": [
+        "kbbi3-4cda7806df4dbc4e"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "m-dd1f40bc93",
+      "term": "Matahari",
+      "entry_ids": [
+        "kbbi3-6a965b10ec96438d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-dcc4885fac",
+      "term": "Materai",
+      "entry_ids": [
+        "kbbi3-4cf49eb93c1b47a0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-55d68732d8",
+      "term": "Matriks",
+      "entry_ids": [
+        "kbbi3-a34da2d0d9aacb21"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-c6ce8d7a0d",
+      "term": "Meja",
+      "entry_ids": [
+        "kbbi3-1f90976b45a01fe6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-bca6af7972",
+      "term": "Meja Tulis",
+      "entry_ids": [
+        "kbbi3-1f90976b45a01fe6"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "m-5269bcc66c",
+      "term": "Membran",
+      "entry_ids": [
+        "kbbi3-fd0aec8362c71a29"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-8c4515a61b",
+      "term": "Metrik",
+      "entry_ids": [
+        "kbbi3-654ef0f1dd82f0f6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-c450913837",
+      "term": "Mihrab",
+      "entry_ids": [
+        "kbbi3-c5bf5706cab00396"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-9787ff0952",
+      "term": "Mimbar",
+      "entry_ids": [
+        "kbbi3-762d3c9e592c64a5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-35e7f40065",
+      "term": "Monolit",
+      "entry_ids": [
+        "kbbi3-165bc8961d1da409"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-e50b279bbf",
+      "term": "Monumental",
+      "entry_ids": [
+        "kbbi3-e272c00df8179671"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-94ef75cf1c",
+      "term": "Mosaik",
+      "entry_ids": [
+        "kbbi3-0e26a8966720c64f",
+        "kbbi3-6b4751fa049bf10f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-206fc187a2",
+      "term": "Motif",
+      "entry_ids": [
+        "kbbi3-13598ed1574d6592"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-e31a033596",
+      "term": "Muatan",
+      "entry_ids": [
+        "kbbi3-06f64dc4a417353b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "m-0fd3c5f8ea",
+      "term": "Mur",
+      "entry_ids": [
+        "kbbi3-fe8ed0f7b9a70fd5",
+        "kbbi3-0b0e130570ece705"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "m-9a92f6b75f",
+      "term": "Mutu",
+      "entry_ids": [
+        "kbbi3-07b44aa5ed05b6d0",
+        "kbbi3-59d4158588344155",
+        "kbbi3-17e87f80329f9f65",
+        "kbbi3-3726d6a832813838"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "n-3813202578",
+      "term": "Normal",
+      "entry_ids": [
+        "kbbi3-43930794cef4c21e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "o-7080b51916",
+      "term": "Opsi",
+      "entry_ids": [
+        "kbbi3-9d4503a21b493870"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "o-c7caea57d9",
+      "term": "Orang",
+      "entry_ids": [
+        "kbbi3-b65e9043368f7eda"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "o-b770d6d80a",
+      "term": "Ordonansi",
+      "entry_ids": [
+        "kbbi3-c88440c3850c45ed"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "o-39637a0ec5",
+      "term": "Organisasi",
+      "entry_ids": [
+        "kbbi3-cf6161918b9ba875"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "o-973cbe55a2",
+      "term": "Ornamen",
+      "entry_ids": [
+        "kbbi3-b517d193a5d0fd9b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-6f6ac57275",
+      "term": "Padat",
+      "entry_ids": [
+        "kbbi3-6b86e54b96b2557e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-debfbf39b4",
+      "term": "Pagar",
+      "entry_ids": [
+        "kbbi3-4e0e21023c1aa3d4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-6ccd634335",
+      "term": "Pahat",
+      "entry_ids": [
+        "kbbi3-1549c5735c39adc9",
+        "kbbi3-19eea3405a77c86b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-dc0494e2d7",
+      "term": "Paket",
+      "entry_ids": [
+        "kbbi3-ef59a8b87f1b5843"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-e369060e21",
+      "term": "Paku",
+      "entry_ids": [
+        "kbbi3-9eb0175566b7952e",
+        "kbbi3-db4fda35772754d8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-d6ee0124a7",
+      "term": "Paku Keling",
+      "entry_ids": [
+        "kbbi3-9eb0175566b7952e"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-f0fd8207ca",
+      "term": "Paku Payung",
+      "entry_ids": [
+        "kbbi3-9eb0175566b7952e"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-8f58e5b590",
+      "term": "Pameran",
+      "entry_ids": [
+        "kbbi3-9961ff5d9f72970f"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-eb6df3577c",
+      "term": "Panil",
+      "entry_ids": [
+        "kbbi3-74b1c8e2f77bc100"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-28d6efae07",
+      "term": "Panti Asuhan",
+      "entry_ids": [
+        "kbbi3-33bb9041d6b1445c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-c6bb657ea7",
+      "term": "Papan",
+      "entry_ids": [
+        "kbbi3-917abdd38e9b2e8b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-4ee85eefcd",
+      "term": "Paparan",
+      "entry_ids": [
+        "kbbi3-cf03c26b4bf6e87f",
+        "kbbi3-8b713ec377806a2a"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-33495d1391",
+      "term": "Paralel",
+      "entry_ids": [
+        "kbbi3-f20aad5b87cb96d6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-d741e72721",
+      "term": "Parit",
+      "entry_ids": [
+        "kbbi3-6f2bd14ac79d6b71"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-0a1bcb3640",
+      "term": "Parlemen",
+      "entry_ids": [
+        "kbbi3-b0e687914084856a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-525775cc7f",
+      "term": "Partikelir",
+      "entry_ids": [
+        "kbbi3-63f5f71c10382669"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-9fca198720",
+      "term": "Partisipasi",
+      "entry_ids": [
+        "kbbi3-59824324afdfaf4c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-44ffb20845",
+      "term": "Pasien",
+      "entry_ids": [
+        "kbbi3-4be5dba8d5bc086f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-37691b4754",
+      "term": "Pasien Rawat Inap",
+      "entry_ids": [
+        "kbbi3-4be5dba8d5bc086f"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-06223159d0",
+      "term": "Paten",
+      "entry_ids": [
+        "kbbi3-bc01e024060720ae"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-dda53b92c2",
+      "term": "Patok",
+      "entry_ids": [
+        "kbbi3-054d99923f9c7cb7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-d79672e087",
+      "term": "Pecinan",
+      "entry_ids": [
+        "kbbi3-fe6e76a5863f7a89"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-10767ad89d",
+      "term": "Pekarangan",
+      "entry_ids": [
+        "kbbi3-0f24f4a4afc03292"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-177f75e56d",
+      "term": "Pekerja",
+      "entry_ids": [
+        "kbbi3-e103417650efc60b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-6df389cc29",
+      "term": "Pekerjaan",
+      "entry_ids": [
+        "kbbi3-e103417650efc60b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-2ec66dd2f4",
+      "term": "Pelabuhan",
+      "entry_ids": [
+        "kbbi3-dfa72ba2208e547c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-919b72bc4f",
+      "term": "Pelimbahan",
+      "entry_ids": [
+        "kbbi3-b31950ec489700a5"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-e556539b08",
+      "term": "Peluncur",
+      "entry_ids": [
+        "kbbi3-b2105140674fae43"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-4f7b4b8ec7",
+      "term": "Pemadatan",
+      "entry_ids": [
+        "kbbi3-904e527f91afd415",
+        "kbbi3-6b86e54b96b2557e"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-e853b7cee3",
+      "term": "Pemasok",
+      "entry_ids": [
+        "kbbi3-d0e21bcf21994f1f"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-64d068b9b5",
+      "term": "Pembayaran",
+      "entry_ids": [
+        "kbbi3-8bf8bdf55e4335af"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-c19f82cdaf",
+      "term": "Pemborong",
+      "entry_ids": [
+        "kbbi3-a47182cbc85b58c0"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-cc3f040a2f",
+      "term": "Pemeliharaan",
+      "entry_ids": [
+        "kbbi3-8fa53418d091270c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-25412ae02e",
+      "term": "Penampang",
+      "entry_ids": [
+        "kbbi3-4a3d703cb37f7730"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-bdcd2056e1",
+      "term": "Penawar",
+      "entry_ids": [
+        "kbbi3-abb38a224d44f790",
+        "kbbi3-37b5ef595c4fd0db"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-374fbdc99d",
+      "term": "Penawaran",
+      "entry_ids": [
+        "kbbi3-abb38a224d44f790",
+        "kbbi3-37b5ef595c4fd0db"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-01213653cf",
+      "term": "Pencagaran",
+      "entry_ids": [
+        "kbbi3-e80a57a93c4b6f88"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-7091175eef",
+      "term": "Pencemar",
+      "entry_ids": [
+        "kbbi3-9a00e1956e5d7ac8"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-36a604a647",
+      "term": "Penduduk",
+      "entry_ids": [
+        "kbbi3-9b2b70167880b1ea"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-d9f3251152",
+      "term": "Pengawas",
+      "entry_ids": [
+        "kbbi3-4d5aac1b473b8a65"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-cf5daca442",
+      "term": "Pengawasan",
+      "entry_ids": [
+        "kbbi3-4d5aac1b473b8a65"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-9c80ed213e",
+      "term": "Pengelolaan",
+      "entry_ids": [
+        "kbbi3-1c2dafe96024f8a9"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-e9c349e2d0",
+      "term": "Pengembang",
+      "entry_ids": [
+        "kbbi3-d84b99d452e7ea9d"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-0226639299",
+      "term": "Penghuni",
+      "entry_ids": [
+        "kbbi3-f844a69362cb6576"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-fdd68a950e",
+      "term": "Penginapan",
+      "entry_ids": [
+        "kbbi3-05989342549b4392"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-d20e43936e",
+      "term": "Penjara",
+      "entry_ids": [
+        "kbbi3-e30a6f93c48d7d8c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-d3bacd216a",
+      "term": "Pensiun",
+      "entry_ids": [
+        "kbbi3-abf249f0eb9b2b44"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-9bf737d1b8",
+      "term": "Perancah",
+      "entry_ids": [
+        "kbbi3-eafa42948177f63b",
+        "kbbi3-e207da5310fc0dfe"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-aa1c7bdbf1",
+      "term": "Perancang",
+      "entry_ids": [
+        "kbbi3-c29c956b046e8b3b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-797f284ef3",
+      "term": "Perancangan",
+      "entry_ids": [
+        "kbbi3-c29c956b046e8b3b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-4776373772",
+      "term": "Perawatan",
+      "entry_ids": [
+        "kbbi3-033e922dff2f79c7"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-a38fe2a31d",
+      "term": "Perbaikan",
+      "entry_ids": [
+        "kbbi3-d987a9a642584287"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-f4cebce321",
+      "term": "Periferi",
+      "entry_ids": [
+        "kbbi3-8b613a970d03e4bb"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-c5de63c011",
+      "term": "Perintah",
+      "entry_ids": [
+        "kbbi3-0f505dfdcafeac6e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-aafb12a1a5",
+      "term": "Perkebunan",
+      "entry_ids": [
+        "kbbi3-67e92825bc5cb621"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-33a31bd593",
+      "term": "Perkembangan",
+      "entry_ids": [
+        "kbbi3-d84b99d452e7ea9d"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-feaef6cc8e",
+      "term": "Permanen",
+      "entry_ids": [
+        "kbbi3-f9bc7e3e0aa1f441"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-71230ceb93",
+      "term": "Permeabilitas",
+      "entry_ids": [
+        "kbbi3-acee7f05236e4157"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-8a33b6eee2",
+      "term": "Permukiman",
+      "entry_ids": [
+        "kbbi3-1aaf6da6798a071b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-8e88be4262",
+      "term": "Perpipaan",
+      "entry_ids": [
+        "kbbi3-1a5bee0c5af1605c"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-b26db994ce",
+      "term": "Persil",
+      "entry_ids": [
+        "kbbi3-884cdadb9d6092bc",
+        "kbbi3-757456d39c27cdfc"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-3148baaa75",
+      "term": "Personil",
+      "entry_ids": [
+        "kbbi3-f12bfaf3ccf9770c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-c51a9abf7d",
+      "term": "Perspektif",
+      "entry_ids": [
+        "kbbi3-f1e2bb34700c8c12"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-92c618694f",
+      "term": "Persyaratan",
+      "entry_ids": [
+        "kbbi3-98dae89133722516"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-a138272d54",
+      "term": "Perubahan",
+      "entry_ids": [
+        "kbbi3-0cd0a3fe54b8021b"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-780df26901",
+      "term": "Peruntukan",
+      "entry_ids": [
+        "kbbi3-a88a90c135eadf8f"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-cc1c5b78d3",
+      "term": "Pigmen",
+      "entry_ids": [
+        "kbbi3-03000a885f9722c7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-b64294f625",
+      "term": "Pilar",
+      "entry_ids": [
+        "kbbi3-5de6ff0d050013b4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-409cc6a9a1",
+      "term": "Pines",
+      "entry_ids": [
+        "kbbi3-6c5bc7fa9e22ac7d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-d626afebb8",
+      "term": "Pinggiran",
+      "entry_ids": [
+        "kbbi3-30ebf05cac53dd08"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-afd37f784e",
+      "term": "Pintu",
+      "entry_ids": [
+        "kbbi3-a909a42d4bd01326"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-1ccd540a5c",
+      "term": "Pintu Sorong",
+      "entry_ids": [
+        "kbbi3-a909a42d4bd01326"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-a939e41997",
+      "term": "Pinus",
+      "entry_ids": [
+        "kbbi3-ea37b013ce7ca3ed"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-225041b496",
+      "term": "Pipa",
+      "entry_ids": [
+        "kbbi3-1a5bee0c5af1605c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-da722dd9c7",
+      "term": "Plastis",
+      "entry_ids": [
+        "kbbi3-e0b47339a603fd71"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-ad1ad69811",
+      "term": "Plat",
+      "entry_ids": [
+        "kbbi3-522a8d2e0fb710b0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-e4c32fe375",
+      "term": "Plaza",
+      "entry_ids": [
+        "kbbi3-6dcf82ff401a4457"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-97a246578f",
+      "term": "Plester",
+      "entry_ids": [
+        "kbbi3-355b647bf268028c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-20f6664e34",
+      "term": "Poliklinik",
+      "entry_ids": [
+        "kbbi3-107094c69b1e8ae1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-7f2a7956ad",
+      "term": "Politeknik",
+      "entry_ids": [
+        "kbbi3-280de7bc04a98bb9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-39c8fa9864",
+      "term": "Polos",
+      "entry_ids": [
+        "kbbi3-d06a9df88587c371"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-5fef65c492",
+      "term": "Polusi",
+      "entry_ids": [
+        "kbbi3-b35807b593292e47"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-7b512f1db3",
+      "term": "Polutan",
+      "entry_ids": [
+        "kbbi3-308572e7cf375ee7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-cae96ba821",
+      "term": "Pompa Air",
+      "entry_ids": [
+        "kbbi3-15089907ae9209b2"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-815879d928",
+      "term": "Pondasi",
+      "entry_ids": [
+        "kbbi3-59061501a9708169"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-eb02cee441",
+      "term": "Populasi",
+      "entry_ids": [
+        "kbbi3-de850ab9ebcf770e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-13f85e521a",
+      "term": "Poros",
+      "entry_ids": [
+        "kbbi3-25ec00ef46c8fe3d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-e52ce64276",
+      "term": "Porselen",
+      "entry_ids": [
+        "kbbi3-1e32d67351c42a90"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-ecac7805af",
+      "term": "Portal",
+      "entry_ids": [
+        "kbbi3-1bc75617f1e1cd9b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-ef03045d6a",
+      "term": "Pot",
+      "entry_ids": [
+        "kbbi3-c93ec581dfeecba1",
+        "kbbi3-ea127d624ee585d5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-b100c5b5fa",
+      "term": "Potongan",
+      "entry_ids": [
+        "kbbi3-8df58cae6bb4438e"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-f8489cec44",
+      "term": "Pragmatik",
+      "entry_ids": [
+        "kbbi3-ba7043a20c54b7f3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-9a412d611e",
+      "term": "Presentasi",
+      "entry_ids": [
+        "kbbi3-3be17918dcdafb06"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-06cffefdd0",
+      "term": "Preservasi",
+      "entry_ids": [
+        "kbbi3-d4c2a12d7e618f42"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-14713a1cef",
+      "term": "Presipitasi",
+      "entry_ids": [
+        "kbbi3-513f32ce0a68657f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-a49e56d319",
+      "term": "Primer",
+      "entry_ids": [
+        "kbbi3-b53672d9af293f3b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-f91e49bb45",
+      "term": "Prinsip",
+      "entry_ids": [
+        "kbbi3-751d0b550b9bff4e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-82d8512d40",
+      "term": "Profesi",
+      "entry_ids": [
+        "kbbi3-c44248989608676c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-78d4bc788f",
+      "term": "Profil",
+      "entry_ids": [
+        "kbbi3-cd95d226761e8327"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-3050574ac3",
+      "term": "Progresif",
+      "entry_ids": [
+        "kbbi3-6fa2d1354ac11a76"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-183ef3098d",
+      "term": "Prosedur",
+      "entry_ids": [
+        "kbbi3-dbe958dfd2d976cf"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-2ecccef339",
+      "term": "Proses",
+      "entry_ids": [
+        "kbbi3-38728346afe598a9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-0fb3fcc651",
+      "term": "Proteksi",
+      "entry_ids": [
+        "kbbi3-3900180377909ccb"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-7dd064456a",
+      "term": "Proyeksi",
+      "entry_ids": [
+        "kbbi3-f9a7f526269ec657"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-e981f634cc",
+      "term": "Publik",
+      "entry_ids": [
+        "kbbi3-54616736f3cf5b88"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "p-94aa531a7b",
+      "term": "Pusat Kebudayaan",
+      "entry_ids": [
+        "kbbi3-30d253ed42ff8a24"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-2df6e46933",
+      "term": "Pusat Pemerintahan",
+      "entry_ids": [
+        "kbbi3-30d253ed42ff8a24"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-2a7e78d346",
+      "term": "Pusat Perdagangan",
+      "entry_ids": [
+        "kbbi3-30d253ed42ff8a24"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "p-4ad3821334",
+      "term": "Puskesmas",
+      "entry_ids": [
+        "kbbi3-0c3c513cc5dbcb50"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-1e4b3f18a8",
+      "term": "Radiasi",
+      "entry_ids": [
+        "kbbi3-3a4249e2ea144911"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-27d98fcc32",
+      "term": "Rangka",
+      "entry_ids": [
+        "kbbi3-4d95eb02c442a429",
+        "kbbi3-c2d61b38c05fc06a",
+        "kbbi3-5596f77f1335e761"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-cce287fda1",
+      "term": "Rapat",
+      "entry_ids": [
+        "kbbi3-9ebabee13403dbfb",
+        "kbbi3-ebf606e029dc4b89",
+        "kbbi3-c7cd5af9243f6418"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-a6587ca7f2",
+      "term": "Rayap",
+      "entry_ids": [
+        "kbbi3-c19769a92ccb2a65",
+        "kbbi3-bf2da74ac44db4f5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-a72711fe28",
+      "term": "Referensi",
+      "entry_ids": [
+        "kbbi3-e82dfa676c4dac01"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-c5a34fd766",
+      "term": "Refleksi",
+      "entry_ids": [
+        "kbbi3-472710341e4b97d5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-3bc33963ef",
+      "term": "Reflektor",
+      "entry_ids": [
+        "kbbi3-b7ba690864b6f23e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-76bcccc35a",
+      "term": "Regulasi",
+      "entry_ids": [
+        "kbbi3-a10d26c63dd12385"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-5b46aee948",
+      "term": "Reklamasi",
+      "entry_ids": [
+        "kbbi3-593b95127fd5d504"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-66c6c467f8",
+      "term": "Rekonstruksi",
+      "entry_ids": [
+        "kbbi3-0657550709ca5385"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-6b3bf6c482",
+      "term": "Rel",
+      "entry_ids": [
+        "kbbi3-0c431526e61ab3ef"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-26e5eb337e",
+      "term": "Relokasi",
+      "entry_ids": [
+        "kbbi3-e673e7b4d7ab712b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-63a6e2ed07",
+      "term": "Rencana",
+      "entry_ids": [
+        "kbbi3-2b3e55ccddeae55c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-e61a3e7949",
+      "term": "Reng",
+      "entry_ids": [
+        "kbbi3-cd844155e56b0d03"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-ce87497a30",
+      "term": "Reparasi",
+      "entry_ids": [
+        "kbbi3-813dc0bb15dbcda0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-63855d0221",
+      "term": "Replika",
+      "entry_ids": [
+        "kbbi3-f78492f893c9a9ff"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-36529984fe",
+      "term": "Restoran",
+      "entry_ids": [
+        "kbbi3-c6ff6d46075c2b2e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-be60ca4a74",
+      "term": "Restorasi",
+      "entry_ids": [
+        "kbbi3-9a88db67e4351729",
+        "kbbi3-28074d85883e4148"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-9eae73d5f8",
+      "term": "Risalah Rapat",
+      "entry_ids": [
+        "kbbi3-7a28904bfa1d3ebd"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "r-e6e718bfd2",
+      "term": "Risiko",
+      "entry_ids": [
+        "kbbi3-104c34d23eb2ff88"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-bb6f59c1b1",
+      "term": "Ritme",
+      "entry_ids": [
+        "kbbi3-8fb970567d6fae19"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-2c3d61f7ea",
+      "term": "Roboh",
+      "entry_ids": [
+        "kbbi3-3ba09f05b82e2433"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-3f7c00e702",
+      "term": "Roda",
+      "entry_ids": [
+        "kbbi3-4cad1e190f92e9f9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-f317febcdb",
+      "term": "Ruang",
+      "entry_ids": [
+        "kbbi3-c366ca98f2301517"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-8d3f39ef55",
+      "term": "Rumah",
+      "entry_ids": [
+        "kbbi3-0e211ad3b4cfbce1"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-d7a43f2975",
+      "term": "Rumah Jompo",
+      "entry_ids": [
+        "kbbi3-0e211ad3b4cfbce1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "r-fd38e25bcf",
+      "term": "Rumah Inti",
+      "entry_ids": [
+        "kbbi3-0e211ad3b4cfbce1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "r-386a8c7812",
+      "term": "Rumah Tinggal",
+      "entry_ids": [
+        "kbbi3-0e211ad3b4cfbce1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "r-0024880fa1",
+      "term": "Rumah Tumbuh",
+      "entry_ids": [
+        "kbbi3-0e211ad3b4cfbce1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "r-2be3e5c70f",
+      "term": "Rumah Yatim Piatu",
+      "entry_ids": [
+        "kbbi3-0e211ad3b4cfbce1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "r-73bee9dbed",
+      "term": "Rumbia",
+      "entry_ids": [
+        "kbbi3-875de94f15e971d0"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-f31a302a9f",
+      "term": "Rumit",
+      "entry_ids": [
+        "kbbi3-4e5da5d5352e6357"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "r-19aa306ce7",
+      "term": "Rusak",
+      "entry_ids": [
+        "kbbi3-16d2d12daf810c27"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-9f259dc860",
+      "term": "Saham",
+      "entry_ids": [
+        "kbbi3-5b61d4c8aa76ceaa"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-76e9c1c0d4",
+      "term": "Saluran",
+      "entry_ids": [
+        "kbbi3-572ec7223a04ea4d"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "s-f26b70780a",
+      "term": "Sambungan",
+      "entry_ids": [
+        "kbbi3-44654b399da1fc86"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "s-16b3a2b56b",
+      "term": "Saniter",
+      "entry_ids": [
+        "kbbi3-656d85442fae5f9b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-a00b93a9b2",
+      "term": "Sedimentasi",
+      "entry_ids": [
+        "kbbi3-e7d2b8385d58b8fe"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-5daee7d71e",
+      "term": "Sekolah",
+      "entry_ids": [
+        "kbbi3-3ea93dfcc5a2d9b6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-fd25d02d00",
+      "term": "Sekolah Dasar",
+      "entry_ids": [
+        "kbbi3-3ea93dfcc5a2d9b6"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "s-687d223bc3",
+      "term": "Sekolah Menengah Pertama",
+      "entry_ids": [
+        "kbbi3-3ea93dfcc5a2d9b6"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "s-f494b2336f",
+      "term": "Sekolah Menengah Atas",
+      "entry_ids": [
+        "kbbi3-3ea93dfcc5a2d9b6"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "s-16cbf50321",
+      "term": "Sektor",
+      "entry_ids": [
+        "kbbi3-b33439a3b32c7a84"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-4f64d70ae9",
+      "term": "Sel",
+      "entry_ids": [
+        "kbbi3-2e5527c4b3ea27c3",
+        "kbbi3-16307057f08b02d3",
+        "kbbi3-f9afdc8f1111d028"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-617cc2e8d4",
+      "term": "Selokan",
+      "entry_ids": [
+        "kbbi3-d2272745bd2889a9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-6822a973c3",
+      "term": "Sempadan",
+      "entry_ids": [
+        "kbbi3-aad471b835f70dbf"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-f2bda300cb",
+      "term": "Sendi",
+      "entry_ids": [
+        "kbbi3-59e29d9faaeec3a2",
+        "kbbi3-f7fcbff522525130"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-d613d0b949",
+      "term": "Sengkang",
+      "entry_ids": [
+        "kbbi3-45f42b4b60853bdf"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-596c637d33",
+      "term": "Seni",
+      "entry_ids": [
+        "kbbi3-61d8aac36d37c159",
+        "kbbi3-bbfbafeb5b17f568",
+        "kbbi3-3a42e30dfaf31b42",
+        "kbbi3-a3d769681dcd9a05"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-27c9da09bb",
+      "term": "Sensitif",
+      "entry_ids": [
+        "kbbi3-0e09a2931f4c6323"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-ebbbe97c28",
+      "term": "Sentrifugal",
+      "entry_ids": [
+        "kbbi3-f55040ce53944310"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-d9c178b0d9",
+      "term": "Sentripetal",
+      "entry_ids": [
+        "kbbi3-ab42480e80bbd8d8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-9dc0595314",
+      "term": "Seragam",
+      "entry_ids": [
+        "kbbi3-878ea8ebde574d9c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-6bcf7fb0b5",
+      "term": "Seragam",
+      "entry_ids": [
+        "kbbi3-878ea8ebde574d9c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-f292b4ebad",
+      "term": "Setangkup",
+      "entry_ids": [
+        "kbbi3-aa0e28c5c0464fc4"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "s-84e28fa101",
+      "term": "Siar",
+      "entry_ids": [
+        "kbbi3-870a017e5313f36e",
+        "kbbi3-0259b53ad5ac55be",
+        "kbbi3-5723319c1394bc73",
+        "kbbi3-83042b85d1fac8b9",
+        "kbbi3-ffa849afba8636c2"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-53a70ea94c",
+      "term": "Simetri",
+      "entry_ids": [
+        "kbbi3-354d47f3f8a915f7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-0ffe696f87",
+      "term": "Simetris",
+      "entry_ids": [
+        "kbbi3-22f0c8afa92677aa"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-5b044d75e7",
+      "term": "Sinambung",
+      "entry_ids": [
+        "kbbi3-0087df486f95fee5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-029b974180",
+      "term": "Sirap",
+      "entry_ids": [
+        "kbbi3-7cff7d2d4cb6185a",
+        "kbbi3-c7785a44b049c3d8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-e5d7198270",
+      "term": "Sirkulasi",
+      "entry_ids": [
+        "kbbi3-5d77a9bb0fd94694"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-f8ca3f06ac",
+      "term": "Sirlak",
+      "entry_ids": [
+        "kbbi3-e04768717b9f8691"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-01bef46aab",
+      "term": "Sistem",
+      "entry_ids": [
+        "kbbi3-ed5d6e7a6982ecab"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-ea86382f5e",
+      "term": "Situasi",
+      "entry_ids": [
+        "kbbi3-0bcca56d4748002f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-e60bd32dd6",
+      "term": "Skala",
+      "entry_ids": [
+        "kbbi3-5f4fd978f7c51314"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-f7e2541151",
+      "term": "Skema",
+      "entry_ids": [
+        "kbbi3-754178c36f660eff"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-dcd312e030",
+      "term": "Sketsa",
+      "entry_ids": [
+        "kbbi3-adc8316b182bfcc6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-471bb43906",
+      "term": "Solar",
+      "entry_ids": [
+        "kbbi3-f11d3b15fc3d75e4",
+        "kbbi3-3e3e4916f7a08b91"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-96baf1a597",
+      "term": "Spesifikasi",
+      "entry_ids": [
+        "kbbi3-e0439d408911ac46"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-045640b8eb",
+      "term": "Stabil",
+      "entry_ids": [
+        "kbbi3-d844c0c9fb6dc98c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-6b9b8335ea",
+      "term": "Stabilitas",
+      "entry_ids": [
+        "kbbi3-65c0c972c042476b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-9c0745b3e8",
+      "term": "Stadion",
+      "entry_ids": [
+        "kbbi3-0b3c4f27cf9cf0ec"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-2a9c4126d2",
+      "term": "Staf",
+      "entry_ids": [
+        "kbbi3-c7e6a76701ce2981"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-cbbada7e79",
+      "term": "Standar",
+      "entry_ids": [
+        "kbbi3-248354907a333a76",
+        "kbbi3-1f62295e75078fc7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-b0722def0c",
+      "term": "Stasiun",
+      "entry_ids": [
+        "kbbi3-af67de5cecd1e07f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-18139233ab",
+      "term": "Stratifikasi",
+      "entry_ids": [
+        "kbbi3-03052eb5d9b5b683"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-b7c37311d1",
+      "term": "Strip",
+      "entry_ids": [
+        "kbbi3-8a42ba99682ff892",
+        "kbbi3-52900115eb03d085"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-55fc410b5c",
+      "term": "Struktur",
+      "entry_ids": [
+        "kbbi3-cd71f9621cc83ac4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-c9e5c531e2",
+      "term": "Suasana",
+      "entry_ids": [
+        "kbbi3-2fab7b43e3b55915"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-35599213a6",
+      "term": "Subkontraktor",
+      "entry_ids": [
+        "kbbi3-239b502f5eddbec8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-1ea94f9012",
+      "term": "Substitusi",
+      "entry_ids": [
+        "kbbi3-925ffadf228001aa"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-750557db53",
+      "term": "Sumbu",
+      "entry_ids": [
+        "kbbi3-7b8317e6bb116faf",
+        "kbbi3-3763357e2e907011",
+        "kbbi3-d8bad2ea5f49d315"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-13445e467a",
+      "term": "Sumur",
+      "entry_ids": [
+        "kbbi3-5dfcb600b49d9865"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-131d4175ff",
+      "term": "Superblok",
+      "entry_ids": [
+        "kbbi3-a634b62b6301b7f3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-e37f1ca399",
+      "term": "Superstruktur",
+      "entry_ids": [
+        "kbbi3-2d192896c017e755"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-66387e7403",
+      "term": "Supervisi",
+      "entry_ids": [
+        "kbbi3-4d4177d4c78ad5c5"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "s-065711470e",
+      "term": "Surya",
+      "entry_ids": [
+        "kbbi3-ad8413a1a4ee7981"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-94f13511d6",
+      "term": "Tabung",
+      "entry_ids": [
+        "kbbi3-c9a5ca403cd311de"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-f2075bec1d",
+      "term": "Tahan Air",
+      "entry_ids": [
+        "kbbi3-5651e83b215106d6"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-72b7551733",
+      "term": "Tahan Api",
+      "entry_ids": [
+        "kbbi3-5651e83b215106d6"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-a74b341f28",
+      "term": "Talang",
+      "entry_ids": [
+        "kbbi3-59d9fd1299f10202",
+        "kbbi3-6b2a0c4ed09a96f5",
+        "kbbi3-bd0bb25c44fb36a6",
+        "kbbi3-c6b464c4e3013db1",
+        "kbbi3-3ef4f68fd8658ac8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-ab970b0ca6",
+      "term": "Tali",
+      "entry_ids": [
+        "kbbi3-1a164c7ac1bfa461",
+        "kbbi3-5117ce6b33a3c0c8",
+        "kbbi3-3948ee88686e640e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-0bdbc22aba",
+      "term": "Tampak",
+      "entry_ids": [
+        "kbbi3-b519de3eab7cc24b",
+        "kbbi3-769c0cc5aa4e4432"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-df7157d94a",
+      "term": "Tanah",
+      "entry_ids": [
+        "kbbi3-9afc1510aa618034",
+        "kbbi3-5b9261352e92d08e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-b1229c7311",
+      "term": "Tanah Kosong",
+      "entry_ids": [
+        "kbbi3-9afc1510aa618034"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-56c8f514f6",
+      "term": "Tanah Liat",
+      "entry_ids": [
+        "kbbi3-9afc1510aa618034"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-3918bda200",
+      "term": "Tanah Matang",
+      "entry_ids": [
+        "kbbi3-9afc1510aa618034"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-a6cb4ffc75",
+      "term": "Tandon",
+      "entry_ids": [
+        "kbbi3-0e1b3c26cd3e1c64",
+        "kbbi3-3856bd6c487f6686"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-ebc7bf3d22",
+      "term": "Tangga",
+      "entry_ids": [
+        "kbbi3-df59836ec3074f1d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-f679909d89",
+      "term": "Tangga Lipat",
+      "entry_ids": [
+        "kbbi3-df59836ec3074f1d"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-1eb9cc2244",
+      "term": "Tangki",
+      "entry_ids": [
+        "kbbi3-7f59abcb211be404"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-53aab9a2f5",
+      "term": "Tapak",
+      "entry_ids": [
+        "kbbi3-436e937813088036"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-a54d090fb2",
+      "term": "Tapal Kuda",
+      "entry_ids": [
+        "kbbi3-c615b540ff4e7454"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-58a33965ce",
+      "term": "Teknik",
+      "entry_ids": [
+        "kbbi3-85a243bfae8b1025"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-a02cf2e049",
+      "term": "Teknologi",
+      "entry_ids": [
+        "kbbi3-b40d894c251bbf79"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-d128bdd87e",
+      "term": "Tekstur",
+      "entry_ids": [
+        "kbbi3-215b7b5aa90cc5e4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-d7f7ab0534",
+      "term": "Tektonik",
+      "entry_ids": [
+        "kbbi3-44d218ac294d4f99"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-e735547c46",
+      "term": "Televisi",
+      "entry_ids": [
+        "kbbi3-b3d4bca1e699e8a4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-f4cfef2010",
+      "term": "Telpon",
+      "entry_ids": [
+        "kbbi3-019261f9306f90d3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-2790487eae",
+      "term": "Tema",
+      "entry_ids": [
+        "kbbi3-188bcd4f7095d5da"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-70c97f0a0d",
+      "term": "Temperatur",
+      "entry_ids": [
+        "kbbi3-d02c69f20fd30f33"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-37bdacace1",
+      "term": "Tenda",
+      "entry_ids": [
+        "kbbi3-0ab1ba9b60400358"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-dd945be4c8",
+      "term": "Teras",
+      "entry_ids": [
+        "kbbi3-86e781e2c7e7217b",
+        "kbbi3-d2ca6811acd4fb7b",
+        "kbbi3-cf6472fc8176ef0d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-da9fac1e98",
+      "term": "Ter",
+      "entry_ids": [
+        "kbbi3-62db04562afb5be5",
+        "kbbi3-c487beaddbff02e5",
+        "kbbi3-580f7b0eed2e611c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-afdaab6210",
+      "term": "Termal",
+      "entry_ids": [
+        "kbbi3-ff9109e62e2b8aa7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-d5b8876101",
+      "term": "Terminasi",
+      "entry_ids": [
+        "kbbi3-be662ae77582a576"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-9febf99b17",
+      "term": "Terowongan",
+      "entry_ids": [
+        "kbbi3-c5bbcb09a2466b5a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-a9878f3e47",
+      "term": "Terpal",
+      "entry_ids": [
+        "kbbi3-4f9e408a8785c80e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-e4a719ea83",
+      "term": "Terpentin",
+      "entry_ids": [
+        "kbbi3-65dc61cda0025493"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-02e83cfd9e",
+      "term": "Tingkap",
+      "entry_ids": [
+        "kbbi3-d7d1f32da5ae1d6c"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-8ef422b3d1",
+      "term": "Tipe",
+      "entry_ids": [
+        "kbbi3-017bb2455fea1da9"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-2424cc1e84",
+      "term": "Titik",
+      "entry_ids": [
+        "kbbi3-1fccfe10bf865239",
+        "kbbi3-9faf4e3b0e002d83"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-3c5090f22d",
+      "term": "Titik Impas",
+      "entry_ids": [
+        "kbbi3-1fccfe10bf865239"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "t-dfb982b140",
+      "term": "Toko",
+      "entry_ids": [
+        "kbbi3-baea1e48f5d38a57"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-414a4cd6a2",
+      "term": "Toleransi",
+      "entry_ids": [
+        "kbbi3-ff34611f4be724e7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-ffe7c068f6",
+      "term": "Tong",
+      "entry_ids": [
+        "kbbi3-5a01742af8cc46f3",
+        "kbbi3-0eb657f7b6b71738",
+        "kbbi3-8d4a3e519c044b8b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-cdb6a4d77d",
+      "term": "Traktor",
+      "entry_ids": [
+        "kbbi3-88c1030e913ef469"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-07fcb9021e",
+      "term": "Transformasi",
+      "entry_ids": [
+        "kbbi3-a74bc0b0160d690d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-b84ecbc841",
+      "term": "Transisi",
+      "entry_ids": [
+        "kbbi3-e171d82cefc0f55d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-5d27a18a44",
+      "term": "Transparan",
+      "entry_ids": [
+        "kbbi3-ce832d0da63b923a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-3d3dbc55dd",
+      "term": "Transportasi",
+      "entry_ids": [
+        "kbbi3-5ba55344ec0f039e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-843cabe5ce",
+      "term": "Tropis",
+      "entry_ids": [
+        "kbbi3-c71b5715d6411754"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-ba63884c9b",
+      "term": "Trotoar",
+      "entry_ids": [
+        "kbbi3-c967efb144baffd4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-766c062817",
+      "term": "Truk",
+      "entry_ids": [
+        "kbbi3-61fe2f970a4f1675"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-26f96ddde3",
+      "term": "Tukang",
+      "entry_ids": [
+        "kbbi3-3c18a2c2040f029a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "t-d1c7bfb110",
+      "term": "Turap",
+      "entry_ids": [
+        "kbbi3-07f1b70643cb9b6e"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-6a5e7f8ad3",
+      "term": "Uap",
+      "entry_ids": [
+        "kbbi3-f633c9ea95205ce6",
+        "kbbi3-b95312eea0ff31f2"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-efa120ea34",
+      "term": "Ubah",
+      "entry_ids": [
+        "kbbi3-0cd0a3fe54b8021b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-23ef613990",
+      "term": "Ubin",
+      "entry_ids": [
+        "kbbi3-732b7127e86e36a8"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-90356c6be2",
+      "term": "Udara",
+      "entry_ids": [
+        "kbbi3-378a37e116421db7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-b0f11c4535",
+      "term": "Ujud",
+      "entry_ids": [
+        "kbbi3-99aff500caa6413e",
+        "kbbi3-1319e9f6d595e32b"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-0122a18c30",
+      "term": "Ukiran",
+      "entry_ids": [
+        "kbbi3-6ccc3affe58d09c1"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "u-974a4120d0",
+      "term": "Ukuran",
+      "entry_ids": [
+        "kbbi3-9f98451a5de21dfa"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "u-3ce774bcb8",
+      "term": "Ulang-alik",
+      "entry_ids": [
+        "kbbi3-9e427f825dd157b3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-b90e7162de",
+      "term": "Ulir",
+      "entry_ids": [
+        "kbbi3-d68e4be2a4a6e232"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-dfa6e18a0d",
+      "term": "Undakan",
+      "entry_ids": [
+        "kbbi3-90b308c6122d4df7"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "u-1918a5581c",
+      "term": "Undangan",
+      "entry_ids": [
+        "kbbi3-40a869d8ac44f611",
+        "kbbi3-ca2321f7b6d54a03"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "u-5144ba617e",
+      "term": "Undang-undang",
+      "entry_ids": [
+        "kbbi3-ca2321f7b6d54a03"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "u-5d020ba837",
+      "term": "Ungkit",
+      "entry_ids": [
+        "kbbi3-2c9cb6dd730ecbc4"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-6e1e0a124c",
+      "term": "Universitas",
+      "entry_ids": [
+        "kbbi3-710eca6eae7945b7"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-7ed0c30270",
+      "term": "Unjuk Kerja",
+      "entry_ids": [
+        "kbbi3-53b55d7a043b3c83"
+      ],
+      "match": "subentry"
+    },
+    {
+      "id": "u-8cbdeaa15d",
+      "term": "Untung",
+      "entry_ids": [
+        "kbbi3-02a0b02a8757f9a6"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-256d72e93f",
+      "term": "Upah",
+      "entry_ids": [
+        "kbbi3-c1f035a9136463a3"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "u-a3f7fa05fe",
+      "term": "Usuk",
+      "entry_ids": [
+        "kbbi3-4a16c4bc5dbe7c47"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "v-978c2244f5",
+      "term": "Varian",
+      "entry_ids": [
+        "kbbi3-31dbc01f31c5f31a"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "v-2154856fce",
+      "term": "Vektor",
+      "entry_ids": [
+        "kbbi3-0170673415a3abec",
+        "kbbi3-54c01b0731f49d59"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "v-7146b894e7",
+      "term": "Vertikal",
+      "entry_ids": [
+        "kbbi3-6505aa23af5267db"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "v-a5c2da242e",
+      "term": "Vibrasi",
+      "entry_ids": [
+        "kbbi3-d034572b8c96bb66"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "w-2e27ff0187",
+      "term": "Wakil",
+      "entry_ids": [
+        "kbbi3-3ddbb8a706ed500d"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "w-ee75e99bfa",
+      "term": "Warung",
+      "entry_ids": [
+        "kbbi3-3aded87b0c70768f"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "y-41c115aa53",
+      "term": "Yunior",
+      "entry_ids": [
+        "kbbi3-f67b322c7d9e0e59"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "z-ed0f9de23e",
+      "term": "Zaman",
+      "entry_ids": [
+        "kbbi3-9fc0d4969f338c01"
+      ],
+      "match": "headword"
+    },
+    {
+      "id": "z-514d432545",
+      "term": "Zona",
+      "entry_ids": [
+        "kbbi3-dbba7fec4c7f0bf8"
+      ],
+      "match": "headword"
+    }
+  ]
+}

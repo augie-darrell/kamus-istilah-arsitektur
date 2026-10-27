@@ -1,0 +1,60 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),entries=require(path.join(root,'data/dictionary.json')).entries,associations=require(path.join(root,'data/associations.json'));
+const Content=require(path.join(root,'assets/js/entry-content.js')),Graph=require(path.join(root,'assets/js/graph.js')),Global=require(path.join(root,'assets/js/global-graph.js')),References=require(path.join(root,'assets/js/references.js'));
+const entry=term=>entries.find(e=>e.term===term),index=Graph.createIndex(entries,associations);
+assert.equal(Content.description(entry('Aannemer')),'Orang atau perusahaan yang diserahi tugas untuk melaksanakan pekerjaan konstruksi.');
+assert.equal(Content.description(entry('Aandeel')),'');
+assert.equal(Content.description(entry('Adaptation')),'');
+assert.equal(Content.description(entry('Acre')),entry('Acre').definition);
+assert.equal(Content.description(entry('Act of God')),'Istilah dalam kontrak, berarti kejadian di luar kuasa orang untuk mengendalikan');
+assert.equal(Content.description({definition:'Indonesian (Ing.) – walls with a north–south axis',translations:[{}]}),'Walls with a north–south axis');
+const List=require(path.join(root,'assets/js/list-layout.js')),matches=[{entry:entry('Aannemer'),match:'exact'}],outside=entry('Contractor');
+const visible=List.withSelection(matches,outside);assert.equal(matches.length,1);assert.equal(visible[0].entry.id,outside.id);assert.equal(visible[1],matches[0]);assert.equal(List.withSelection(visible,outside).length,2);assert.equal(List.withSelection(matches,null),matches);assert(List.create(visible).results.some(r=>r.entry.id===outside.id));
+assert.equal(Content.description(entry('Sak')),'Istilah Sak berasal dari Zak.');
+const source=JSON.stringify(entries);
+for(const facet of ['theme','language','type']){
+  const whole=Global.build(index,facet),group=whole.nodes.find(n=>n.kind==='group'&&n.count>20),view=Global.build(index,facet,'Kamus',[group]);
+  assert.equal(view.entryCount,group.count);assert.equal(view.path.length,1);assert.equal(view.path[0].label,group.term);
+  const ids=new Set(view.nodes.filter(n=>n.kind==='entry').map(n=>n.id));assert(view.semantic.every(e=>ids.has(e.source)&&ids.has(e.target)));
+  let model=view;while(model.groupCount){const next=model.nodes.find(n=>n.kind==='group');model=Global.build(index,facet,'Kamus',[...model.path,next]);assert(model.path.length<=4);}
+  assert(model.nodes.some(n=>n.kind==='entry'));assert(model.hierarchy.every(e=>model.nodes.some(n=>n.id===e.source)&&model.nodes.some(n=>n.id===e.target)));
+  assert.equal(Global.build(index,facet,'Kamus',[{facet,key:'does-not-exist'}]).entryCount,entries.length);
+}
+assert.equal(JSON.stringify(entries),source,'Views preserve archived source records');
+const all=Global.build(index),material=all.nodes.find(n=>n.kind==='group'&&n.key==='materials');
+assert(material&&all.facet==='category','The theme view starts with broad parents');
+const materialView=Global.build(index,'theme','Kamus',[material]);
+for(const key of ['concrete','steel','timber','masonry','glass'])assert(materialView.nodes.some(n=>n.kind==='group'&&n.key===key),'Material is missing '+key);
+const elements=Global.build(index,'theme','Kamus',[{facet:'category',key:'elements'}]);
+for(const key of ['doors','furniture','ceilings'])assert(elements.nodes.some(n=>n.kind==='group'&&n.key===key));
+const equipment=Global.build(index,'theme','Kamus',[{facet:'category',key:'equipment'}]);
+for(const key of ['tools','machines'])assert(equipment.nodes.some(n=>n.kind==='group'&&n.key===key),'The TE-inspired parent must expose '+key);
+assert(associations.categories.find(c=>c.id==='equipment').inspired_by.includes('TE'));
+const acoustic=entry('Acoustic')||entries.find(e=>associations.byEntry[e.id].themes.includes('acoustics'));
+assert(associations.byEntry[acoustic.id].categories.includes('properties'));
+assert(!associations.byEntry[acoustic.id].categories.includes('materials'));
+const overlap=entries.find(e=>associations.byEntry[e.id].themes.includes('doors')&&associations.byEntry[e.id].themes.includes('steel'));
+assert(overlap,'Use a real cross-tagged door entry');
+assert(materialView.nodes.some(n=>n.id===overlap.id));assert(elements.nodes.some(n=>n.id===overlap.id),'Cross-tagged terms are reachable from either parent');
+assert.equal(new Set(all.nodes.map(n=>n.id)).size,all.nodes.length,'Multiple tags must never duplicate an entry node');
+assert.equal(associations.metadata.taxonomy_sources.official_mapping,false);
+for(const [term,theme] of [['Kasir','people'],['Teller','people'],['Kassier','people'],['Jail','facilities'],['Penjara','facilities'],['Prison','facilities'],['Spade','tools'],['Sekop','tools'],['Saham','finance'],['Aandeel','finance'],['Beban Hidup','mechanics'],['Actual','qualities'],['Genteng Palentong','roofs'],['Garbage','drainage'],['Archive','drawing'],['Dome','roofs'],['Average','measurement'],['Wet Bulb Temperature','thermal'],['BOT','contracts']]){
+  const e=entry(term);assert(e,'Missing source example '+term);assert(associations.byEntry[e.id].themes.includes(theme),term+' should belong to '+theme);
+}
+for(const [term,wrong] of [['Archive','tools'],['Garbage','stairs'],['Dome','contracts'],['Average','geometry'],['Wet Bulb Temperature','lighting'],['BOT','foundations']])assert(!associations.byEntry[entry(term).id].themes.includes(wrong),term+' must not inherit an unrelated sense');
+assert(associations.metadata.grouping.remaining_general<associations.metadata.grouping.previous_general);
+assert(associations.metadata.grouping.remaining_general>0,'General remains available for words without a clear fit');
+const isolated=entries.find(e=>!index.adj.get(e.id).size&&associations.byEntry[e.id].primary==='general');
+assert(isolated);assert.equal(Graph.membership(index,isolated.id).key,'general');assert.equal(Graph.membership(index,isolated.id).label,'Umum');
+const classifiedIsolated=entries.find(e=>!index.adj.get(e.id).size&&associations.byEntry[e.id].primary!=='general');
+assert(classifiedIsolated);assert.notEqual(Graph.membership(index,classifiedIsolated.id).key,'general','Isolated tagged words keep their actual group');
+assert(Global.build(index,'theme','Kamus',[Graph.membership(index,isolated.id)]).nodes.some(n=>n.id===isolated.id),'An isolated entry must be reachable through its Umum parent');
+const links=[['contractor','en'],['Contractor','en'],['aannemer','en'],['contractor','id']].map(([title,language])=>({title,language,url:`https://${language}.wiktionary.org/wiki/${title}`}));
+assert.deepEqual(References.uniqueLinks(links).map(x=>[x.title,x.language]),[['contractor','en'],['aannemer','en'],['contractor','id']]);
+assert(References.imageScore(entry('Gallon'),'Gallon horse','A racehorse','',true)<0);
+assert(References.imageScore(entry('Accessories'),'MoYu accessories box','A puzzle accessory')<0);
+assert(References.imageScore(entry('Aannemer'),'Aannemer fa Kingma, Bestanddeelnr 167','Construction contractor at a building site, Nationaal Archief','',true)>=0);
+assert(References.imageScore(entry('Aannemer'),'Aannemer portrait','Universitaire bibliotheek','',true)<0);
+assert(References.imageScore(entry('Aglomerasi'),'Aglomerasi perkotaan','Urban settlement')>=0);
+assert(References.imageScore(entry('Aannemer'),'Aannemer op bouwplaats','Construction contractor at a building site','Construction workers')>=0);
+console.log('Passed: description extraction, source preservation, all three folder paths to terms, scoped graph edges, invalid paths, case deduplication, weak-image rejection.');

@@ -1,0 +1,1699 @@
+{
+  "entries": 6603,
+  "source_records": 6612,
+  "exact_repetitions_merged": [
+    {
+      "retained_id": "a-5d66c9e730",
+      "removed_id": "a-84c295b951",
+      "term": "Aandeel",
+      "source_index": 4
+    },
+    {
+      "retained_id": "a-05d0556f8c",
+      "removed_id": "a-fa0a267aa2",
+      "term": "Aannemer",
+      "source_index": 5
+    },
+    {
+      "retained_id": "a-80cd63c822",
+      "removed_id": "a-19a884813d",
+      "term": "Aanstamping",
+      "source_index": 6
+    },
+    {
+      "retained_id": "c-47c9ac53d6",
+      "removed_id": "c-aa4013bcc8",
+      "term": "Circular Stair",
+      "source_index": 178
+    },
+    {
+      "retained_id": "c-3b32b022e9",
+      "removed_id": "c-5bac9577e5",
+      "term": "City Hall",
+      "source_index": 187
+    },
+    {
+      "retained_id": "e-aed551ad37",
+      "removed_id": "e-94a6b365bf",
+      "term": "Eccentric Load",
+      "source_index": 13
+    },
+    {
+      "retained_id": "n-80f90c430d",
+      "removed_id": "n-b7f8abdea4",
+      "term": "Net",
+      "source_index": 41
+    },
+    {
+      "retained_id": "s-abe45ae6c4",
+      "removed_id": "s-cb201d6704",
+      "term": "Specie",
+      "source_index": 430
+    },
+    {
+      "retained_id": "s-0276c1e022",
+      "removed_id": "s-69ed53d488",
+      "term": "Staging",
+      "source_index": 499
+    }
+  ],
+  "unique_headword_keys": 6506,
+  "coverage": [
+    {
+      "letter": "A",
+      "entries": 305,
+      "source_url": "https://kamusarsitektur.blogspot.com/2010/10/blog-post.html",
+      "body_characters": 25448,
+      "segmented_characters": 25448,
+      "source_records": 308
+    },
+    {
+      "letter": "B",
+      "entries": 422,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/b.html",
+      "body_characters": 36217,
+      "segmented_characters": 36217,
+      "source_records": 422
+    },
+    {
+      "letter": "C",
+      "entries": 492,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/c.html",
+      "body_characters": 40634,
+      "segmented_characters": 40634,
+      "source_records": 494
+    },
+    {
+      "letter": "D",
+      "entries": 321,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/d.html",
+      "body_characters": 25368,
+      "segmented_characters": 25368,
+      "source_records": 321
+    },
+    {
+      "letter": "E",
+      "entries": 183,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/e.html",
+      "body_characters": 15380,
+      "segmented_characters": 15380,
+      "source_records": 184
+    },
+    {
+      "letter": "F",
+      "entries": 289,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/f.html",
+      "body_characters": 24522,
+      "segmented_characters": 24522,
+      "source_records": 289
+    },
+    {
+      "letter": "G",
+      "entries": 216,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/g.html",
+      "body_characters": 20564,
+      "segmented_characters": 20564,
+      "source_records": 216
+    },
+    {
+      "letter": "H",
+      "entries": 216,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/h.html",
+      "body_characters": 18850,
+      "segmented_characters": 18850,
+      "source_records": 216
+    },
+    {
+      "letter": "I",
+      "entries": 238,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/i.html",
+      "body_characters": 19942,
+      "segmented_characters": 19942,
+      "source_records": 238
+    },
+    {
+      "letter": "J",
+      "entries": 78,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/05/j.html",
+      "body_characters": 6755,
+      "segmented_characters": 6755,
+      "source_records": 78
+    },
+    {
+      "letter": "K",
+      "entries": 287,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/k.html",
+      "body_characters": 23126,
+      "segmented_characters": 23126,
+      "source_records": 287
+    },
+    {
+      "letter": "L",
+      "entries": 273,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/l.html",
+      "body_characters": 21583,
+      "segmented_characters": 21583,
+      "source_records": 273
+    },
+    {
+      "letter": "M",
+      "entries": 319,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/m.html",
+      "body_characters": 26571,
+      "segmented_characters": 26571,
+      "source_records": 319
+    },
+    {
+      "letter": "N",
+      "entries": 119,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/n.html",
+      "body_characters": 10560,
+      "segmented_characters": 10560,
+      "source_records": 120
+    },
+    {
+      "letter": "O",
+      "entries": 173,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/o.html",
+      "body_characters": 12716,
+      "segmented_characters": 12716,
+      "source_records": 173
+    },
+    {
+      "letter": "P",
+      "entries": 677,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/p.html",
+      "body_characters": 47821,
+      "segmented_characters": 47821,
+      "source_records": 677
+    },
+    {
+      "letter": "Q",
+      "entries": 36,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/q.html",
+      "body_characters": 2587,
+      "segmented_characters": 2587,
+      "source_records": 36
+    },
+    {
+      "letter": "R",
+      "entries": 366,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/r.html",
+      "body_characters": 26111,
+      "segmented_characters": 26111,
+      "source_records": 366
+    },
+    {
+      "letter": "S",
+      "entries": 739,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/s.html",
+      "body_characters": 48328,
+      "segmented_characters": 48328,
+      "source_records": 741
+    },
+    {
+      "letter": "T",
+      "entries": 388,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/t.html",
+      "body_characters": 24752,
+      "segmented_characters": 24752,
+      "source_records": 388
+    },
+    {
+      "letter": "U",
+      "entries": 119,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/u.html",
+      "body_characters": 7051,
+      "segmented_characters": 7051,
+      "source_records": 119
+    },
+    {
+      "letter": "V",
+      "entries": 116,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/v.html",
+      "body_characters": 7390,
+      "segmented_characters": 7390,
+      "source_records": 116
+    },
+    {
+      "letter": "W",
+      "entries": 187,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/w.html",
+      "body_characters": 11566,
+      "segmented_characters": 11566,
+      "source_records": 187
+    },
+    {
+      "letter": "X",
+      "entries": 4,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/x.html",
+      "body_characters": 208,
+      "segmented_characters": 208,
+      "source_records": 4
+    },
+    {
+      "letter": "Y",
+      "entries": 11,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/y.html",
+      "body_characters": 501,
+      "segmented_characters": 501,
+      "source_records": 11
+    },
+    {
+      "letter": "Z",
+      "entries": 29,
+      "source_url": "https://kamusarsitektur.blogspot.com/2014/06/z.html",
+      "body_characters": 1769,
+      "segmented_characters": 1769,
+      "source_records": 29
+    }
+  ],
+  "language_counts": {
+    "Belanda": 464,
+    "Prancis": 8,
+    "Inggris": 4875,
+    "Sunda": 7,
+    "Indonesia": 1383,
+    "Latin": 3,
+    "Jawa": 3,
+    "Ingd": 1,
+    "Jerman": 1,
+    "Innd": 1,
+    "Arab": 3,
+    "Jepang": 3,
+    "Italia": 1,
+    "In": 1
+  },
+  "word_type_counts": {
+    "kb": 5817,
+    "aj": 679,
+    "kk": 89,
+    "kkv": 1,
+    "null": 11,
+    "ks": 5,
+    "kkt": 1
+  },
+  "flagged_entries": [
+    {
+      "id": "b-6a78c88dd4",
+      "term": "Besi Pelat",
+      "flags": [
+        "malformed_html_in_source"
+      ]
+    },
+    {
+      "id": "c-b1119a3963",
+      "term": "CAD",
+      "flags": [
+        "malformed_header_parenthesis"
+      ]
+    },
+    {
+      "id": "c-75f9a7c599",
+      "term": "Composite Panel",
+      "flags": [
+        "unrecognized_language_label"
+      ]
+    },
+    {
+      "id": "c-4cea9e1bf6",
+      "term": "vConstruction Plan",
+      "flags": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ]
+    },
+    {
+      "id": "c-6bf847c847",
+      "term": "Contract",
+      "flags": [
+        "language_typography_normalized"
+      ]
+    },
+    {
+      "id": "c-c706b21531",
+      "term": "Contrast",
+      "flags": [
+        "language_typography_normalized"
+      ]
+    },
+    {
+      "id": "c-7723758f8a",
+      "term": "Cor",
+      "flags": [
+        "unrecognized_word_type_kkv"
+      ]
+    },
+    {
+      "id": "c-b2c5123c59",
+      "term": "Cul de Sac",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "d-3d55acbd27",
+      "term": "Dinding Pendukung",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "d-dcd8d877b7",
+      "term": "Dokter Jiwa",
+      "flags": [
+        "unrecognized_language_label"
+      ]
+    },
+    {
+      "id": "f-c069ed2273",
+      "term": "Fenestration",
+      "flags": [
+        "malformed_header_parenthesis"
+      ]
+    },
+    {
+      "id": "f-0b16e3fb84",
+      "term": "Fluida",
+      "flags": [
+        "empty_definition"
+      ]
+    },
+    {
+      "id": "f-49cb37ab99",
+      "term": "Frekuensi",
+      "flags": [
+        "empty_definition"
+      ]
+    },
+    {
+      "id": "g-0f1db6a195",
+      "term": "Drawing",
+      "flags": [
+        "headword_outside_source_alphabet"
+      ]
+    },
+    {
+      "id": "g-bd2c2265f2",
+      "term": "Entri tanpa judul",
+      "flags": [
+        "source_missing_headword"
+      ]
+    },
+    {
+      "id": "k-aa73db4f2a",
+      "term": "Kawat Beton",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "l-aa7ca48d01",
+      "term": "Lake-side",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "o-5843e30fe7",
+      "term": "Objective",
+      "flags": [
+        "language_typography_normalized"
+      ]
+    },
+    {
+      "id": "o-1caf8db0a1",
+      "term": "Opbouw",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "p-5b2c3b3889",
+      "term": "PC",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "p-22c6c6815f",
+      "term": "Pengawas Lapangan",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "p-41a3dbeebf",
+      "term": "Per-diem Allowance",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "p-9371521a3f",
+      "term": "Photoelectric Cell",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "r-c755524432",
+      "term": "RTBL",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    },
+    {
+      "id": "s-f56c5be542",
+      "term": "Sel Surya",
+      "flags": [
+        "unrecognized_language_label"
+      ]
+    },
+    {
+      "id": "t-3189b4eb42",
+      "term": "raveling Form",
+      "flags": [
+        "headword_outside_source_alphabet",
+        "suspected_source_headword_typo"
+      ]
+    },
+    {
+      "id": "z-3c0097356a",
+      "term": "Zenith",
+      "flags": [
+        "missing_or_unrecognized_word_type"
+      ]
+    }
+  ],
+  "unresolved_references": [
+    {
+      "id": "a-e88ba56c61",
+      "term": "Additional Work",
+      "reference": "Change Order"
+    },
+    {
+      "id": "a-248eaab81d",
+      "term": "Aerial View",
+      "reference": "Pandangan Mata Burung"
+    },
+    {
+      "id": "a-0b28f3899c",
+      "term": "Akustik",
+      "reference": "Acoustical"
+    },
+    {
+      "id": "a-b066a241fc",
+      "term": "Alinemen",
+      "reference": "Alignment"
+    },
+    {
+      "id": "a-4457eadf9b",
+      "term": "Alinement",
+      "reference": "Alignment"
+    },
+    {
+      "id": "a-e829e96479",
+      "term": "Amdal",
+      "reference": "PP no. 27 Tahun 1999"
+    },
+    {
+      "id": "a-1631b4b2dd",
+      "term": "Andal",
+      "reference": "PP no. 27 Tahun 1999"
+    },
+    {
+      "id": "a-1631b4b2dd",
+      "term": "Andal",
+      "reference": "juga lih. Handal"
+    },
+    {
+      "id": "a-6a65507398",
+      "term": "Arsip",
+      "reference": "istilah Arsip berasal dari Archief"
+    },
+    {
+      "id": "a-322bdbb870",
+      "term": "Arsitektur",
+      "reference": "Architectuur"
+    },
+    {
+      "id": "b-3e9d10f434",
+      "term": "Basin",
+      "reference": "= River Basin"
+    },
+    {
+      "id": "b-3e9d10f434",
+      "term": "Basin",
+      "reference": "istilah Baskom berasal dari Waskom (Bld.)"
+    },
+    {
+      "id": "b-00cc38ba1f",
+      "term": "Behavior",
+      "reference": "EB Studies"
+    },
+    {
+      "id": "b-bebad8fe8a",
+      "term": "Benchmark",
+      "reference": "Nol"
+    },
+    {
+      "id": "b-d607e59352",
+      "term": "Blok",
+      "reference": "juga berarti suatu elemen untuk menahan elemen lain"
+    },
+    {
+      "id": "b-7e82424875",
+      "term": "Blow-off",
+      "reference": "Relieve Valve"
+    },
+    {
+      "id": "b-79a8d22342",
+      "term": "Bow",
+      "reference": "Busur"
+    },
+    {
+      "id": "c-6673ed474e",
+      "term": "Campuran",
+      "reference": "juga Mix Ratio"
+    },
+    {
+      "id": "c-85996abe82",
+      "term": "Cemetery",
+      "reference": "Gound"
+    },
+    {
+      "id": "c-12702cf49d",
+      "term": "Chairperson",
+      "reference": "istilah ini dipergunakan untuk menghindari bias gender"
+    },
+    {
+      "id": "c-1530d7058b",
+      "term": "Conditition",
+      "reference": "Conditions"
+    },
+    {
+      "id": "c-c850eaf9dc",
+      "term": "Corrugated",
+      "reference": "Seng Gelombang"
+    },
+    {
+      "id": "c-19c4654fef",
+      "term": "Cost",
+      "reference": "Low-cost"
+    },
+    {
+      "id": "c-83385061c4",
+      "term": "Crossing",
+      "reference": "Zebra Cross"
+    },
+    {
+      "id": "c-b0760d39cd",
+      "term": "Crushed Stone",
+      "reference": "Broken Stone"
+    },
+    {
+      "id": "c-0c7dc415a8",
+      "term": "Cubic",
+      "reference": "kubik merupakan satuan ukuran isi"
+    },
+    {
+      "id": "c-0c7dc415a8",
+      "term": "Cubic",
+      "reference": "berdimensi 3"
+    },
+    {
+      "id": "d-6122b27e20",
+      "term": "Debarkation",
+      "reference": "Embarkation"
+    },
+    {
+      "id": "d-8536801389",
+      "term": "DED",
+      "reference": "at Detailded Drawing"
+    },
+    {
+      "id": "d-1c6fd6128c",
+      "term": "Dekor",
+      "reference": "Decor"
+    },
+    {
+      "id": "d-2a06616fa2",
+      "term": "Development Cost",
+      "reference": "Brownfiels"
+    },
+    {
+      "id": "d-2a06616fa2",
+      "term": "Development Cost",
+      "reference": "Bouwklaar"
+    },
+    {
+      "id": "d-d23bb1c094",
+      "term": "Distrik Peningkatan Bisnis",
+      "reference": "BDD"
+    },
+    {
+      "id": "d-ae5385ba1e",
+      "term": "Divider",
+      "reference": "Partition"
+    },
+    {
+      "id": "d-e660f5da00",
+      "term": "Duplex",
+      "reference": "Simplex"
+    },
+    {
+      "id": "e-b7af27f803",
+      "term": "Early Finish",
+      "reference": "Late Finish"
+    },
+    {
+      "id": "e-db3472b1db",
+      "term": "Engineering, Procurement and Construction",
+      "reference": "and Build"
+    },
+    {
+      "id": "e-129ce2c2ad",
+      "term": "Entrée",
+      "reference": "Entance"
+    },
+    {
+      "id": "e-23e2421b7b",
+      "term": "EPA",
+      "reference": "Agency"
+    },
+    {
+      "id": "f-a8ee2fab5e",
+      "term": "Fan Shaped",
+      "reference": "Radial"
+    },
+    {
+      "id": "f-00efa98ff9",
+      "term": "Foot",
+      "reference": "Badan"
+    },
+    {
+      "id": "f-00efa98ff9",
+      "term": "Foot",
+      "reference": "Kepala"
+    },
+    {
+      "id": "g-eef3055d9c",
+      "term": "Ganti Rugi",
+      "reference": "Damage"
+    },
+    {
+      "id": "g-a10dcb87e2",
+      "term": "Gasfornuis",
+      "reference": "Range (Ing.)"
+    },
+    {
+      "id": "g-5e6b301786",
+      "term": "General Conditions of Contract",
+      "reference": "41"
+    },
+    {
+      "id": "g-91a97f5637",
+      "term": "Grease Trap",
+      "reference": "juga Sand Trap"
+    },
+    {
+      "id": "g-5b67b19984",
+      "term": "Grey-water",
+      "reference": "Black-water"
+    },
+    {
+      "id": "h-fc3917091b",
+      "term": "Handicapped",
+      "reference": "Diffable"
+    },
+    {
+      "id": "h-398ca3f8eb",
+      "term": "Headroom",
+      "reference": "juga Crawl Space"
+    },
+    {
+      "id": "h-d5489cb0c6",
+      "term": "High",
+      "reference": "juga Height"
+    },
+    {
+      "id": "h-98326dd943",
+      "term": "Hire",
+      "reference": "juga Plant-hire"
+    },
+    {
+      "id": "h-fb4a17330c",
+      "term": "Hour",
+      "reference": "Peak-hour"
+    },
+    {
+      "id": "h-9914b9179c",
+      "term": "HWL",
+      "reference": "LWL"
+    },
+    {
+      "id": "i-419dc38f8e",
+      "term": "In-situ",
+      "reference": "Cast in-situ"
+    },
+    {
+      "id": "i-8c846760a4",
+      "term": "Inexpensive",
+      "reference": "Low-cost"
+    },
+    {
+      "id": "i-2f34d4ac30",
+      "term": "Inkonvensional",
+      "reference": "Inconventional"
+    },
+    {
+      "id": "i-6c5be4f68f",
+      "term": "Insinyur",
+      "reference": "istilah Insinyur berasal dari Ingenieus"
+    },
+    {
+      "id": "j-f6cf26d88c",
+      "term": "Jacking",
+      "reference": "Underpinning"
+    },
+    {
+      "id": "k-7f641fadc3",
+      "term": "Karcis",
+      "reference": "Kartje"
+    },
+    {
+      "id": "k-d35ce5b588",
+      "term": "Keluarga Batih",
+      "reference": "Keluarga Besar lih. Extended Family"
+    },
+    {
+      "id": "k-f330989322",
+      "term": "Keramik",
+      "reference": "Ceramics"
+    },
+    {
+      "id": "k-c8907620f4",
+      "term": "Kitchenware",
+      "reference": "Utensils"
+    },
+    {
+      "id": "k-c8907620f4",
+      "term": "Kitchenware",
+      "reference": "Appliances"
+    },
+    {
+      "id": "k-5bfff64a1e",
+      "term": "Klaar",
+      "reference": "Bouwklaar"
+    },
+    {
+      "id": "l-5472ae872e",
+      "term": "Lamella Roof",
+      "reference": "yang dikembangkan oleh Pier Luigi Nervi"
+    },
+    {
+      "id": "l-f61c39df21",
+      "term": "Laminated Wood",
+      "reference": "Multiplex"
+    },
+    {
+      "id": "l-a7a01619e1",
+      "term": "Losmen",
+      "reference": "istilah Losmen berasal dari Logement"
+    },
+    {
+      "id": "m-53133b6400",
+      "term": "Maintenance",
+      "reference": "O&M"
+    },
+    {
+      "id": "m-206fc187a2",
+      "term": "Motif",
+      "reference": "istilah Motif berasal dari Motief"
+    },
+    {
+      "id": "n-da55c14f2f",
+      "term": "Nett",
+      "reference": "singkatan dari Netto"
+    },
+    {
+      "id": "n-5200c1a5cc",
+      "term": "Nurse",
+      "reference": "Sister"
+    },
+    {
+      "id": "n-eb6067e71a",
+      "term": "Nut",
+      "reference": "juga berarti jenis kacang-kacangan"
+    },
+    {
+      "id": "o-506a5db5f6",
+      "term": "Ocher",
+      "reference": "Yellow Ocher"
+    },
+    {
+      "id": "o-b770d6d80a",
+      "term": "Ordonansi",
+      "reference": "istilah Ordonansi berasal dari Ordonnantie"
+    },
+    {
+      "id": "o-1e596a836d",
+      "term": "Orientasi",
+      "reference": "Tengaran"
+    },
+    {
+      "id": "p-eb6df3577c",
+      "term": "Panil",
+      "reference": "istilah Panil berasal dari Paneel"
+    },
+    {
+      "id": "p-cff83471e3",
+      "term": "Pavilyun",
+      "reference": "istilah Pavilyun berasal dari Paviljoen"
+    },
+    {
+      "id": "p-04fdbf3277",
+      "term": "Penunjukan Langsung",
+      "reference": "Peraturan Pemerintah tentang Pengadaan Barang"
+    },
+    {
+      "id": "p-b26db994ce",
+      "term": "Persil",
+      "reference": "istilah Persil berasal dari Perceel"
+    },
+    {
+      "id": "p-da722dd9c7",
+      "term": "Plastis",
+      "reference": "istilah Plastis berasal dari Plactisch"
+    },
+    {
+      "id": "p-61b841edb4",
+      "term": "Pool",
+      "reference": "juga berarti salah satu jenis permainan Bola Sodok"
+    },
+    {
+      "id": "p-c957322180",
+      "term": "Porselein",
+      "reference": "Poecelain"
+    },
+    {
+      "id": "p-470335230c",
+      "term": "Post-tensioning",
+      "reference": "lih. Pasca Modern"
+    },
+    {
+      "id": "p-99148fcc42",
+      "term": "Pre-tensioned",
+      "reference": "Pra-tegang"
+    },
+    {
+      "id": "q-acc34a8499",
+      "term": "Quad",
+      "reference": "singkatan dari Quadrangle"
+    },
+    {
+      "id": "r-b06dff97f7",
+      "term": "Raw Water",
+      "reference": "untuk diolah"
+    },
+    {
+      "id": "r-a72711fe28",
+      "term": "Referensi",
+      "reference": "secara khusus berarti: keterangan yang menjelaskan kemampuan atau pengalaman seseorang"
+    },
+    {
+      "id": "r-ce87497a30",
+      "term": "Reparasi",
+      "reference": "istilah Reparasi berasal dari Reparatie"
+    },
+    {
+      "id": "r-4bbd7fb4ef",
+      "term": "Revitalization",
+      "reference": "‘vita’ = hidup"
+    },
+    {
+      "id": "r-c755524432",
+      "term": "RTBL",
+      "reference": "Tata Bangunan"
+    },
+    {
+      "id": "s-9a2549d837",
+      "term": "Sambungan Coakan",
+      "reference": "Rabbet Join"
+    },
+    {
+      "id": "s-a5f6a006c6",
+      "term": "Sambungan Sponing",
+      "reference": "Rabbet Join"
+    },
+    {
+      "id": "s-c2c1ff62af",
+      "term": "Sanitary-ware",
+      "reference": "Sanitary-fixture"
+    },
+    {
+      "id": "s-16b3a2b56b",
+      "term": "Saniter",
+      "reference": "Sanitary-fixture"
+    },
+    {
+      "id": "s-0ffe696f87",
+      "term": "Simetris",
+      "reference": "istilah Simetris berasal dari Symmetrisch"
+    },
+    {
+      "id": "s-688154104d",
+      "term": "Skematik",
+      "reference": "Schematic"
+    },
+    {
+      "id": "s-a268686cd2",
+      "term": "Soldir",
+      "reference": "istilah Soldir berasal dari Soldeer"
+    },
+    {
+      "id": "s-4c69de47f9",
+      "term": "Sondir",
+      "reference": "istilah Sondir berasal dari Sondeer"
+    },
+    {
+      "id": "s-d779ce6cbc",
+      "term": "Specifications",
+      "reference": "Technical Specifications"
+    },
+    {
+      "id": "s-96baf1a597",
+      "term": "Spesifikasi",
+      "reference": "Specification"
+    },
+    {
+      "id": "s-2df1ee5c8d",
+      "term": "Staff",
+      "reference": "juga berarti batang kecil"
+    },
+    {
+      "id": "s-b7c37311d1",
+      "term": "Strip",
+      "reference": "at Streep"
+    },
+    {
+      "id": "s-7f9bdb3d1b",
+      "term": "Sumur Gali",
+      "reference": "– sumur yang dibuat dengan cara digali secara peralatan manual"
+    },
+    {
+      "id": "t-d7f7ab0534",
+      "term": "Tektonik",
+      "reference": "Tectonics"
+    },
+    {
+      "id": "t-2095441263",
+      "term": "Traditional",
+      "reference": "Tradisional"
+    },
+    {
+      "id": "u-840a298910",
+      "term": "United States Environmental Protection Agency",
+      "reference": "Agency"
+    },
+    {
+      "id": "u-c6853c9d6d",
+      "term": "USEPA",
+      "reference": "Agency"
+    },
+    {
+      "id": "w-8c3b5097f3",
+      "term": "Working Days",
+      "reference": "Calendar Days"
+    }
+  ],
+  "resolved_reference_count": 1124,
+  "empty_definitions": [
+    "f-0b16e3fb84",
+    "f-49cb37ab99"
+  ],
+  "duplicate_headword_groups": [
+    {
+      "key": "abstract",
+      "ids": [
+        "a-2885e60d13",
+        "a-3e4d0cc4fa"
+      ]
+    },
+    {
+      "key": "air",
+      "ids": [
+        "a-218e3dacb1",
+        "a-d91bacb141"
+      ]
+    },
+    {
+      "key": "andal",
+      "ids": [
+        "a-bf697ef2e7",
+        "a-1631b4b2dd"
+      ]
+    },
+    {
+      "key": "bc",
+      "ids": [
+        "b-0a42400b01",
+        "b-b8be0fddb1",
+        "b-ea48513099"
+      ]
+    },
+    {
+      "key": "bank",
+      "ids": [
+        "b-911f0b1eb0",
+        "b-d4ef9dc764"
+      ]
+    },
+    {
+      "key": "bar",
+      "ids": [
+        "b-9ac20f0614",
+        "b-e67635e60a"
+      ]
+    },
+    {
+      "key": "bcr",
+      "ids": [
+        "b-65e82d3448",
+        "b-68d5a50ede"
+      ]
+    },
+    {
+      "key": "bid",
+      "ids": [
+        "b-9a1aec9fc6",
+        "b-1321d202d2"
+      ]
+    },
+    {
+      "key": "boom",
+      "ids": [
+        "b-27b0d40ead",
+        "b-d352a01f2f"
+      ]
+    },
+    {
+      "key": "bow",
+      "ids": [
+        "b-afa781ced3",
+        "b-79a8d22342"
+      ]
+    },
+    {
+      "key": "break",
+      "ids": [
+        "b-df1a53b79e",
+        "b-ac3416cd94"
+      ]
+    },
+    {
+      "key": "central",
+      "ids": [
+        "c-d48fa0ad95",
+        "c-f5752564d6"
+      ]
+    },
+    {
+      "key": "circular",
+      "ids": [
+        "c-565885a9ef",
+        "c-1ac7573e85"
+      ]
+    },
+    {
+      "key": "complex",
+      "ids": [
+        "c-0f713b2621",
+        "c-6716417ca9"
+      ]
+    },
+    {
+      "key": "construct",
+      "ids": [
+        "c-67059614e4",
+        "c-eb848628f2"
+      ]
+    },
+    {
+      "key": "cum",
+      "ids": [
+        "c-87bbbd76b5",
+        "c-67ab64cffd"
+      ]
+    },
+    {
+      "key": "current",
+      "ids": [
+        "c-8b7876aabe",
+        "c-48ad4b89d5"
+      ]
+    },
+    {
+      "key": "cut",
+      "ids": [
+        "c-7f32cdaf8f",
+        "c-8425302524"
+      ]
+    },
+    {
+      "key": "daerah",
+      "ids": [
+        "d-bf7af77ce1",
+        "d-41501ed692"
+      ]
+    },
+    {
+      "key": "demolition",
+      "ids": [
+        "d-b70b486c09",
+        "d-7717aa8d52"
+      ]
+    },
+    {
+      "key": "drawing",
+      "ids": [
+        "d-a56e695415",
+        "g-0f1db6a195"
+      ]
+    },
+    {
+      "key": "ekses",
+      "ids": [
+        "e-7a1554a05c",
+        "e-8bcb7d5141"
+      ]
+    },
+    {
+      "key": "face",
+      "ids": [
+        "f-90783af9a4",
+        "f-cc1f7c59f4"
+      ]
+    },
+    {
+      "key": "fair",
+      "ids": [
+        "f-1f41e33c86",
+        "f-d5808cf2e5"
+      ]
+    },
+    {
+      "key": "female",
+      "ids": [
+        "f-04e706ce37",
+        "f-653f2a71f8"
+      ]
+    },
+    {
+      "key": "fine",
+      "ids": [
+        "f-fea2c92cc5",
+        "f-a13f949d6b"
+      ]
+    },
+    {
+      "key": "flat",
+      "ids": [
+        "f-bf6f137076",
+        "f-53abdb0805"
+      ]
+    },
+    {
+      "key": "fluid",
+      "ids": [
+        "f-8b62bd2105",
+        "f-dfa5a2d16d"
+      ]
+    },
+    {
+      "key": "flush",
+      "ids": [
+        "f-738f7efc05",
+        "f-17a754d19b"
+      ]
+    },
+    {
+      "key": "gang",
+      "ids": [
+        "g-8aae49944a",
+        "g-48e8834690"
+      ]
+    },
+    {
+      "key": "groove",
+      "ids": [
+        "g-481733db87",
+        "g-d887cc71b4"
+      ]
+    },
+    {
+      "key": "hibrida",
+      "ids": [
+        "h-2bc9bdca8b",
+        "h-6f9568a159"
+      ]
+    },
+    {
+      "key": "highdensity",
+      "ids": [
+        "h-2727d7ebd8",
+        "h-c49c8cb88a"
+      ]
+    },
+    {
+      "key": "hire",
+      "ids": [
+        "h-98326dd943",
+        "h-3ea3f4f70d"
+      ]
+    },
+    {
+      "key": "house",
+      "ids": [
+        "h-e1c969a53c",
+        "h-9ec6db6583"
+      ]
+    },
+    {
+      "key": "human",
+      "ids": [
+        "h-0c6244f135",
+        "h-42a2d66e6c"
+      ]
+    },
+    {
+      "key": "inspeksi",
+      "ids": [
+        "i-89b0de8844",
+        "i-896d7bbd03"
+      ]
+    },
+    {
+      "key": "k",
+      "ids": [
+        "k-66a75a3d98",
+        "k-270d61f086"
+      ]
+    },
+    {
+      "key": "landing",
+      "ids": [
+        "l-86a5213b12",
+        "l-fcf0ebc91f"
+      ]
+    },
+    {
+      "key": "level",
+      "ids": [
+        "l-69447cb7e0",
+        "l-91224dec00"
+      ]
+    },
+    {
+      "key": "light",
+      "ids": [
+        "l-457843db46",
+        "l-0cc2a080b0",
+        "l-2b675ef5f6"
+      ]
+    },
+    {
+      "key": "los",
+      "ids": [
+        "l-6b602f54bc",
+        "l-5cd058e968"
+      ]
+    },
+    {
+      "key": "lot",
+      "ids": [
+        "l-f5e42dd53e",
+        "l-31d7f12b7e"
+      ]
+    },
+    {
+      "key": "lowvoltage",
+      "ids": [
+        "l-7e644a2819",
+        "l-b634a3483b"
+      ]
+    },
+    {
+      "key": "m",
+      "ids": [
+        "m-6dea75e63f",
+        "m-6d043a2fc4"
+      ]
+    },
+    {
+      "key": "mal",
+      "ids": [
+        "m-78217b9a31",
+        "m-aed2f7bdc7"
+      ]
+    },
+    {
+      "key": "manual",
+      "ids": [
+        "m-f1089d5504",
+        "m-84fb45587a"
+      ]
+    },
+    {
+      "key": "map",
+      "ids": [
+        "m-9ee7e1a953",
+        "m-696698d135"
+      ]
+    },
+    {
+      "key": "marine",
+      "ids": [
+        "m-6c5ee3ff83",
+        "m-7609d81fb3"
+      ]
+    },
+    {
+      "key": "mat",
+      "ids": [
+        "m-467f6f773d",
+        "m-4d887dd831"
+      ]
+    },
+    {
+      "key": "medium",
+      "ids": [
+        "m-7f24cc91bb",
+        "m-0a7ae718f9"
+      ]
+    },
+    {
+      "key": "minor",
+      "ids": [
+        "m-617477ff12",
+        "m-cda9297eeb"
+      ]
+    },
+    {
+      "key": "net",
+      "ids": [
+        "n-80f90c430d",
+        "n-4c8cc90995"
+      ]
+    },
+    {
+      "key": "overflow",
+      "ids": [
+        "o-acb151ec53",
+        "o-b6e975f1d9"
+      ]
+    },
+    {
+      "key": "overheadcost",
+      "ids": [
+        "o-4b14bea60c",
+        "o-4b1262ca40"
+      ]
+    },
+    {
+      "key": "panjang",
+      "ids": [
+        "p-70988ebb1d",
+        "p-5bc210ab80"
+      ]
+    },
+    {
+      "key": "paus",
+      "ids": [
+        "p-dc35f5f0bf",
+        "p-f55127f72f"
+      ]
+    },
+    {
+      "key": "perceel",
+      "ids": [
+        "p-427c7e5f7e",
+        "p-a90129ec6a"
+      ]
+    },
+    {
+      "key": "plaster",
+      "ids": [
+        "p-d0909394b1",
+        "p-1a32f0ad3a"
+      ]
+    },
+    {
+      "key": "plat",
+      "ids": [
+        "p-ad1ad69811",
+        "p-6cb35cb219"
+      ]
+    },
+    {
+      "key": "primer",
+      "ids": [
+        "p-a49e56d319",
+        "p-159b00cdae"
+      ]
+    },
+    {
+      "key": "public",
+      "ids": [
+        "p-6c26faba21",
+        "p-d0722aed40"
+      ]
+    },
+    {
+      "key": "rapid",
+      "ids": [
+        "r-22c8d98331",
+        "r-33ff6935c6"
+      ]
+    },
+    {
+      "key": "rendering",
+      "ids": [
+        "r-9091e61933",
+        "r-e47128c634"
+      ]
+    },
+    {
+      "key": "right",
+      "ids": [
+        "r-d8019bd3b2",
+        "r-915094c2c2"
+      ]
+    },
+    {
+      "key": "row",
+      "ids": [
+        "r-9458c7c129",
+        "r-af9fa44ae4"
+      ]
+    },
+    {
+      "key": "safe",
+      "ids": [
+        "s-26e3219b23",
+        "s-9b707f9634"
+      ]
+    },
+    {
+      "key": "seragam",
+      "ids": [
+        "s-9dc0595314",
+        "s-6bcf7fb0b5"
+      ]
+    },
+    {
+      "key": "solar",
+      "ids": [
+        "s-841d0df544",
+        "s-471bb43906"
+      ]
+    },
+    {
+      "key": "solid",
+      "ids": [
+        "s-0cc17b2b58",
+        "s-af53ebf316"
+      ]
+    },
+    {
+      "key": "sort",
+      "ids": [
+        "s-2b451313a1",
+        "s-d0e5c6ea2f"
+      ]
+    },
+    {
+      "key": "sound",
+      "ids": [
+        "s-9ef1421325",
+        "s-3b992b56d4"
+      ]
+    },
+    {
+      "key": "split",
+      "ids": [
+        "s-6339ae267d",
+        "s-408dfaaf32"
+      ]
+    },
+    {
+      "key": "spread",
+      "ids": [
+        "s-8447968543",
+        "s-0c0de3b6a0"
+      ]
+    },
+    {
+      "key": "square",
+      "ids": [
+        "s-bb5452df4a",
+        "s-52fa2d7704"
+      ]
+    },
+    {
+      "key": "stainlesssteel",
+      "ids": [
+        "s-dd14d6e43f",
+        "s-6483fe5d6a"
+      ]
+    },
+    {
+      "key": "stay",
+      "ids": [
+        "s-bd7f679e58",
+        "s-9379d0106f"
+      ]
+    },
+    {
+      "key": "stop",
+      "ids": [
+        "s-56e372faa6",
+        "s-85acd3bf5c"
+      ]
+    },
+    {
+      "key": "supplement",
+      "ids": [
+        "s-d8e8f6ec15",
+        "s-61b2a851f9"
+      ]
+    },
+    {
+      "key": "swing",
+      "ids": [
+        "s-07b81388c5",
+        "s-03101010ac"
+      ]
+    },
+    {
+      "key": "terminal",
+      "ids": [
+        "t-759cbf6ec7",
+        "t-df8e4f1fd0"
+      ]
+    },
+    {
+      "key": "terrace",
+      "ids": [
+        "t-2cff702708",
+        "t-43b96beb7f"
+      ]
+    },
+    {
+      "key": "trap",
+      "ids": [
+        "t-22b3688334",
+        "t-53b671608e"
+      ]
+    },
+    {
+      "key": "trim",
+      "ids": [
+        "t-c5f193e23c",
+        "t-58551640cb"
+      ]
+    },
+    {
+      "key": "triplex",
+      "ids": [
+        "t-b7f510a078",
+        "t-133158eb2d"
+      ]
+    },
+    {
+      "key": "underground",
+      "ids": [
+        "u-e7bfd38698",
+        "u-3fd96f5d25"
+      ]
+    },
+    {
+      "key": "uniform",
+      "ids": [
+        "u-65c1b5bdfc",
+        "u-f7a96542aa",
+        "u-c8119f0968"
+      ]
+    },
+    {
+      "key": "use",
+      "ids": [
+        "u-7c45eb1d5f",
+        "u-3f22841dfb"
+      ]
+    },
+    {
+      "key": "verbetering",
+      "ids": [
+        "v-52996a3e34",
+        "v-5afacc56ce"
+      ]
+    },
+    {
+      "key": "w",
+      "ids": [
+        "w-be0107a3fb",
+        "w-2093361a87"
+      ]
+    },
+    {
+      "key": "wo",
+      "ids": [
+        "w-e02a8eaa96",
+        "w-35194e074d"
+      ]
+    },
+    {
+      "key": "walk",
+      "ids": [
+        "w-f495d6fc7f",
+        "w-f731046ea3"
+      ]
+    },
+    {
+      "key": "woodshingle",
+      "ids": [
+        "w-8bd92c40c8",
+        "w-304d497342"
+      ]
+    },
+    {
+      "key": "yard",
+      "ids": [
+        "y-dcb2a6e60d",
+        "y-3d7537c36d"
+      ]
+    }
+  ]
+}

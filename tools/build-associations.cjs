@@ -1,0 +1,2 @@
+const Files=require('./data-files.cjs'),data=Files.load(),associations=Files.write(data);
+const names=new Map(data.entries.map(e=>[e.id,e.term]));console.log(JSON.stringify({entries:associations.metadata.entry_count,editorial_links:associations.metadata.edge_count,classified:Object.values(associations.byEntry).filter(e=>e.primary!=='general').length,door:associations.byEntry[data.entries.find(e=>e.term==='Door').id].related.map(r=>names.get(r.id))},null,2));
