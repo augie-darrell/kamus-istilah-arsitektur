@@ -1,7 +1,5 @@
 # Kamus Istilah Arsitektur
 
-**Version 0.1.0** — first release for human content verification.
-
 Website: https://augie-darrell.github.io/kamus-istilah-arsitektur/
 
 A static, multilingual architecture dictionary with 6,603 entries from *Kamus Istilah Arsitektur 2010*, by Sugeng Rahardjo and the compiling team. Website by Augie Darrell Lee, supported by Formetrika Integrated. Dictionary authorship and website authorship are separate.
